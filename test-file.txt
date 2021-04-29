@@ -1,6 +1,10 @@
 Hello World
 
+<<<<<<< HEAD
 Good Morning All . i'm Janashuthi
  
+=======
+Good Morning All. We are Vel & Dawoodh. 
+>>>>>>> 8eb7f896cec3da56f62ce870410d1f41428d79dc
 
 Good Evening All
