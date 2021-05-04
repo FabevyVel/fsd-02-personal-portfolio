@@ -1,0 +1,34 @@
+h1{
+    color: rgb(37, 36, 36);
+    background-color: rgb(181, 164, 197);
+    
+    text-align: center;
+}
+table{
+    color: rgb(37, 36, 36);
+    border: blueviolet;
+    border-style:double;
+    background-color: cadetblue;
+}
+h2, h3, h3{
+    background-color: cadetblue;
+}
+.container{
+    height: 300px;
+    width: 500px;
+    background-color: rgb(181, 164, 197);
+    padding: 20px;
+}
+.navi-bar a{
+    text-decoration: none;
+    width: 100%;
+    margin-right: 20px;
+    font-size: 20px;
+    
+}
+.navi-bar{
+    text-align: right;
+    background-color: cadetblue;;
+    padding: 20px;
+    
+}
