@@ -1,0 +1,43 @@
+body{
+  background: url("https://cdn.pixabay.com/photo/2015/09/09/19/56/office-932926_960_720.jpg") no-repeat fixed;
+  background-size:cover;
+  z-index: 1;
+}
+ 
+.bg{
+    z-index: 2;
+}
+.container-fluid{
+    color: white;
+}
+
+.spc{
+    padding-left: 15%;
+}
+
+
+
+.name{
+    font-family: 'Nobile', sans-serif;
+    margin-left: 50px;
+    
+    
+    
+}
+
+.web{
+    font-family: 'Nixie One', cursive;
+    margin-top: -40px;
+    
+    
+}
+
+.content{
+    /* margin: 180px; */
+    margin-top:250px;
+    margin-left: 25px;
+}
+
+.contact-me{
+    margin-left: 300px;
+}
