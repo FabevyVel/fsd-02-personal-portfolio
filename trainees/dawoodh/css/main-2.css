@@ -9,6 +9,7 @@ body{
 }
 .container-fluid{
     color: white;
+    font-family: 'Play', sans-serif;
 }
 
 .spc{
@@ -40,4 +41,12 @@ body{
 
 .contact-me{
     margin-left: 300px;
+    
+
 }
+
+.navlink{
+    margin-top: -20px;
+}
+
+
