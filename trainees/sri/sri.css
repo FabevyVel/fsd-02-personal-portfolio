@@ -10,7 +10,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .Header{
-    background-color: :#e9e8e6;
+    background-color: #e9e8e6;
     }
     
 
@@ -95,6 +95,18 @@ h1, h2, h3, h4, h5, h6{
     background: #34b7a7;
     text-decoration: none;
 }
+
+.social-navigation{}
+.social-navigation ul{}
+.social-navigation ul li{}
+.social-navigation ul li a{
+  color: #6f6f6f;  
+}
+.social-navigation ul li a :hover{
+    color: #34b7a7;
+}
+
+.social-navigation ul li a i{}
 
 
 
