@@ -1,9 +1,27 @@
 
 /* HEADER LINE START  */
 
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+  }
+
+a {
+    color: #34b7a7;
+    text-decoration: none;
+}  
+
+a:hover {
+    color: #51cdbe;
+    text-decoration: none;
+}
+
+  
 h1, h2, h3, h4, h5, h6 {
     font-family: "Raleway", sans-serif;
 }
+
+
 
 
 .logo h1 a{
@@ -110,3 +128,65 @@ transition: all 0.3s;
     background: #34b7a7;
     text-decoration: none;
 }
+
+
+/* home page end  */
+
+
+/* about page start  */
+
+
+.about .content h3 {
+    font-weight: 700;
+    font-size: 26px;
+    color: #555555;
+  }
+  
+  .about .content ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .about .content ul li {
+    padding-bottom: 10px;
+  }
+  
+  .about .content ul i {
+    font-size: 20px;
+    padding-right: 2px;
+    color: #34b7a7;
+  }
+  
+  .about .content p:last-child {
+    margin-bottom: 0;
+  }
+
+.section-title  h2{
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+}
+
+
+
+
+#footer {
+    background: #e9e8e6;
+    padding:15px 0;
+    color: #222222;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  #footer .credits {
+    padding-top: 5px;
+    font-size: 13px;
+  }
+  
+  #footer .credits a {
+    color: #34b7a7;
+  }
+
+
+
+
+

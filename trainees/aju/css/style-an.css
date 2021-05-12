@@ -1,0 +1,48 @@
+h1, h2, h3{
+    font-family: 'Raleway';
+}
+
+
+.logo h1 a{
+    text-decoration: none;
+    color: rgb(228, 128, 15);
+    font-size: 32px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    
+    
+}
+.navigations .nav-link{
+    font-family:"Raleway", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #6d6161;
+}
+.navigations .nav-link:hover{
+    color: black;
+}
+.navigations .nav-link i{
+ 
+ width: 0px;
+ height: 2px;
+ background-color:chartreuse;
+ display: block;
+ transition:all 1s;
+
+}
+.navigations .nav-link.active i{
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color:chartreuse;
+    
+   
+   }
+   .navigations .nav-link:hover i{
+ 
+    width: 30px;
+    height: 2px;
+    background-color:chartreuse;
+    display: block;
+   
+   }
