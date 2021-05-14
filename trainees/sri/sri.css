@@ -109,8 +109,25 @@ h1, h2, h3, h4, h5, h6{
 .social-navigation ul li a i{}
 
 
+.footer{
+    background: #e9e8e6;
+    padding: 30px 0;
+    color: #222222;
+    font-size: 14px;
+    text-align: center;
+}
 
+.footer p strong{
+    font-weight: bolder;
+}
 
+.footer p{
+    margin: 0;
+}
+
+.footer a{
+    padding: 0;
+}
 
 
 
