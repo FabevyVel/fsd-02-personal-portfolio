@@ -35,6 +35,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .header{
 background-color:#e9e8e6;
+box-shadow: #222 0px 0px 12px 0px;
 
 }
 
@@ -107,6 +108,11 @@ padding: 1px;
 
 .align-items-center {
     align-items: center!important;
+    background: rgba(255, 255, 255, 0.5);
+    height: 250px;
+    width: 600px;
+    padding:40px;
+    border-radius: 25px;
 }
 
 
@@ -136,7 +142,7 @@ padding: 1px;
     transition: 0.5s;
     margin-top: 30px;
     color: #fff;
-    background: #34b7a7;
+    background: linear-gradient( to bottom right,#2193b0,#6dd5ed);
     text-decoration: none;
 }
 
