@@ -1,0 +1,53 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway", sans-serif;
+}
+
+.logo h1 a{
+    text-decoration: none;
+    color: #222;
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: 400;
+}
+.main-navigation .nav-link{
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #888;
+}
+.main-navigation .nav-link:hover{
+    color:aqua;
+}
+.main-navigation .nav-link.active{
+    color:#222;
+}
+.main-navigation .nav-link.active i{
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color:  #34b7a7;
+    transition: all 0.3s;
+}
+.main-navigation .nav-link:hover i{
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color:  #34b7a7;
+}
+.social-navigation{}
+.social-navigation ul{}
+.social-navigation ul li{}
+.social-navigation ul li a{
+    color: #6f6f6f;
+}
+.social-navigation ul li a:hover{
+    color: #34b7a7;
+}
+.social-navigation ul li a i{}
+
+.hero{
+    background-image: url(../image/hero-bg.jpg);
+    background-size: cover;
+    background-repeat: none;
+    height: 125vh;
+}
