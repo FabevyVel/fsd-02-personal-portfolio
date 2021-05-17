@@ -1,0 +1,643 @@
+/* HEADER LINE START  */
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
+}
+
+a {
+  color: #34b7a7;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #51cdbe;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+.logo h1 a {
+  text-decoration: none;
+  color: #222;
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.header {
+  background-color: #e9e8e6;
+  box-shadow: #222 0px 0px 12px 0px;
+}
+
+.main-navigation .nav-link {
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: #888;
+  margin-top: 8px;
+}
+
+.main-navigation .nav-link:hover {
+  color: #222;
+}
+
+.main-navigation .nav-link.active {
+  color: #222;
+}
+
+.main-navigation .nav-link i {
+  display: block;
+  width: 0px;
+  height: 2px;
+  background-color: #34b7a7;
+  transition: all 0.3s;
+}
+
+.main-navigation .nav-link.active i {
+  display: block;
+  width: 30px;
+  height: 2px;
+  background-color: #34b7a7;
+}
+
+.main-navigation .nav-link:hover i {
+  display: block;
+  width: 30px;
+  height: 2px;
+  background-color: #34b7a7;
+}
+
+.social-navigation a {
+  color: #222;
+  margin: 10px;
+  padding: 1px;
+}
+
+.social-navigation a:hover {
+  color: #34b7a7;
+}
+
+.navbar a:hover,
+.navbar .active,
+.navbar li:hover > a {
+  color: #222222;
+}
+/* HEADER LINE END  */
+
+/* HERO LINE START  */
+.align-items-center {
+  align-items: center !important;
+  background: rgba(255, 255, 255, 0.9);
+  height: 250px;
+  width: 600px;
+  padding: 40px;
+  border-radius: 25px;
+}
+
+/* HERO-1 */
+
+#hero {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/git\ hub.JPG") no-repeat;
+  /* background-size: cover; */
+  border-radius: 0px;
+  margin-top: 55px;
+}
+
+#hero h1 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #222222;
+}
+
+#hero h2 {
+  color: #6f6f6f;
+  margin: 10px 0 0 0;
+  font-size: 22px;
+}
+
+#hero .btn-about {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 40px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin-top: 30px;
+  color: #fff;
+  background: linear-gradient(to bottom right, #2193b0, #6dd5ed);
+  text-decoration: none;
+}
+/* HERO-01 END  */
+
+/* GITBASH  */
+
+.gitbash {
+  text-align: center;
+  padding-top: 25px;
+  font-weight: 700;
+  margin-top: 50px;
+}
+
+/* GITBASH END  */
+
+/* HERO-2  */
+#hero2 {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/GIT\ INTRO.JPG") no-repeat;
+  /* background-size: cover; */
+  border-radius: 0px;
+  margin-top: 55px;
+}
+
+#hero2 h1 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #222222;
+}
+
+#hero2 h2 {
+  color: #6f6f6f;
+  margin: 10px 0 0 0;
+  font-size: 22px;
+}
+
+#hero2 .btn-about {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 40px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin-top: 30px;
+  color: #fff;
+  background: linear-gradient(to bottom right, #2193b0, #6dd5ed);
+  text-decoration: none;
+}
+
+/* HERO2 END  */
+
+/* HERO-3  */
+#hero3 {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/search\ copy.JPG") no-repeat;
+  /* background-size: cover; */
+  border-radius: 0px;
+  margin-top: 55px;
+}
+
+#hero3 h1 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #222222;
+}
+
+#hero3 h2 {
+  color: #6f6f6f;
+  margin: 10px 0 0 0;
+  font-size: 22px;
+}
+
+#hero3 .btn-about {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 40px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin-top: 30px;
+  color: #fff;
+  background: linear-gradient(to bottom right, #2193b0, #6dd5ed);
+  text-decoration: none;
+}
+
+/* HERO3 END  */
+
+/* HERO-4  */
+#hero4 {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/or.JPG") no-repeat;
+  /* background-size: cover; */
+  border-radius: 0px;
+  margin-top: 55px;
+}
+
+#hero4 h1 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #222222;
+}
+
+#hero4 h2 {
+  color: #6f6f6f;
+  margin: 10px 0 0 0;
+  font-size: 22px;
+}
+
+#hero4 .btn-about {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 40px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin-top: 30px;
+  color: #fff;
+  background: linear-gradient(to bottom right, #2193b0, #6dd5ed);
+  text-decoration: none;
+}
+
+/* HERO4 END  */
+
+/* HERO-5  */
+#hero5 {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/link.JPG") no-repeat;
+  /* background-size: cover; */
+  border-radius: 0px;
+  margin-top: 55px;
+}
+
+#hero5 h1 {
+  margin: -25px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #222222;
+  padding: 4px;
+}
+
+#hero5 h2 {
+  color: #6f6f6f;
+  margin: 10px 0 0 0;
+  font-size: 22px;
+}
+
+#hero5 .btn-about {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 40px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin-top: 30px;
+  color: #fff;
+  background: linear-gradient(to bottom right, #2193b0, #6dd5ed);
+  text-decoration: none;
+}
+
+/* HERO5 END  */
+
+/* HERO-5  */
+#hero5 {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/link.JPG") no-repeat;
+  /* background-size: cover; */
+  border-radius: 0px;
+  margin-top: 55px;
+}
+
+#hero5 h1 {
+  margin: -25px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #222222;
+  padding: 4px;
+}
+
+#hero5 h2 {
+  color: #6f6f6f;
+  margin: 10px 0 0 0;
+  font-size: 22px;
+}
+
+#hero5 .btn-about {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 40px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin-top: 30px;
+  color: #fff;
+  background: linear-gradient(to bottom right, #2193b0, #6dd5ed);
+  text-decoration: none;
+}
+
+/* HERO5 END  */
+
+/* HERO-6  */
+#hero6 {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/gitpull.JPG") no-repeat;
+  /* background-size: cover; */
+  border-radius: 0px;
+  /* margin-top: 55px; */
+}
+
+#hero6 h1 {
+  margin: 0px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #222222;
+  padding: 4px;
+}
+
+#hero6 h2 {
+  color: #6f6f6f;
+  margin: 10px 0 0 0;
+  font-size: 22px;
+}
+
+#hero6 .btn-about {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 40px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin-top: 30px;
+  color: #fff;
+  background: linear-gradient(to bottom right, #2193b0, #6dd5ed);
+  text-decoration: none;
+}
+
+/* HERO5 END  */
+
+
+/* HERO-7  */
+#hero7 {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/gitstatus.JPG") no-repeat;
+  /* background-size: cover; */
+  border-radius: 0px;
+  /* margin-top: 55px; */
+}
+
+#hero7 h1 {
+  margin: 0px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #222222;
+  padding: 4px;
+}
+
+#hero7 h2 {
+  color: #6f6f6f;
+  margin: 10px 0 0 0;
+  font-size: 22px;
+}
+
+#hero7 .btn-about {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 40px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin-top: 30px;
+  color: #fff;
+  background: linear-gradient(to bottom right, #2193b0, #6dd5ed);
+  text-decoration: none;
+}
+
+/* HERO7 END  */
+
+/* HERO-8  */
+#hero8 {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/gitadd.JPG") no-repeat;
+  /* background-size: cover; */
+  border-radius: 0px;
+  /* margin-top: 55px; */
+}
+
+#hero8 h1 {
+  margin: 0px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #222222;
+  padding: 4px;
+}
+
+#hero8 h2 {
+  color: #6f6f6f;
+  margin: 10px 0 0 0;
+  font-size: 22px;
+}
+
+#hero8 .btn-about {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 40px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin-top: 30px;
+  color: #fff;
+  background: linear-gradient(to bottom right, #2193b0, #6dd5ed);
+  text-decoration: none;
+}
+
+/* HERO8 END  */
+
+/* HERO-9 */
+#hero9 {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/Commit.jpg") no-repeat;
+  /* background-size: cover; */
+  border-radius: 0px;
+  /* margin-top: 55px; */
+}
+
+#hero9 h1 {
+  margin: 0px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #222222;
+  padding: 4px;
+}
+
+#hero9 h2 {
+  color: #6f6f6f;
+  margin: 10px 0 0 0;
+  font-size: 22px;
+}
+
+#hero9 .btn-about {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 40px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin-top: 30px;
+  color: #fff;
+  background: linear-gradient(to bottom right, #2193b0, #6dd5ed);
+  text-decoration: none;
+}
+
+/* HERO9 END  */
+
+/* HERO-10 */
+#hero10 {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/push.jpg") no-repeat;
+  /* background-size: cover; */
+  border-radius: 0px;
+  /* margin-top: 55px; */
+}
+
+#hero10 h1 {
+  margin: 0px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #222222;
+  padding: 4px;
+}
+
+#hero10 h2 {
+  color: #6f6f6f;
+  margin: 10px 0 0 0;
+  font-size: 22px;
+}
+
+#hero10 .btn-about {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 40px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin-top: 30px;
+  color: #fff;
+  background: linear-gradient(to bottom right, #2193b0, #6dd5ed);
+  text-decoration: none;
+}
+
+/* HERO10 END  */
+
+/* home page end  */
+
+/* about page start  */
+
+.about .content h3 {
+  font-weight: 700;
+  font-size: 26px;
+  color: #555555;
+}
+
+.about .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about .content ul li {
+  padding-bottom: 10px;
+}
+
+.about .content ul i {
+  font-size: 20px;
+  padding-right: 2px;
+  color: #34b7a7;
+}
+
+.about .content p:last-child {
+  margin-bottom: 0;
+}
+
+.section-title h2 {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+}
+
+.about {
+  padding-top: 80px;
+}
+
+#footer {
+  background: #e9e8e6;
+  padding: 15px 0;
+  color: #222222;
+  font-size: 14px;
+  text-align: center;
+}
+
+#footer .credits {
+  padding-top: 5px;
+  font-size: 13px;
+}
+
+#footer .credits a {
+  color: #34b7a7;
+}
+
+.gitbash {
+  background-color: white;
+}

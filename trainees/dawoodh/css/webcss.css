@@ -88,6 +88,9 @@ padding: 1px;
   color: #34b7a7;
 }
 
+.navbar a:hover, .navbar .active, .navbar li:hover > a {
+  color: #222222;
+}
 /* HEADER LINE END  */
 
 
@@ -182,6 +185,11 @@ padding: 1px;
 .section-title  h2{
     text-align: center;
     font-family: "Raleway", sans-serif;
+}
+
+
+.about{
+  padding-top: 80px;
 }
 
 
