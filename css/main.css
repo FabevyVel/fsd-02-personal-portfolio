@@ -1,6 +1,30 @@
 body, h1, h2, h3, h4, h5, h6 {
     font-family: "Raleway", sans-serif;
 }
+
+.section-title{}
+.section-title h2{
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.section-title .section-underline{
+    width: 50px;
+    height: 3px;
+    background-color: #34b7a7;
+    margin: 0 auto;
+}
+
+.card-type-1{}
+.card-type-1 h3{
+    font-size: 48px;
+    color: #34b7a7;
+}
+.card-type-1 p{
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+}
+
 .header{
     position: fixed;
     top: 0;
