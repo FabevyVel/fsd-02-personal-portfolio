@@ -21,4 +21,4 @@ Card Contnet Class Names:
 Card Section Class Names:
 	- card-header
 	- card-body
-	- "card-footer
+	- card-footer
