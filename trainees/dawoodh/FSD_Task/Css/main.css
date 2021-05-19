@@ -374,7 +374,7 @@ h6 {
   background: url("../img/gitpull.JPG") no-repeat;
   /* background-size: cover; */
   border-radius: 0px;
-  /* margin-top: 55px; */
+  margin-top: 55px;
 }
 
 #hero6 h1 {
@@ -418,7 +418,7 @@ h6 {
   background: url("../img/gitstatus.JPG") no-repeat;
   /* background-size: cover; */
   border-radius: 0px;
-  /* margin-top: 55px; */
+  margin-top: 55px;
 }
 
 #hero7 h1 {
@@ -461,7 +461,7 @@ h6 {
   background: url("../img/gitadd.JPG") no-repeat;
   /* background-size: cover; */
   border-radius: 0px;
-  /* margin-top: 55px; */
+  margin-top: 55px;
 }
 
 #hero8 h1 {
@@ -504,7 +504,7 @@ h6 {
   background: url("../img/Commit.jpg") no-repeat;
   /* background-size: cover; */
   border-radius: 0px;
-  /* margin-top: 55px; */
+  margin-top: 55px;
 }
 
 #hero9 h1 {
@@ -547,7 +547,7 @@ h6 {
   background: url("../img/push.jpg") no-repeat;
   /* background-size: cover; */
   border-radius: 0px;
-  /* margin-top: 55px; */
+  margin-top: 55px;
 }
 
 #hero10 h1 {
@@ -582,6 +582,49 @@ h6 {
 }
 
 /* HERO10 END  */
+
+/* HERO-0 */
+#hero0 {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/gitclone.JPG") no-repeat;
+  /* background-size: cover; */
+  border-radius: 0px;
+  margin-top: 55px;
+}
+
+#hero0 h1 {
+  margin: 0px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #222222;
+  padding: 4px;
+}
+
+#hero0 h2 {
+  color: #6f6f6f;
+  margin: 10px 0 0 0;
+  font-size: 22px;
+}
+
+#hero0 .btn-about {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 40px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin-top: 30px;
+  color: #fff;
+  background: linear-gradient(to bottom right, #2193b0, #6dd5ed);
+  text-decoration: none;
+}
+
+/* HERO0 END  */
 
 /* home page end  */
 

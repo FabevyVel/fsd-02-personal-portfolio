@@ -1,7 +1,39 @@
-h1, h2, h3, h4, h5, h6 {
+body, h1, h2, h3, h4, h5, h6 {
     font-family: "Raleway", sans-serif;
 }
 
+.section-title{}
+.section-title h2{
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.section-title .section-underline{
+    width: 50px;
+    height: 3px;
+    background-color: #34b7a7;
+    margin: 0 auto;
+}
+
+.card-type-1{}
+.card-type-1 h3{
+    font-size: 48px;
+    color: #34b7a7;
+}
+.card-type-1 p{
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #e9e8e6;
+    width: 100%;
+    box-shadow: 0px 0px 25px 0 rgb(0 0 0 / 8%);
+    padding: 10px 0 6px 0;
+}
 .logo h1 a{
     text-decoration: none;
     color: #222;
@@ -9,13 +41,15 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 32px;
     font-weight: 400;
 }
-
+.main-navigation {
+    padding-top: 5px;
+}
 .main-navigation .nav-link{
     font-family: "Raleway", sans-serif;
     font-size: 15px;
     font-weight: 600;
     color: #888;
-
+    padding: 8px 12px;
 }
 .main-navigation .nav-link:hover{
     color: #222;
@@ -30,6 +64,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 2px;
     background-color: #34b7a7;
     transition: all 0.3s;
+    margin-top: 5px;
 }
 .main-navigation .nav-link.active i{
     display: block;
@@ -48,8 +83,57 @@ h1, h2, h3, h4, h5, h6 {
 .social-navigation ul li{}
 .social-navigation ul li a{
     color: #6f6f6f;
+    padding: 8px 5px;
+    font-size: 18px;
 }
 .social-navigation ul li a:hover{
     color: #34b7a7;
 }
 .social-navigation ul li a i{}
+
+.hero{
+    background-image: url(../images/hero-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.hero .full-height{
+    height: 100vh;
+}
+.hero h1{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #222222;
+}
+.hero p{
+    color: #6f6f6f;
+    margin: 10px 0 0 0;
+    font-size: 22px;
+}
+.hero a{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 40px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin-top: 30px;
+    color: #fff;
+    background: #34b7a7;
+    border: none;
+}
+.footer{
+    background-color: #e9e8e6;
+    padding: 30px 0;
+    color: #222;
+    font-size: 14px;
+}
+.footer p{
+    margin: 0;
+}
+.footer a{
+    padding: 0;
+}
