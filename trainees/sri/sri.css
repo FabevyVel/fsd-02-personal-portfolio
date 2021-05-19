@@ -16,6 +16,30 @@ h1, h2, h3, h4, h5, h6{
     margin: auto;
 }
 
+
+.custom-progress-bar-1{
+}
+.custom-progress-bar-1 .label{
+    text-transform: uppercase;
+    display: block;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #222222;
+    padding: 10px 0;
+    margin: 0 0 6px 0;
+}
+.custom-progress-bar-1 .progress{
+    height: 10px;
+    border-radius: 0;
+}
+.custom-progress-bar-1 .progress .progress-bar{
+    background-color: #34b7a7;
+    
+}
+
+
+
+
 .card-type-1{}
 .card-type-1 h3{
     font-size: 48px;
@@ -26,6 +50,20 @@ h1, h2, h3, h4, h5, h6{
 .card-type-1 p{
     font-family: "Raleway", sans-serif;
     font-size: 14px
+}
+
+.custom-card-2{}
+.custom-card-2 .card-body .card-img{
+    width: 120px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.custom-card-2 .card-body .card-title{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+    color: #111;
 }
 
 .logo h1 a{
