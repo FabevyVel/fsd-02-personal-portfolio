@@ -15,7 +15,6 @@
 }
 
 .custom-progress-bar-1{ 
-
     
 }
 .custom-progress-bar-1 .label{
@@ -48,6 +47,17 @@
     font-family: "Raleway", sans-serif;
     font-size: 14px;
 }
+.custom-card-2{}
+.custom-card-2 .card-body .card-img{
+    width: 120px;
+    border-radius: 50%;
+}
+.custom-card-2 .card-body .card-title {}
+.custom-card-2 .card-img .card-subtitle{}
+.custom-card-2 .card-img .card-text{}
+
+
+
 
 
 .header{
