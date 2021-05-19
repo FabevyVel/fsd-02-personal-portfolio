@@ -1,7 +1,7 @@
 body, h1, h2, h3, h4, h5, h6 {
     font-family: "Raleway", sans-serif;
 }
-
+/* Section Title */
 .section-title{}
 .section-title h2{
     font-size: 32px;
@@ -15,6 +15,28 @@ body, h1, h2, h3, h4, h5, h6 {
     margin: 0 auto;
 }
 
+
+/* Custom progress bar 1 */
+.custom-progress-bar-1{
+}
+.custom-progress-bar-1 .label{
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #222222;
+    text-transform: uppercase;
+    padding: 10px 0;
+    margin: 0 0 6px 0;
+}
+.custom-progress-bar-1 .progress{
+    height: 10px;
+    border-radius: 0;
+}
+.custom-progress-bar-1 .progress .progress-bar{
+    background-color: #34b7a7;
+}
+
+
+/* Card type 1 */
 .card-type-1{}
 .card-type-1 h3{
     font-size: 48px;
@@ -25,6 +47,38 @@ body, h1, h2, h3, h4, h5, h6 {
     font-size: 14px;
 }
 
+/* Card type 1 */
+.custom-card-2{
+    border: none;
+    border-radius: 0;
+}
+.custom-card-2 .card-body .card-img{
+    width: 120px;
+    border-radius: 50%;
+}
+.custom-card-2 .card-body .card-title{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+    color: #111;
+}
+.custom-card-2 .card-body .card-subtitle{
+    font-size: 14px;
+    color: #999;
+    margin: 0 0 15px 0;
+}
+.custom-card-2 .card-body .card-text{
+    font-style: italic;
+    margin: 0 auto 15px auto;
+}
+.custom-card-2 .card-body .card-text i{
+    color: #c8efea;
+    font-size: 26px;
+}
+/*  */
+/*  */
+/*  */
+/*  */
 .header{
     position: fixed;
     top: 0;
