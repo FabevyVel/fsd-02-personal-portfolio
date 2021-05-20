@@ -1,12 +1,23 @@
 body, h1, h2, h3, h4, h5, h6 {
     font-family: "Raleway", sans-serif;
 }
+body{
+    padding-top: 70px;
+}
+
+.page-section{
+    padding-bottom: 60px;
+}
 /* Section Title */
-.section-title{}
+.section-title{
+    padding-bottom: 20px;
+    padding-top: 40px;
+}
 .section-title h2{
     font-size: 32px;
     font-weight: bold;
     text-transform: uppercase;
+    padding-bottom: 10px;
 }
 .section-title .section-underline{
     width: 50px;
@@ -26,6 +37,7 @@ body, h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
     padding: 10px 0;
     margin: 0 0 6px 0;
+    font-size: 13px;
 }
 .custom-progress-bar-1 .progress{
     height: 10px;
@@ -75,7 +87,14 @@ body, h1, h2, h3, h4, h5, h6 {
     color: #c8efea;
     font-size: 26px;
 }
-/*  */
+/* List Style 1 */
+.list-style-1{
+    list-style: none;
+    padding-left: 0;
+}
+.list-style-1 li{
+    padding-bottom: 12px;
+}
 /*  */
 /*  */
 /*  */
