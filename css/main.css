@@ -137,7 +137,7 @@ body{
     height: 2px;
     background-color: #34b7a7;
     transition: all 0.3s;
-    margin-top: 5px;
+    margin-top: 0.5px;
 }
 .main-navigation .nav-link.active i{
     display: block;
