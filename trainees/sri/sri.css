@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .card-type-1{}
-.card-type h3{
+.card-type-1 h3{
     font-size: 48px;
     color: #34b7a7;
     font-family: "Open Sans",sans-serif;
