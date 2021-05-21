@@ -26,6 +26,14 @@ body{
     margin: 0 auto;
 }
 
+/* Section Subtitle */
+.section-sub-title{
+    font-size: 26px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #222;
+}
 
 /* Custom progress bar 1 */
 .custom-progress-bar-1{
@@ -59,7 +67,7 @@ body{
     font-size: 14px;
 }
 
-/* Card type 1 */
+/* Card type 2 */
 .custom-card-2{
     border: none;
     border-radius: 0;
@@ -87,6 +95,20 @@ body{
     color: #c8efea;
     font-size: 26px;
 }
+
+
+/* Custom Card 3 */
+.custom-card-3{    
+    border: none;
+    background: #fff;
+    box-shadow: 0px 0 35px 0 rgb(0 0 0 / 8%);
+}
+.custom-card-3 .card-body{}
+.custom-card-3 .card-icon-wrapper{}
+.custom-card-3 .card-icon-wrapper i{}
+.custom-card-3 .card-title{}
+.custom-card-3 .card-text{}
+
 /* List Style 1 */
 .list-style-1{
     list-style: none;
@@ -95,7 +117,53 @@ body{
 .list-style-1 li{
     padding-bottom: 12px;
 }
-/*  */
+/* Timeline */
+.timeline{
+    border-left: 2px solid #34b7a7;
+    padding-left: 22px;
+    position: relative;
+    padding-bottom: 30px;
+}
+.timeline:before {
+    content: '';
+    background: #fff;
+    border: 2px solid #34b7a7;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: -8px;
+}
+.timeline h3{
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #1d685f;
+    margin-bottom: 10px;
+}
+.timeline p.label{
+    font-size: 16px;
+    background: #effbf9;
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #34b7a7;
+}
+.timeline p.small{
+
+}
+.timeline ul{
+    padding-left: 18px;
+    margin: 0;
+}
+.timeline ul li{
+    padding-bottom: 10px;
+}
+
 /*  */
 /*  */
 .header{
