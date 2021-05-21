@@ -2,6 +2,10 @@ h1, h2, h3, h4, h5, h6{
     font-family: "Raleway",sans-serif;
 }
 
+body{
+    padding-top: 70px ;
+}
+
 .section-title{}
 .section-title h2{
     font-size: 32px;
@@ -16,17 +20,100 @@ h1, h2, h3, h4, h5, h6{
     margin: auto;
 }
 
+
+.custom-progress-bar-1{
+}
+.custom-progress-bar-1 .label{
+    text-transform: uppercase;
+    display: block;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #222222;
+    padding: 10px 0;
+    margin: 0 0 6px 0;
+}
+.custom-progress-bar-1 .progress{
+    height: 10px;
+    border-radius: 0;
+}
+.custom-progress-bar-1 .progress .progress-bar{
+    background-color: #34b7a7;
+}
+
 .card-type-1{}
 .card-type-1 h3{
     font-size: 48px;
-    display: block;
-    color: #34b7a7
+    color: #34b7a7;
+    font-family: "Open Sans",sans-serif;
 }
 
 .card-type-1 p{
     font-family: "Raleway", sans-serif;
-    font-size: 14px
+    font-size: 14px;
 }
+
+.custom-card-2{}
+.custom-card-2 .card-body .card-img{
+    width: 120px;
+    border-radius: 50%;
+}
+.custom-card-2 .card-title{}
+.custom-card-2 .card-body .card-subtitle{}
+.custom-card-2 .card-body .card-text{
+    font-size: 26px;
+}
+
+.timeline::before{
+    content: '';
+    background: #fff;
+    border: 2px solid #34b7a7;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50px; 
+    position:absolute;
+    top: 0;
+    left: -8px;
+}
+
+.timeline{
+ border-left: 2px solid #34b7a7;
+ padding-left: 22px;
+ position: relative;
+ padding-bottom: 30px;
+}
+.timeline h3{
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #1d685f;
+    margin-bottom: 10px;
+}
+.timeline p.label{
+    font-size: 16px;
+    background: #effbf9;
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #34b7a7;
+}
+.timeline p.small{
+
+}
+.timeline ul{
+padding-left: 18px;
+margin: 0px;
+}
+.timeline ul li{
+
+}
+.timeline .timeline-wrapper h2{
+ margin-top: 0%;
+ margin-bottom: 0%;
+}
+
 
 .logo h1 a{
     text-decoration: none;

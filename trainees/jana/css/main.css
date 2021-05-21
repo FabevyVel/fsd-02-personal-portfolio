@@ -1,11 +1,21 @@
  body,h1, h2, h3, h4, h5, h6 {
     font-family: "Raleway", sans-serif;
 }
-.section-title{}
+body{
+    padding-top: 70px;
+}
+.page-section{
+    padding-bottom: 40px;
+}
+.section-title{
+    padding-bottom: 20px;
+    padding-top: 40px;
+}
 .section-title h2{
     font-size: 32px;
     font-weight: bold;
     text-transform: uppercase;   
+    padding-bottom: 10px;
 } 
 .section-title .section-underline{
     width: 50px;
@@ -15,7 +25,6 @@
 }
 
 .custom-progress-bar-1{ 
-
     
 }
 .custom-progress-bar-1 .label{
@@ -48,6 +57,24 @@
     font-family: "Raleway", sans-serif;
     font-size: 14px;
 }
+.custom-card-2{}
+.custom-card-2 .card-body .card-img{
+    width: 120px;
+    border-radius: 50%;
+}
+.custom-card-2 .card-body .card-title {}
+.custom-card-2 .card-img .card-subtitle{}
+.custom-card-2 .card-img .card-text{}
+
+
+.list-style-1{
+list-style: none;
+padding-left: 0;
+}
+.list-style-1 li{
+padding-bottom: 12px;
+}
+
 
 
 .header{
