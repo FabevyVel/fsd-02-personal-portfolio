@@ -1,9 +1,14 @@
 
         /* STYLE GUIDE STARTS */
 
+
+        /* about page starts  */
+
+        /* section startS  */
+
         .section-title{
             padding-bottom: 15px;
-            padding: 30px 0;
+            /* padding: 30px 0; */
         }
         .section-title h2{
             font-size: 32px;
@@ -20,16 +25,23 @@
             margin: 0 auto;
         }
         
+        .page-section{
+            padding-bottom:100px;
+        }
+
         
         
+         /* section END  */
         
+         /* progress bar starts 
+          */
         .custom-progress-bar-0{
             
         }
         .custom-progress-bar-0 .label{
-            font-weight:bold;
+            font-weight:600;
             font-family: "poppins", sans-serif;
-            color: #222;
+            color: #222222;
             text-transform: uppercase;
             padding: 10px 0;
             margin: 0 0 6px 0;
@@ -42,6 +54,9 @@
             background-color: #34b7a7;
         }
         
+        /* progressbar end  */
+
+             /* .card-type-1 starts  */
         
         .card-type-1{}
         .card-type-1 h3{
@@ -49,9 +64,13 @@
             color:#34b7a7;
         }
         .card-type-1 p{
-            font-family: "Raleway", sans-serif;
+            font-family: "Open Sans", sans-serif;
             font: size 14px;
         }
+
+        /* .card-type-1 end  */
+
+        /* card-type-2 starts  */
         
         
         .custom-card-2{
@@ -80,18 +99,105 @@
             margin: auto 15px auto;
         
         }
+
+        /* .card-type-2 end  */
+
+
+    /* p tag start */  
+
+        p{
+            color: #888;
+            font-family: "Open Sans", sans-serif;
+        }
+        /* p tag eng  */
+
+        /* h3 tag  starts */
+        h3{
+            color: #555555;
+        }
+        
+        /* h3 tag end  */
         
 /* LIST STYLE  */
 
-.list-style-1{
-    list-style: none;
-    padding-left: 0px;
-}
-.list-style-1 li{
-    padding-bottom: 15px;
-    
-}
-        
+        .list-style-1{
+            list-style: none;
+            padding-left: 0px;
+        }
+        .list-style-1 li{
+            padding-bottom: 15px;
+            color:#888;
+        }
+                
+        .list-style-1 strong{
+            color:#444444;
+        }
+
+
+        /* about page end  */
+
+        /* resume page starts  */
+        .resume .resume-title-1{
+            font-size: 26px;
+            font-weight: 500;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            color: #222222;
+        }
+
+        .resume .resume-subtitle-1{
+            line-height: 18px;
+            font-size: 18px;
+            font-weight: 700;
+            font-family: "Poppins", sans-serif;
+            color: #1d685f;
+            margin-bottom: 10px;
+            margin-left: 25px;
+            
+            
+        }
+
+        .resume .resume-text-1{
+            font-style: italic;
+            font-weight: 300;
+            margin-left: 25px;
+            color: #444444;
+        }
+
+        .info li{
+            color: #444444;
+            margin-left: 15px;
+            padding-bottom: 10px;
+        }
+
+        .resume .label{
+            display: block;
+            color: #34b7a7;
+            margin-left: 35px;
+            background: #effbf9;
+            padding-left: 15px;
+            width: 140px
+            
+        }
+
+        .resume .resume-p{
+            color:#444444;
+            margin-left: 25px;
+            padding-bottom: 25px;
+        }
+
+        .resume .line{
+            background-color:#34b7a7;
+            width: 1px;
+            height: 200px;
+            z-index: 2;
+            display:block;
+            
+            
+
+        }
+
+
         /* STYLE GUIDE END   */
 
 
@@ -145,13 +251,14 @@ box-shadow: #222 0px 0px 12px 0px;
     margin-top:8px;
 }
 
+.main-navigation .nav-link.active{
+    color: #222;
+}
+
 .main-navigation .nav-link:hover{
     color: #222;
 }
 
-.main-navigation .nav-link.active{
-    color: #222;
-}
 
 .main-navigation .nav-link i{
 display: block;
@@ -166,6 +273,7 @@ transition: all 0.3s;
     width: 30px;
     height: 2px;
     background-color: #34b7a7;
+    transition: all 0.3s;
 }
 
 .main-navigation .nav-link:hover i{
