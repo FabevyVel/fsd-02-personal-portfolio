@@ -102,7 +102,56 @@ body{
 
 /*resume page starts*/
 /*resume section */
+.section-sub-title{
+    font-size: 26px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #222;
+}
+.timeline{
+    border-left:2px solid #34b7a7;
+    padding-left: 22px;
+    position: relative;
+    padding-bottom: 30px;
+}
+.timeline::before{
+    content: '';
+    background-color: #fff;
+   border:2px solid #34b7a7;
+   display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    position: absolute;
+    top: 0px;
+    left: -8px;
+}
+.timeline h3{
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "poppins", sans-serif;
+    color: #1d685f;
+    margin-bottom: 10px;
+}
+.timeline p.label{
+    font-size: 16px;
+    background: #effbf9;
+    color: #34b7a7;
+    display: inline-block;
+    padding:5px 15px;
+    font-weight: 600;
+    margin-bottom: 10px;
 
+}
+.timeline ul{
+    padding-left: 18px;
+    margin: 0;
+}
+.timeline ul li{
+    padding-bottom: 10px;
+}
 
 
 /*resume page ebds*/
