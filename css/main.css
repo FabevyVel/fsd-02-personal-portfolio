@@ -102,12 +102,128 @@ body{
     border: none;
     background: #fff;
     box-shadow: 0px 0 35px 0 rgb(0 0 0 / 8%);
+    margin-bottom: 20px;
 }
-.custom-card-3 .card-body{}
-.custom-card-3 .card-icon-wrapper{}
-.custom-card-3 .card-icon-wrapper i{}
-.custom-card-3 .card-title{}
-.custom-card-3 .card-text{}
+.custom-card-3 .card-body{
+    padding: 60px;
+}
+.custom-card-3 .card-icon-wrapper{
+    width: 100px;
+    height: 100px;
+    background: #f5f5f5;
+    border-radius: 50%;
+    color: #40aeb4;
+    margin: auto;
+    font-size: 38px;
+    text-align: center;
+    line-height: 100px;
+    margin-bottom: 20px;
+    transition: all 0.5s;
+}
+.custom-card-3 .card-icon-wrapper.card-icon-1{
+    color: #47aeff;
+}
+.custom-card-3 .card-icon-wrapper.card-icon-2{
+    color: #ffa76e;
+}
+.custom-card-3 .card-icon-wrapper.card-icon-3{
+    color: #e80368;
+}
+.custom-card-3 .card-icon-wrapper.card-icon-4{
+    color: #ffbb2c;
+}
+.custom-card-3 .card-icon-wrapper.card-icon-5{
+    color: #30eb4f;
+}
+.custom-card-3 .card-icon-wrapper.card-icon-6{
+    color: #2cffd1;
+}
+
+.custom-card-3:hover .card-icon-wrapper{
+    color: #fff;
+}
+.custom-card-3:hover .card-icon-wrapper.card-icon-1{
+    background-color: #47aeff;
+}
+.custom-card-3:hover .card-icon-wrapper.card-icon-2{
+    background-color: #ffa76e;
+}
+.custom-card-3:hover .card-icon-wrapper.card-icon-3{
+    background-color: #e80368;
+}
+.custom-card-3:hover .card-icon-wrapper.card-icon-4{
+    background-color: #ffbb2c;
+}
+.custom-card-3:hover .card-icon-wrapper.card-icon-5{
+    background-color: #30eb4f;
+}
+.custom-card-3:hover .card-icon-wrapper.card-icon-6{
+    background-color: #2cffd1;
+}
+
+.custom-card-3 .card-title{
+    font-weight: 600;
+    margin: 10px 0 15px 0;
+    font-size: 22px;
+}
+.custom-card-3 .card-text{
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+/* Custom Card 4 */
+.custom-card-4{
+    border: none;
+    margin-bottom: 20px;
+}
+.custom-card-4 .card-body{
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+.custom-card-4 .card-body .card-image-wrapper{
+    overflow: hidden;
+}
+.custom-card-4 .card-body .card-image-wrapper .card-img{
+    border-radius: 0;
+    transform: scale(1);
+    transition: all 0.3s;
+}
+.custom-card-4:hover .card-body .card-image-wrapper .card-img{
+    transform: scale(1.2);
+}
+.custom-card-4 .card-text-wrapper{
+    position: absolute;
+    bottom: -80px;
+    left: 20px;
+    color: #fff;
+    z-index: 2;
+    transition: all 0.3s;
+}
+.custom-card-4:hover .card-text-wrapper{
+    bottom: 20px;
+}
+.custom-card-4 .card-text-wrapper .card-title{
+    
+}
+.custom-card-4 .card-text-wrapper .card-subtitle{
+    
+}
+.custom-card-4 .card-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(34, 34, 34, 0.6);
+    z-index: 1;
+    opacity: 0;
+    transition: all 0.3s;
+}
+.custom-card-4:hover .card-overlay{
+    opacity: 1;
+}
 
 /* List Style 1 */
 .list-style-1{
@@ -174,6 +290,7 @@ body{
     width: 100%;
     box-shadow: 0px 0px 25px 0 rgb(0 0 0 / 8%);
     padding: 10px 0 6px 0;
+    z-index: 3;
 }
 .logo h1 a{
     text-decoration: none;
