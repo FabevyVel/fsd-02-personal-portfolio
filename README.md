@@ -1,11 +1,5 @@
 # fsd-02-personal-portfolio
 
-<<<<<<< HEAD
-**hello**
-
-helooo
-
-=======
 **The Git Steps**
 
 1. How to create a repo?
@@ -21,4 +15,3 @@ helooo
 https://github.com/Ismaestro/markdown-template
 
 https://stackedit.io/app#
->>>>>>> 18e71087181c9d0f3165fb26a880ad2b2a590e7a

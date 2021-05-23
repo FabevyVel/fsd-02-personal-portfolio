@@ -280,8 +280,59 @@ body{
     padding-bottom: 10px;
 }
 
-/*  */
-/*  */
+/* List Style 2  */
+.list-style-2{}
+.list-style-2 .list-group-item {
+    border: none;
+}
+.list-style-2 .list-group-item .list-2-icon{}
+.list-style-2 .list-group-item .list-2-icon .icon-wrapper{
+    font-size: 20px;
+    color: #34b7a7;
+    width: 44px;
+    height: 44px;
+    background: #effbf9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+    margin-right: 14px;
+}
+.list-style-2 .list-group-item:hover .icon-wrapper{
+    background: #34b7a7;
+    color: #fff;
+}
+.list-style-2 .list-group-item .list-2-text{}
+.list-style-2 .list-group-item .list-2-text h5{}
+.list-style-2 .list-group-item .list-2-text p{}
+
+/* Form Style 1 */
+.form-style-1{
+    
+}
+.form-style-1 .form-group{
+    margin-bottom: 22px;
+}
+.form-style-1 .form-group .form-control{
+    
+}
+.form-style-1 .form-group .form-control:focus{
+    border-color: #34b7a7;
+    box-shadow: 0 0 10px 2px rgb(13 110 253 / 25%);
+}
+
+/* Overwrite Bootstrap theme */
+.btn-primary{
+    background: #34b7a7;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 22px;
+}
+.btn-primary:hover{
+    background: #3dc8b7;
+}
+
 .header{
     position: fixed;
     top: 0;
