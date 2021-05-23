@@ -149,6 +149,29 @@ body{
     margin-bottom: 0;
 }
 
+.custom-card-4 {
+    border: none;
+}
+
+.custom-card-4 .card-body {
+    padding: 0;
+}
+.custom-card-4 .card-body .card-image-wrapper{
+
+}
+.custom-card-4 .card-body .card-image-wrapper .card-img{
+    border-radius: 0%;
+}
+.custom-card-4 .card-text-wrappe{
+
+}
+.custom-card-4 .card-text-wrappe .card-title{
+
+}
+.custom-card-4 .card-text-wrappe .card-subtitle{
+    
+}
+
 .timeline::before{
     content: '';
     background: #fff;
@@ -227,6 +250,7 @@ margin: 0px;
     background-color: #e9e8e6;
     box-shadow: 0px 0px 25px 0 rgb(0 0 0 / 8%);
     padding: 10px 0px 6px 0;
+    z-index: 1;
     }
     
 
