@@ -57,11 +57,34 @@ body{
     width: 120px;
     border-radius: 50%;
 }
-.custom-card-2 .card-title{}
-.custom-card-2 .card-body .card-subtitle{}
+.custom-card-2 .card-body.card-title{
+    font-size: 20px;
+    font-weight: bold;
+    color:#111;
+    margin:10px 0 5px 0 ;
+}
+.custom-card-2 .card-body .card-subtitle{
+    font-size: 14px;
+    color: #999;
+    margin:0 0 15px 0 ;
+}
 .custom-card-2 .card-body .card-text{
     font-size: 26px;
+    color: #c8efea;
 }
+
+.custom-card-3{
+    width: 510px;
+    margin: auto;
+    border: none;
+    background: #fff;
+    box-shadow:  0px 0 35px 0 rgb (0 0 0 / 8%);
+}
+.custom-card-3 .card-body{}
+.custom-card-3 .card-icon-wrapper{}
+.custom-card-3 .card-icon-wrapper i{}
+.custom-card-3 .card-title{}
+.custom-card-3 .card-text{}
 
 .timeline::before{
     content: '';
