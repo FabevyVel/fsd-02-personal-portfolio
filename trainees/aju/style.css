@@ -18,7 +18,7 @@ body{
     font-size: 32px;
     font-weight: bold;
     padding-bottom: 10px;
-    color: rgb(63, 58, 58);
+    color: rgb(27, 26, 26);
 }
 .section-title .section-underline{
     width: 50px;
@@ -33,11 +33,80 @@ body{
 .list-style-1 li{
     padding-bottom: 12px;
 }
+.custom-progress-bar-1 .label{
+    font-family:"poppins", "sans-serif";
+    color: #222222;
+    font-weight: 600;
+    padding: 10px 0;
+    margin: 0 0 6px 0;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.custom-progress-bar-1 .progress{
+    height: 10px;
+    border-radius:  0;
+}
+.custom-progress-bar-1 .progress .progress-bar{
+    background-color: #34b7a7;
+
+
+    
+}
+
+.card-type-1 h3{
+    font-size: 48px;
+    color: #34b7a7;
+    font-family:sans-serif;
+
+}
+.card-type-1 h3 p{
+    font-family: sans-serif;
+}
+
+.testimonial{}
+.custom-card-2{
+    border-radius: 0;
+    border: none;
+}
+.custom-card-2 .card-body .card-img{
+    width: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.custom-card-2 .card-body .card-head{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+    color: #111;
+
+}
+.custom-card-2 .card-body  .card-head-2{
+    font-size: 14px;
+    color: #999;
+    margin: 0 0 15px 0;
+
+
+}
+.custom-card-2 .card-body .card-para{
+    font-style: italic;
+    margin: 0 auto 15px auto;
+}
+.custom-card-2 .card-body .card-para i{
+    color: #c8efea;
+    font-size: 26px;
+}
+
 
 /*about page starts*/
 /*about section */
 
+/*resume page starts*/
+/*resume section */
 
+
+
+/*resume page ebds*/
+/*resume section */
 
 /*Home page starts*/
 /*header section */
