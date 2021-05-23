@@ -4,6 +4,9 @@ body, h1, h2, h3, h4, h5, h6{
 body{
     padding-top: 70px;
 }
+
+/*about page start*/
+
 .page-section {
     padding-bottom: 60px;
 }
@@ -30,6 +33,12 @@ body{
 .list-style-1 li{
     padding-bottom: 12px;
 }
+
+/*about page starts*/
+/*about section */
+
+
+
 /*Home page starts*/
 /*header section */
 .header{

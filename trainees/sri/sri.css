@@ -107,13 +107,20 @@ padding-left: 18px;
 margin: 0px;
 }
 .timeline ul li{
+   padding-bottom: 10px;
 
 }
-.timeline .timeline-wrapper h2{
- margin-top: 0%;
- margin-bottom: 0%;
+.timeline .timeline-wrapper h2 strong{
+
 }
 
+.timeline-wrapper .section-sub-tittle{
+    font-size: 26px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #222;
+}
 
 .logo h1 a{
     text-decoration: none;
