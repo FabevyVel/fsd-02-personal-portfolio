@@ -64,7 +64,10 @@ color: #222;
     font-family: "Raleway", sans-serif;
     font-size: 14px;
 }
-.custom-card-2{}
+.custom-card-2{
+    border: none;
+    border-radius: 0;
+}
 .custom-card-2 .card-body .card-img{
     width: 120px;
     border-radius: 50%;
