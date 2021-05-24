@@ -238,25 +238,29 @@ padding-bottom: 12px;
 }
 
 
-.timeline::before{
+
+
+.timeline{
+    border-left: 2px solid #34b7a7;
+    padding-left: 22px;
+    position: relative;
+   padding:  30px;
+   } 
+   
+
+.timeline::before {
     content: '';
     background: #fff;
     border:2px solid #34b7a7;
     display: inline-block;
     width: 15px;
     height: 15px;
-    border-radius: 50px;
+    border-radius: 50%;
     position: absolute;
     top: 0;
     left: -8px;
 
 }
-.timeline{
- border-left: 2px solid #34b7a7;
- padding-left: 22px;
- position: relative;
-padding:  30px;
-} 
 
 
 .timeline h3{
@@ -288,15 +292,30 @@ font-family: "poppins", sans-serif;
 }
 .timeline .ul .li{
 padding-bottom: 10px;
-font-family: "poppins", sans-serif;
+
 }
-.timeline-wrapper .section-sub-title{
-    font-size: 26px;
-    font-weight: 400;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    color: #222;
+
+.list-style-2 .list-group-item .list-2-icon{}
+.list-style-2 .list-group-item .list-2-icon .icon-wrapper{
+    font-size: 20px;
+    color: #34b7a7;
+    width: 44px;
+    height: 44px;
+    background: #effbf9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+    margin-right: 14px;
 }
+.list-style-2 .list-group-item:hover .icon-wrapper{
+    background: #34b7a7;
+    color: #fff;
+}
+.list-style-2 .list-group-item .list-2-text{}
+.list-style-2 .list-group-item .list-2-text h5{}
+.list-style-2 .list-group-item .list-2-text p{}
 
 .header{
     position: fixed;
