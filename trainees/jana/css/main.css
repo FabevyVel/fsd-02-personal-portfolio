@@ -28,6 +28,7 @@ body{
 font-size: 26px;
 font-weight: 400;
 margin-top: 20px;
+margin-bottom: 20px;
 color: #222;
 }
 
@@ -65,13 +66,9 @@ color: #222;
     font-size: 14px;
 }
 .custom-card-2{
-<<<<<<< HEAD
 
   border: none;
-=======
-    border: none;
     border-radius: 0;
->>>>>>> e4f77470c69551b9b2606a10fa78884ce2fc34f7
 }
 .custom-card-2 .card-body .card-img{
     width: 120px;
@@ -244,7 +241,7 @@ padding-bottom: 12px;
 .timeline::before{
     content: '';
     background: #fff;
-    border: solid 2px #34b7a7;
+    border:2px solid #34b7a7;
     display: inline-block;
     width: 15px;
     height: 15px;
@@ -255,10 +252,10 @@ padding-bottom: 12px;
 
 }
 .timeline{
- border-left: solid 2px #34b7a7;
- padding-left: 20px;
+ border-left: 2px solid #34b7a7;
+ padding-left: 22px;
  position: relative;
-padding: 30px;
+padding:  30px;
 } 
 
 
@@ -266,9 +263,10 @@ padding: 30px;
 line-height:  18px;
 font-size: 18px;
 font-weight: 600;
-font-family: "poppins",san sans-serif;
+font-family: "poppins",sans-serif;
 color: #1d685f;
 margin-bottom: 10px;
+
 }
 .timeline p.label{
 font-size: 16px;
@@ -286,13 +284,19 @@ color: #34b7a7;
 .timeline ul{
 padding-left: 18px;
 margin: 0;
-font-family: "poppins",san sans-serif;
+font-family: "poppins", sans-serif;
 }
-.timeline ul li{
+.timeline .ul .li{
 padding-bottom: 10px;
-font-family: "poppins",san sans-serif;
+font-family: "poppins", sans-serif;
 }
-
+.timeline-wrapper .section-sub-title{
+    font-size: 26px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #222;
+}
 
 .header{
     position: fixed;
