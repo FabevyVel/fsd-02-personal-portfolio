@@ -65,8 +65,13 @@ color: #222;
     font-size: 14px;
 }
 .custom-card-2{
+<<<<<<< HEAD
 
   border: none;
+=======
+    border: none;
+    border-radius: 0;
+>>>>>>> e4f77470c69551b9b2606a10fa78884ce2fc34f7
 }
 .custom-card-2 .card-body .card-img{
     width: 120px;
