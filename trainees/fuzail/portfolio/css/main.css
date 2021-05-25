@@ -1,0 +1,53 @@
+body{
+    font-family: "open sans", sans-serif;
+    color: #272829;
+}
+a{
+    color: #149ddd;
+    text-decoration: none;
+}
+a:hover{
+    color: #37b3ed;
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway", sans-serif;
+}
+.profile img {
+    margin: 15px auto;
+    display: block;
+    width: 120px;
+    border: 8px solid #2c2f3f;
+}
+
+.profile h1 {
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    -moz-text-align-last: center;
+    text-align-last: center;
+    font-family: "Poppins", sans-serif;
+}
+.profile h1 a:hover {
+    color: rgb(155, 21, 21);
+    text-decoration: none;
+}
+.profile .social-navigation a {
+    font-size: 18px;
+    display: inline-block;
+    background: #2f3342;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 5px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+}
+.list-style{
+    list-style: none;
+    padding: 0;
+}
