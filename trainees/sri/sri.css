@@ -228,10 +228,10 @@ body{
 .list-style-1{
     list-style: none;
     padding-left: 0;
-    }
-    .list-style-1 li{
+}
+.list-style-1 li{
     padding-bottom: 12px;
-    }
+}
 
 
 .timeline::before{
@@ -272,25 +272,17 @@ body{
 }
 
 .timeline ul{
-padding-left: 18px;
-margin: 0px;
-font-family: "poppins", sans-serif;
+ padding-left: 18px;
+ margin: 0;
 }
 .timeline ul li{
    padding-bottom: 10px;
-   font-family: "poppins", sans-serif;
-
 }
 
 
-.timeline-wrapper .section-sub-tittle{
-    font-size: 26px;
-    font-weight: 400;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    color: #222;
 
-}
+
+
 
 .list-style-2{}
 .list-style-2 .list-group-item {
@@ -318,6 +310,30 @@ font-family: "poppins", sans-serif;
 .list-style-2 .list-group-item .list-2-text h5{}
 .list-style-2 .list-group-item .list-2-text p{}
 
+
+.form-style-1{
+
+}
+.form-style-1 .form-group{
+    margin-bottom: 22px;
+}
+.form-style-1 .form-group .form-control{
+
+}
+.form-style-1 .form-group .form-control:focus{
+    border-color: #34b7a7;
+    box-shadow: 0 0 10px 2px rgb(13 110 253 / 25%);
+}
+
+.btn-primary{
+    background: #34b7a7;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 22px;
+}
+.btn-primary:hover{
+    background: #3dc8b7;
+}
 
 .logo h1 a{
     text-decoration: none;
