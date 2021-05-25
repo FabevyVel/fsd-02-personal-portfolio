@@ -262,91 +262,19 @@
         color:#444444;
     }
 
-
-
-    /* RESUME PAGE STARTS  */
-
-
-    /* .timeline{
-        border-left:2px solid #34b7a7 ;
-        position: relative;
-
-    }
-
-    .timeline::before{
-        content:"";
-        background:white;
-        border:2px solid #34b7a7 ;
-        display: inline-block;
-        width: 15px;
-        height: 15px;
-        border-radius: 50%;
-        position: absolute;
-        top: 0;
-        left: -8px;
-    }
-
-    
-
-
-    .timeline .timeline-title-1{
-        font-size: 26px;
-        font-weight: 500;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        color: #222222;
-    }
-
-    .timeline .timeline-subtitle-1{
-        line-height: 18px;
-        font-size: 18px;
-        font-weight: 700;
-        font-family: "Poppins", sans-serif;
-        color: #1d685f;
-        margin-bottom: 10px;
-        margin-left: 25px;
-        
+        /* portfolio page  */
+    .card .custom-card-4 .box-1{
+        /* padding-left: 2px; */
+        z-index: 20;
         
     }
 
-    .timeline .timeline-text-1{
-        font-style: italic;
-        font-weight: 300;
-        margin-left: 25px;
-        color: #444444;
-    }
-
-    .info li{
-        color: #444444;
-        margin-left: 15px;
-        padding-bottom: 10px;
-    }
-
-    .timeline .label{
-        display: block;
-        color: #34b7a7;
-        margin-left: 35px;
-        background: #effbf9;
-        padding-left: 15px;
-        width: 140px
+    .card .custom-card-4 .box-2{
+        margin-left: 50px;
+        z-index: 20;
         
     }
-
-    .timeline .timeline-p{
-        color:#444444;
-        margin-left: 25px;
-        padding-bottom: 25px;
-    }
-
-    .timeline .line{
-        background-color:#34b7a7;
-        width: 1px;
-        height: 200px;
-        z-index: 2;
-        display:block;
-    } */
-
-
+  
     /* FOORTER STARTS  */
 
     
