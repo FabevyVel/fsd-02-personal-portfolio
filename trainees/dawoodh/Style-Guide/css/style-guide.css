@@ -325,14 +325,51 @@ padding-top: 10px;
     bottom:20px;
     
 }
-
+/* 
 
 .custom-card-4 .card-text-wrapper .card-title{} 
 .custom-card-4 .card-text-wrapper .card-subtitle{} 
+ */
 
 
+    /* contact page  */
 
+.list-style-2{}
+.list-style-2 .list-group-item{
+    border:none;
+}
+.list-style-2 .list-group-item .list-2-icon{}
+.list-style-2 .list-group-item .list-2-icon .icon-wrapper{
+    font-size: 20px;
+    color: #34b7a7;
+    /* float: left; */
+    width: 44px;
+    height: 44px;
+    background: #effbf9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    margin-right: 10px;
+    transition: all 0.3s ease-in-out;
+}
 
+.list-style-2 .list-group-item:hover .icon-wrapper{
+    color:#fff;
+    background: #34b7a7 ;
+}
+.list-style-2 .list-group-item .list-2-icon .list-2-text{}
+.list-style-2 .list-group-item .list-2-icon .list-2-text h5{}
+.list-style-2 .list-group-item .list-2-icon .list-2-text p{}
+.list-group-wrapper{
+    padding-top:50px;
+}
+.form-group-wrapper{
+    padding-top: 50px;
+    padding-bottom: 75px;
+}
 
-
-
+.form-group-wrapper .btn{
+    margin-left:150px;
+    /* background:#007aff; */
+}
