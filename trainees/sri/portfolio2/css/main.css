@@ -1,0 +1,106 @@
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 300px;
+    transition: all ease-in-out 0.5s;
+    z-index: 9997;
+    transition: all 0.5s;
+    padding: 0 15px;
+    background: #040b14;
+    overflow-y: auto
+}
+
+.header .profile-wrapper h5 a{
+    color: #fff;
+    text-decoration: none;
+}
+.header .profile-wrapper a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.header .profile-wrapper .wrapper-img{
+    margin: 15px auto;
+    display: block;
+    width: 120px;
+    border-radius: 50%;
+    border: 8px solid #2c2f3f
+}
+.header .profile-wrapper .social-links ul li{
+    font-size: 15px;
+    display: inline-block;
+    background: #212431;
+    color: #fff;
+    line-height: 1;
+    padding:  8px 5;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+}
+
+.header .profile-wrapper .menu-bar{
+   padding: 30px 10px 10px 10px;
+}
+.header .profile-wrapper .menu-bar ul li a i{
+    margin: 0;
+    padding: 0;
+    list-style: none
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    white-space: nowrap;
+}
+
+.header .profile-wrapper:hover .menu-bar ul li a i{
+     color: #149ddd;
+     
+}
+.hero{
+    background-image: url(../../image/hero.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+ 
+}
+.hero .full-height{
+    height: 100vh;
+    
+}
+.hero h3{
+    margin: 0 0 10px 0;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #fff;
+}
+.hero p{
+    color: #fff;
+    margin-bottom: 50px;
+    font-size: 26px;
+    font-family: "Poppins", sans-serif;
+}
+.section-title h2{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #173b6c;
+    margin-left: ;
+}
+.footer{
+    padding: 0px;
+    color: #f4f6fd;
+    font-size: 14px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 300px;
+    z-index: 9999;
+    background: #040b14
+}
