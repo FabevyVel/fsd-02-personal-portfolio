@@ -1,53 +1,162 @@
-body{
-    font-family: "open sans", sans-serif;
-    color: #272829;
-}
-a{
-    color: #149ddd;
-    text-decoration: none;
-}
-a:hover{
-    color: #37b3ed;
-    text-decoration: none;
-}
-h1, h2, h3, h4, h5, h6 {
+body, h1, h2, h3, h4, h5, h6 {
     font-family: "Raleway", sans-serif;
 }
-.profile img {
-    margin: 15px auto;
-    display: block;
-    width: 120px;
-    border: 8px solid #2c2f3f;
+.main-navigation {
+    padding-top: 5px;
+}
+.main-navigation .nav-link{
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    padding: 8px 12px;
+}
+.main-navigation .nav-link:hover{
+    color: #ffb727;
+}
+.main-navigation .nav-link.active{
+    color: #ffb727;
+}
+.hero{
+    background-image: url(../images/hero-bg.jpeg);
+    background-size: cover;
+    background-repeat: none;
+}
+.hero .full-height{
+    height: 100vh;
+}
+.hero h1{
+    font-family: "Satisfy", serif;
+    font-size: 68px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #fff ;
+}
+.hero p{
+    color: #eee;
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.hero a{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 40px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin-top: 30px;
+    color: #fff;
+    background: black;
+    border: none;
+}
+.hero .btn-scroll {
+    transition: 0.4s;
+    color: rgba(255, 255, 255, 0.6);
+    animation: up-down 1s ease-in-out infinite alternate-reverse both;
+}
+.hero .btn-scroll i {
+    font-size: 48px;
+}
+.header{
+    background: black;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 8px 20px 20px 20px rgb(0 0 0 / 8%);
+    padding: 10px 0 6px 0;
+    z-index: 3;
+    position: fixed;
+}
+.hero:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.65);
+    position: relative;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.hero{
+    background-attachment: fixed;
 }
 
-.profile h1 {
-    font-size: 24px;
-    margin: 0;
+.header .header-transparent {
+    background: transparent;
+}
+.back-to-top {
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    right: 15px;
+    bottom: 15px;
+    z-index: 996;
+    background: #ffb727;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    transition: all 0.4s;
+}
+
+.footer {
+    background: url(../images/footer-bg.jpg) top center no-repeat;
+    background-size: cover;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    padding: 80px 0;
+    position: relative;
+}
+.footer::before {
+    content: "";
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+.footer{
+    background-attachment: fixed;
+}
+.footer h3 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #fff;
+    position: relative;
+    font-family: "Satisfy", serif;
     padding: 0;
-    font-weight: 600;
-    -moz-text-align-last: center;
-    text-align-last: center;
-    font-family: "Poppins", sans-serif;
+    margin: 0 0 15px 0;
 }
-.profile h1 a:hover {
-    color: rgb(155, 21, 21);
-    text-decoration: none;
+footer .container {
+    position: relative;
 }
-.profile .social-navigation a {
+.footer .social-link{
+    margin: 0 0 40px 0;
+}
+.footer .copy{
+    margin: 0 0 5px 0;
+    font-size: 13px;
+}
+.footer .social-links a {
     font-size: 18px;
     display: inline-block;
-    background: #2f3342;
+    background: #ffb727;
     color: #fff;
     line-height: 1;
     padding: 8px 0;
-    margin-right: 5px;
+    margin-right: 4px;
     border-radius: 50%;
     text-align: center;
     width: 36px;
     height: 36px;
     transition: 0.3s;
 }
-.list-style{
-    list-style: none;
-    padding: 0;
+.footer .copy a {
+    color: #ffb727;
+    text-decoration: none;
 }
