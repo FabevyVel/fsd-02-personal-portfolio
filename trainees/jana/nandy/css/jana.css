@@ -1,15 +1,308 @@
 h1, h2, h3, h4, h5, h6 {
     font-family: "Playfair Display", serif;
 }
+
+.section-title{}
+.section-title h2{
+    font-size: 32px;
+    font-weight: bold;
+    color: #345676;
+    
+}
+
+.section-title .section-underline{
+   
+    width: 50px;
+    height: 3px;
+    background: #d43076;
+}
+
+
+.custom-progress-bar-1{
+     padding:  10px 0;
+     margin: 0 0 6px 0;  
+
+}
+.custom-progress-bar-1 .label{
+    padding: 10px 0;
+    margin: 0 0 6px 0;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #2c4964;
+}
+.custom-progress-bar-1 .progress{
+    height: 10px;
+    border-radius: 0s;
+    
+
+}
+.custom-progress-bar-1 .progress .progress-bar{
+    background-color: #dd5a92;
+}
+
+/*timeline*/
+
+.timeline::before{
+    content: '';
+    background: #fff;
+    border: 2px solid #d43076;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50px; 
+    position:absolute;
+    top: 0;
+    left: -8px;
+}
+
+.timeline{
+ border-left: 2px solid #d43076;;
+ padding-left: 22px;
+ position: relative;
+ padding-bottom: 30px;
+}
+.timeline-wrapper h2{
+    color: #4b7dab;
+    padding-bottom: 10px;
+    padding-top: 10px ;
+}
+
+.timeline h3{
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #2c4964;
+    margin-bottom: 10px;
+    
+}
+.timeline p.label{
+    font-size: 16px;
+    background: #effbf9;
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 10px;
+     background: #e4ebf3;;
+}
+
+.timeline ul{
+ padding-left: 18px;
+ margin: 0;
+}
+.timeline ul li{
+   padding-bottom: 10px;
+}
+
+/*timeline*/
+
+
+
+
+/*about section starts*/
+.about{
+    width: 100%;
+    height: 100vh;
+}
+.about .image{
+    background-image: url(../image/me.jpg);
+    background-size: cover;
+    min-height: 400px;
+   
+}
+
+.about h3{
+    font-weight: 500;
+    font-size: 40px;
+    color: #2c4964;
+    padding-left: 2rem;
+    
+}
+.about p{
+    margin-bottom: 0;
+    padding-right: 10px;
+    padding-left: 2rem;
+} 
+.about .count-box-1{
+    padding: 25px 0;
+    width: 100%;
+}
+
+.about .count-box-1 i{
+    display: block;
+    font-size: 36px;
+    color: #eeafca;
+    float: left;
+    line-height: 0;
+    padding: 30px;
+    padding-top:10px;
+    padding-right: 10px;
+}
+
+.about .count-box-1 span{
+    font-size: 36px;
+    line-height: 20px;
+    display: block;
+    font-weight: 700;
+    color: #2c4964;
+    font-family: "Playfair Display", serif;
+    padding-bottom: 10px;
+    padding-right: 20px;
+   
+}
+
+
+ .count-box-1 p{
+    padding: 10px 0 0 0;
+    margin: 0 0 0 50px;
+    font-family: "Playfair Display", serif;
+    font-size: 14px;
+    color: #437099;
+    padding-left: 20px;
+    padding-top: 10px ;
+
+}
+
+ .count-box-2{
+    padding: 25px 0;
+    width: 100%;
+}
+
+ .count-box-2 i{
+    display: block;
+    font-size: 36px;
+    color: #eeafca;
+    float: left;
+    line-height: 0;
+    padding: 30px;
+    padding-top:10px;
+    padding-right: 10px;
+}
+
+.count-box-2 span{
+    font-size: 36px;
+    line-height: 20px;
+    display: block;
+    font-weight: 700;
+    color: #2c4964;
+    font-family: "Playfair Display", serif;
+    padding-bottom: 10px;
+    padding-right: 20px;
+   
+}
+
+
+ .count-box-2 p{
+    padding: 10px 0 0 0;
+    margin: 0 0 0 50px;
+    font-family: "Playfair Display", serif;
+    font-size: 14px;
+    color: #437099;
+    padding-left: 20px;
+    padding-top: 10px ;
+
+}
+
+.count-box-3{
+    padding: 25px 0;
+    width: 100%;
+}
+
+ .count-box-3 i{
+    display: block;
+    font-size: 36px;
+    color: #eeafca;
+    float: left;
+    line-height: 0;
+    padding: 30px;
+    padding-top:10px;
+    padding-right: 10px;
+}
+
+.count-box-3 span{
+    font-size: 36px;
+    line-height: 20px;
+    display: block;
+    font-weight: 700;
+    color: #2c4964;
+    font-family: "Playfair Display", serif;
+    padding-bottom: 10px;
+    padding-right: 20px;
+   
+}
+
+
+ .count-box-3 p{
+    padding: 10px 0 0 0;
+    margin: 0 0 0 50px;
+    font-family: "Playfair Display", serif;
+    font-size: 14px;
+    color: #437099;
+    padding-left: 20px;
+    padding-top: 10px ;
+
+}
+
+.count-box-4{
+    padding: 25px 0;
+    width: 100%;
+}
+
+ .count-box-4 i{
+    display: block;
+    font-size: 36px;
+    color: #eeafca;
+    float: left;
+    line-height: 0;
+    padding: 30px;
+    padding-top:10px;
+    padding-right: 10px;
+}
+
+.count-box-4 span{
+    font-size: 36px;
+    line-height: 20px;
+    display: block;
+    font-weight: 700;
+    color: #2c4964;
+    font-family: "Playfair Display", serif;
+    padding-bottom: 10px;
+    padding-right: 20px;
+   
+}
+
+
+ .count-box-4 p{
+    padding: 10px 0 0 0;
+    margin: 0 0 0 50px;
+    font-family: "Playfair Display", serif;
+    font-size: 14px;
+    color: #437099;
+    padding-left: 20px;
+    padding-top: 10px ;
+
+}
+
+/*about section ends*/
+
+/*skills starts*/
+
+
+/*skills ends*/
+
+
 /*hero starts*/
 .hero{
     background-image: url(../image/hero-bg.jpg)  ;
     width: 100%;
-    height: 75vh;
+    height: 100vh;
     background-size: cover;
     padding: 0 15px;
     background-repeat: no-repeat;
     background-attachment: fixed;
+
 }
 .hero h1{
     color: #fff;
@@ -25,18 +318,27 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Poppins", sans-serif;
 
 }
-.hero.row{
-    height: 75vh;
-}
+
 .hero .full-height{
-    height: 75vh;
+    height: 100vh;
 }
+.btn-primary{
+    background: #d43076;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 22px;
+}
+.btn-primary:hover{
+    background:#e65594;
+} 
 /*hero ends*/
 
 /*header starts*/
 .header{
-    padding-top: 5px;
-    box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 12%);
+    box-shadow:0px 0px 25px 0 rgb(0 0 0 / 8%); ;
+    padding: 10px 0 6px  0;
+    z-index: 3;
+
 }
  .logo h1 a{
     text-decoration: none;
@@ -66,3 +368,20 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /*header ends*/
+
+/*footer starts*/
+.footer{
+    background: #e9e8e6;
+    padding: 30px 0;
+    color: #222222;
+    font-size: 14px;
+    text-align: center;
+
+}
+.footer p{
+    margin: 0;
+}
+.footer a{
+    padding: 0;
+}
+/*footer ends*/
