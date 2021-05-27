@@ -20,6 +20,140 @@
     color: #fff;
     text-decoration: none;
 }
+.Service-page-starts {
+    padding-left: 300px;
+}
+.Service-page-starts .container{
+    padding-right: 300px;
+}
+.custom-card-3 {
+    border: none;
+    background: #fff;
+    box-shadow: 0px 0 35px 0 rgb(0 0 0 / 8%);
+    margin-bottom: 20px;
+}
+.custom-card-3 .card-body{
+    padding: 60px;
+}
+.custom-card-3 .card-icon-wrapper{
+    width: 100px;
+    height: 100px;
+    background: #dfdfeb;
+    border-radius: 50%;
+    color: #40aeb4;
+    margin: auto;
+    font-size: 38px;
+    text-align: center;
+    line-height: 100px;
+    margin-bottom: 20px;
+    transition: all 0.5s;
+}
+.custom-card-3 .card-icon-wrapper.card-icon-1{
+    color: #adcfe9;
+}
+.custom-card-3 .card-icon-wrapper.card-icon-2{
+    color: #ffa76e;
+}
+.custom-card-3 .card-icon-wrapper.card-icon-3{
+    color: #e80368;
+}
+.custom-card-3 .card-icon-wrapper.card-icon-4{
+    color: #ffbb2c;
+}
+.custom-card-3 .card-icon-wrapper.card-icon-5{
+    color: #30eb4f;
+}
+.custom-card-3 .card-icon-wrapper.card-icon-6{
+    color: #2cffd1;
+}
+.custom-card-3:hover .card-icon-wrapper{
+    color: #fff;
+}
+.custom-card-3:hover .card-icon-wrapper.card-icon-1{
+    background-color: #47aeff;
+}
+.custom-card-3:hover .card-icon-wrapper.card-icon-2{
+    background-color: #ffa76e;
+}
+.custom-card-3:hover .card-icon-wrapper.card-icon-3{
+    background-color: #e80368;
+}
+.custom-card-3:hover .card-icon-wrapper.card-icon-4{
+    background-color: #ffbb2c;
+}
+.custom-card-3:hover .card-icon-wrapper.card-icon-5{
+    background-color: #30eb4f;
+}
+.custom-card-3:hover .card-icon-wrapper.card-icon-6{
+    background-color: #2cffd1;
+}
+.custom-card-3 .card-title{
+    font-weight: 600;
+    margin: 10px 0 15px 0;
+    font-size: 22px;
+}
+.custom-card-3 .card-text{
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.custom-card-4{
+    border: none;
+    margin-bottom: 80px;
+}
+
+.custom-card-4 .card-body{
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+.custom-card-4 .card-body .card-image-wrapper{
+      overflow: hidden;
+}
+.custom-card-4 .card-body .card-image-wrapper .card-img{
+    border-radius: 0;
+    transform: scale(1);
+    transition: all 0.3s;
+}
+.custom-card-4:hover .card-body .card-image-wrapper .card-img{
+    transform: scale(1.2);
+}
+.custom-card-4 .card-text-wrapper{
+     position: absolute;
+     bottom: -80px;
+     left: 20px;
+     color: #fff;
+     z-index: 2;
+    transition: all 0.3s;
+
+}
+.custom-card-4:hover .card-text-wrapper{
+   bottom: 20px;
+}
+.custom-card-4 .card-text-wrapper .card-title{
+
+}
+.custom-card-4 .card-text-wrapper .card-subtitle{
+
+}
+.custom-card-4 .card-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(34, 34, 34, 0.6); 
+    z-index: 1; 
+    opacity: 0;
+    transition: all 0.3s;
+
+}
+.custom-card-4:hover .card-overlay{
+    opacity: 1;
+}
+
+
 
 .header .profile-wrapper .wrapper-img{
     margin: 15px auto;
@@ -28,13 +162,55 @@
     border-radius: 50%;
     border: 8px solid #2c2f3f
 }
-.header .profile-wrapper .social-links ul li{
-    font-size: 15px;
+i.icofont-linkedin {
+    font-size: 18px;
     display: inline-block;
     background: #212431;
     color: #fff;
     line-height: 1;
-    padding:  8px 5;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+}
+i.icofont-instagram {
+    font-size: 18px;
+    display: inline-block;
+    background: #212431;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+}
+i.icofont-facebook {
+    font-size: 18px;
+    display: inline-block;
+    background: #212431;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+}
+i.icofont-twitter {
+    font-size: 18px;
+    display: inline-block;
+    background: #212431;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
     margin-right: 4px;
     border-radius: 50%;
     text-align: center;
@@ -43,6 +219,11 @@
     transition: 0.3s;
 }
 
+.menu-bar{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
 .header .profile-wrapper .menu-bar{
    padding: 30px 10px 10px 10px;
 }
@@ -66,9 +247,7 @@
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
-<<<<<<< HEAD
 
-=======
 .hero:before{
     content: "";
     background: rgba(5, 13, 24, 0.3);
@@ -79,7 +258,7 @@
     right: 0;
     z-index: 1;
 }
->>>>>>> 11babc3fb9d66326caab8036bf5fc1af6f693566
+
 .hero .full-height{
     height: 100vh;
     
