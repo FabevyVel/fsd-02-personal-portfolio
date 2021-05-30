@@ -192,6 +192,7 @@ body {
   margin-bottom: 20px;
   display: flex;
   align-items: center;
+  
 }
 
 .about .content ul strong {
@@ -295,6 +296,18 @@ body {
   background-color: #ffb727;
 }
 
+
+.close{
+  font-weight:700;
+  color: #ffb727;
+  font-family: 'Odibee Sans', cursive;
+}
+
+
+
+          /* RESUME PAGE  */
+
+          
 /*--------------------------------
 
 
