@@ -21,7 +21,7 @@
     
 } */
 .custom-progress-bar-0 .label{
-    font-weight:bold;
+    /* font-weight:bold; */
     font-family: "poppins", sans-serif;
     color: #222;
     text-transform: uppercase;
@@ -32,7 +32,7 @@
     border-radius: 0px;
 }
 .custom-progress-bar-0 .progress .progress-bar{
-    background-color: #34b7a7;
+    background-color:#ffb727;
 }
 
 /* 
