@@ -47,10 +47,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 .custom-progress-bar-1 .progress .progress-bar{
     background-color: #dd5a92;
-    height: 50px;
+
 }
 .custom-progress-bar-1 .progress{
     background: #fbeaf1;
+    
 }
 
 /*timeline*/
@@ -113,11 +114,13 @@ h1, h2, h3, h4, h5, h6 {
 /*service starts*/
 
 .custom-card-1{
+    
+
     border: none;
     background: #fff;
     box-shadow: 0px 0 35px 0 rgb(0 0 0 / 8%);
     margin-bottom: 20px;
-
+    
     
 }
 
@@ -125,12 +128,12 @@ h1, h2, h3, h4, h5, h6 {
 .custom-card-1 .card-body{
     padding: 60px;
     transition: ease-in-out 0.3s;
-
+    padding: 35px 0px;
+    
 }
 .custom-card-1 .card-icon-wrapper{
     width: 100px;
     height: 100px;
-    background:#f5f5f5;
     border-radius: 50%;
     color:;
     margin: auto;
@@ -138,31 +141,40 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     line-height: 100px;
     margin-bottom: 20px;
-    transition: 0.3s;
+    
 }
-
-.custom-card-1  {
-    color: #e80368;
-}
-
-.custom-card-1:hover {
-    color: #f5f5f5;
-}
-
-.custom-card-1 .card-icon-wrapper i {
-    color: #e80368;  
-}
-
-.custom-card-1:hover .card-icon-wrapper  {
-      color: #f5f5f5;
-}
-
 .custom-card-1 .card-body{
     color: #f5f5f5;
 }
  .custom-card-1:hover .card-body{
     background-color: #e80368;
+    transition: ease-in-out 0.3s;
+    
  }
+
+ .custom-card-1 .card-icon-wrapper{
+    background: #d43076; 
+ }
+
+ .custom-card-1:hover .card-icon-wrapper{
+    background:#f5f5f5 ; 
+ }
+
+
+.custom-card-1 .card-icon-wrapper i{
+    color: #fff;  
+}
+.custom-card-1:hover .card-icon-wrapper i{
+    color:  #e80368;
+
+}
+
+
+
+
+
+
+
  
 .custom-card-1 .card-title{
     font-weight: 600;
@@ -278,18 +290,91 @@ h1, h2, h3, h4, h5, h6 {
   }
 
 
-
-
-
-
-
-
-
-
-
-
-
 /*portfolio ends*/
+/*contact starts*/
+.contact-about h3 {
+    font-size: 36px;
+    margin: 0 0 10px 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 300;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #d43076;
+}
+.contact-about p{
+    font-size: 17px;
+    line-height: 24px;
+    font-family: "Playfair Display", serif;
+    color: #3c6387;
+}
+
+.contact-about .social-navigation  a {
+   font-size: 18px;
+    display: inline-block;
+    background: #fff;
+    color: #d43076;
+    line-height: 0;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+    border: 1px solid #d43076;
+}
+.contact-about:hover .social-navigation a {
+    background: #d43076;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+
+
+
+
+
+
+.list-style-2 .list-group-item .list-2-icon .icon-wrapper{
+    font-size: 20px;
+    color:#d43076 ;
+    width: 44px;
+    height: 44px;
+    background: #effbf9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+   margin: 0;
+}
+.list-style-2 .list-group-item{
+    border: none;
+}
+.list-style-2 .list-2-text{
+    font-size: 14px;
+    margin: 0;
+    padding-bottom: 5px;
+    
+}
+
+.form-style-1 .form-group{
+    margin-bottom: 22px;
+    padding-top: 15px;
+}
+.form-style-1 .form-group .form-control{
+    
+}
+.form-style-1 .form-group .form-control:focus{
+    border-color: #d43076;
+    box-shadow: 0 0 10px 2px rgb(13 110 253 / 25%);
+}
+
+
+
+
+/*contact ends*/
 
 
 
