@@ -1,3 +1,8 @@
+h1, h2, h3, h4, h5, h6{
+    font-family: "Raleway",sans-serif;
+}
+
+
 .header{
     position: fixed;
     top: 0;
@@ -16,10 +21,14 @@
     color: #fff;
     text-decoration: none;
 }
-.header .profile-wrapper a{
-    color: #fff;
-    text-decoration: none;
+.social-links .nav-item .nav-link  i{
+    color: #6f6f6f;
+    padding:8px 12px;
 }
+
+
+
+
 .Service-page-starts {
     padding-left: 300px;
 }
@@ -162,7 +171,10 @@
     border-radius: 50%;
     border: 8px solid #2c2f3f
 }
-i.icofont-linkedin {
+.social-links ul li i{
+}
+    
+.icofont-linkedin {
     font-size: 18px;
     display: inline-block;
     background: #212431;
@@ -228,13 +240,15 @@ i.icofont-twitter {
    padding: 30px 10px 10px 10px;
 }
 .header .profile-wrapper .menu-bar ul li a i{
-    margin: 0;
+    margin: -100px;
     padding: 0;
     list-style: none;
     text-decoration: none;
     color: #fff;
     position: relative;
     white-space: nowrap;
+    font-size: 22px;
+
 }
 
 .header .profile-wrapper:hover .menu-bar ul li a i{
