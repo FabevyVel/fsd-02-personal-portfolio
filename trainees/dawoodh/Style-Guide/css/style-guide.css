@@ -21,7 +21,7 @@
     
 } */
 .custom-progress-bar-0 .label{
-    font-weight:bold;
+    /* font-weight:bold; */
     font-family: "poppins", sans-serif;
     color: #222;
     text-transform: uppercase;
@@ -32,7 +32,7 @@
     border-radius: 0px;
 }
 .custom-progress-bar-0 .progress .progress-bar{
-    background-color: #34b7a7;
+    background-color:#ffb727;
 }
 
 /* 
@@ -47,30 +47,53 @@
 }
 
 
+.card-testi{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 .custom-card-2{
+    
     border: none;
     border-radius: 0px;
+    background: url("/Project_02/img/testimonials-bg.jpg") no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    padding:30px;
+
 }
+
+/* .custom-card-2::before{
+    content: "";
+    background: rgba(0, 0, 0, 0.65);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    
+} */
 .custom-card-2 .card-body .card-img{
     width: 120px;
     border-radius: 50%;
 }
-.custom-card-2 .card-body .card-title{
+.custom-card-2 .card-body .card-title-testi{
     font-size: 20px;
     font-weight:bold;
     margin:10px 0 5px 0;
-    color: #111;
+    color: #fff;
 }
-.custom-card-2 .card-body .card-subtitle{
+.custom-card-2 .card-body .card-subtitle-testi{
     font-size:14px;
-    color: #999;
+    color: #fff;
     margin:0 0 15px 0 ;
 
 }
-.custom-card-2 .card-body .card-text{
+.custom-card-2 .card-body .card-text-testi{
     width:100;
     font-style: italic;
     margin: auto 15px auto;
+    color: #fff;
 
 }
 
@@ -79,7 +102,7 @@
 /* TIME LINE STARTS  */
 
 .timeline{
-    border-left:2px solid #34b7a7 ;
+    border-left:2px solid #82909c;
     position: relative;
 
 }
@@ -87,7 +110,7 @@
 .timeline::before{
     content:"";
     background:white;
-    border:2px solid #34b7a7 ;
+    border:2px solid #82909c;
     display: inline-block;
     width: 15px;
     height: 15px;
@@ -112,7 +135,7 @@
     font-size: 18px;
     font-weight: 700;
     font-family: "Poppins", sans-serif;
-    color: #1d685f;
+    color: #ffb727;
     margin-bottom: 10px;
     margin-left: 25px;
     
@@ -144,9 +167,9 @@ padding-top: 10px;
 
 .timeline .label{
     display: block;
-    color: #34b7a7;
+    color: #444;
     margin-left: 35px;
-    background: #effbf9;
+    background: #eef0f2;
     padding-left: 15px;
     width: 140px
     
@@ -191,16 +214,41 @@ padding-top: 10px;
 
 }
 
+.card{
+    border: 1px solid #fff;
+}
+    /* width: 420px; */
+    
+
+
+.card:hover{
+    /* width: 420px; */
+    
+    border-color: #ffb727;
+}
+
+
+
+
+
 .card .card-subtitle{
     font-size: 22px;
     padding:5px;
+}
+
+.card:hover .card-subtitle{
+    color: #ffb727;
+}
+
+.card .cardline{
+    padding:10px
 }
 
 
 .custom-card-3 .card-card-wrapper{
     width:100px;
     height: 100px;
-    background:#f5f5f5;
+    background:#fff4df;
     border-radius:20px 50px;  
     margin:auto;
     font-size:50px;
@@ -212,20 +260,24 @@ padding-top: 10px;
     transition: all 0.7s;
 }
 .card-card-wrapper.card-icon-1{
-    color:#007aff;
+    color:#ffb727;
 }.card-card-wrapper.card-icon-2{
-    color: #fd7e14;
+    color: #ffb727;
 }.card-card-wrapper.card-icon-3{
-    color: #d63384;
+    color: #ffb727
 }.card-card-wrapper.card-icon-4{
-    color: #ffc107;
+    color: #ffb727;
 }.card-card-wrapper.card-icon-5{
-    color:#dc3545;
+    color:#ffb727;
 }.card-card-wrapper.card-icon-6{
-    color: #0dcaf0;
+    color: #ffb727;
 }
 
- .custom-card-3:hover .card-card-wrapper.card-icon-1{
+
+
+  
+
+ /* .custom-card-3:hover .card-card-wrapper.card-icon-1{
     color:#fff;
     background:#007aff;
 }
@@ -253,7 +305,7 @@ padding-top: 10px;
 .custom-card-3:hover .card-card-wrapper.card-icon-6{
     color:#fff;
     background:#0dcaf0;
-}
+} */
 
 .custom-card-3 .cardline{
     line-height: 24px;

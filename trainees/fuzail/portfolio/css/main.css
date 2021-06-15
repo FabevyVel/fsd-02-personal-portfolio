@@ -1,6 +1,6 @@
 body {
   font-family: "Open Sans", sans-serif;
-  color: #444444;
+  color: #444;
 }
   
 a {
@@ -62,7 +62,10 @@ h1, h2, h3, h4, h5, h6 {
   background: rgba(25, 28, 31, 0.8);
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 96c21d6d9216b1727c99f71c84d152e59db2adab
 .custom-progress-bar-1 .label{
     font-weight: 600;
     font-family: "Poppins", sans-serif;
