@@ -88,7 +88,7 @@ body {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("/Project_02/img/WhatsApp\ Image\ 2021-05-26\ at\ 6.11.57\ PM.jpeg") top right;
+  background: url("/Project_02/img/wall.jpeg") top right;
   background-size: cover;
   position: relative;
 }
@@ -152,10 +152,15 @@ body {
 
 .about{
     padding:60px;
+    padding-top:120px;
+}
+
+.about:active{
+  color: #ffb727;
 }
 .section-title span{
     position: absolute;
-    top: 720px;
+    top: 665px;
     color: #eef0f2;
     left: 0;
     right: 0;
@@ -254,7 +259,7 @@ body {
 }
 
 .about .image {
-  background: url("/Project_02/img/WhatsApp\ Image\ 2021-05-26\ at\ 7.30.56\ PM.jpeg") center center no-repeat;
+  background: url("/Project_02/img/profile.jpeg") center center no-repeat;
   background-size: cover;
   min-height: 500px;
 }
@@ -307,7 +312,82 @@ body {
 
           /* RESUME PAGE  */
 
-          
+.section-title .resume{
+    position: absolute;
+    top: 1590px;
+    color: #eef0f2;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    font-weight: 700;
+    font-size: 52px;
+    text-transform: uppercase;
+    line-height: 0;
+}
+
+.resume{
+  padding-bottom: 50px;
+  padding-top:60px;
+}
+
+
+        /* SERVICE PAGE STARTS  */
+.section-title .service{
+    position: absolute;
+    top: 2715px;
+    color: #eef0f2;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    font-weight: 700;
+    font-size: 52px;
+    text-transform: uppercase;
+    line-height: 0;
+}
+.service{
+  padding-top:60px;
+}
+
+  
+          /* PORTFOLIO PAGE STARTS   */
+.section-title .portfolio{
+    position: absolute;
+    top: 3745px;
+    color: #eef0f2;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    font-weight: 700;
+    font-size: 52px;
+    text-transform: uppercase;
+    line-height: 0;
+}
+.portfolio{
+  padding-top: 55px;
+}
+
+    /* PORTFOLIO PAGE END ` */
+
+    /* CONTACT PAGE STARTS  */
+
+.section-title .contact{
+  position: absolute;
+  top: 4700px;
+  color: #eef0f2;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  font-weight: 700;
+  font-size: 52px;
+  text-transform: uppercase;
+  line-height: 0;
+}
+
+
+.contact{
+  padding-top:60px;
+
+}
 /*--------------------------------
 
 

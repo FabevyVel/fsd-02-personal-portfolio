@@ -1,10 +1,10 @@
 body {
   font-family: "Open Sans", sans-serif;
-  color: #444444;
+  color: #444;
 }
   
 a {
-  color: #fff;
+  color: rgb(10, 10, 10);
   text-decoration: none;
 }
   
@@ -62,8 +62,10 @@ h1, h2, h3, h4, h5, h6 {
   background: rgba(25, 28, 31, 0.8);
 }
 
-.custom-progress-bar-1{
-}
+<<<<<<< HEAD
+
+=======
+>>>>>>> 96c21d6d9216b1727c99f71c84d152e59db2adab
 .custom-progress-bar-1 .label{
     font-weight: 600;
     font-family: "Poppins", sans-serif;
@@ -116,9 +118,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 10px;
   color: #ffb727;
 }
-.timeline p.small{
 
-}
 .timeline ul{
   padding-left: 18px;
   margin: 0;
@@ -160,12 +160,7 @@ h1, h2, h3, h4, h5, h6 {
 .custom-card-4:hover .card-text-wrapper{
   bottom: 20px;
 }
-.custom-card-4 .card-text-wrapper .card-title{
-  
-}
-.custom-card-4 .card-text-wrapper .card-subtitle{
-  
-}
+
 .custom-card-4 .card-overlay{
   position: absolute;
   top: 0;
@@ -450,27 +445,52 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-.footer {
-  background: url(../images/hero-bg1.jpg.jpeg) top center no-repeat;
+#footer {
+  background: url("../images/hero1.jpeg") top center no-repeat;
   background-size: cover;
   color: #fff;
   font-size: 14px;
   text-align: center;
   padding: 80px 0;
   position: relative;
-  display: flex;
 }
-.footer .container {
+
+#footer::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+#footer .container {
   position: relative;
 }
-.footer .social-link{
+
+#footer h3 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #fff;
+  position: relative;
+  font-family: "Raleway", sans-serif;
+  padding: 0;
+  margin: 0 0 15px 0;
+}
+
+#footer p {
+  font-size: 15;
+  font-style: italic;
+  padding: 0;
   margin: 0 0 40px 0;
 }
-.footer .copy{
-  margin: 0 0 5px 0;
-  font-size: 13px;
+
+#footer .social-links {
+  margin: 0 0 40px 0;
 }
-.footer .social-links a {
+
+#footer .social-links a {
   font-size: 18px;
   display: inline-block;
   background: #ffb727;
@@ -484,25 +504,19 @@ h1, h2, h3, h4, h5, h6 {
   height: 36px;
   transition: 0.3s;
 }
-.footer .copy a {
-  color: #ffb727;
+
+#footer .social-links a:hover {
+  background: #fff6e4;
+  color: #0f0f0f;
   text-decoration: none;
 }
 
-.footer{
-  background-attachment: fixed;
+#footer .copyright {
+  margin: 0 0 5px 0;
 }
-.footer h3 {
-  font-size: 36px;
-  font-weight: 700;
-  color: #fff;
-  position: relative;
-  font-family: "Satisfy", serif;
-  padding: 0;
-  margin: 0 0 15px 0;
-}
-footer .container {
-  position: relative;
+
+#footer .credits {
+  font-size: 13px;
 }
 
 
@@ -541,7 +555,7 @@ footer .container {
   color: #ffb727;
   line-height: 0;
 }
-  
+ 
 .about .content p:last-child {
   margin-bottom: 0;
 }
@@ -556,6 +570,9 @@ footer .container {
   color: #ffb727;
   float: left;
   line-height: 0;
+}
+.about .count-box i{
+  color: #ffb727;
 }
   
 .about .content .count-box span {

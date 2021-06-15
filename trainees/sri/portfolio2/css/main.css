@@ -2,7 +2,6 @@ h1, h2, h3, h4, h5, h6{
     font-family: "Raleway",sans-serif;
 }
 
-
 .header{
     position: fixed;
     top: 0;
@@ -25,10 +24,6 @@ h1, h2, h3, h4, h5, h6{
     color: #6f6f6f;
     padding:8px 12px;
 }
-
-
-
-
 .Service-page-starts {
     padding-left: 300px;
 }
@@ -140,12 +135,7 @@ h1, h2, h3, h4, h5, h6{
 .custom-card-4:hover .card-text-wrapper{
    bottom: 20px;
 }
-.custom-card-4 .card-text-wrapper .card-title{
 
-}
-.custom-card-4 .card-text-wrapper .card-subtitle{
-
-}
 .custom-card-4 .card-overlay{
     position: absolute;
     top: 0;
@@ -171,9 +161,7 @@ h1, h2, h3, h4, h5, h6{
     border-radius: 50%;
     border: 8px solid #2c2f3f
 }
-.social-links ul li i{
-}
-    
+
 .icofont-linkedin {
     font-size: 18px;
     display: inline-block;
@@ -277,7 +265,7 @@ i.icofont-twitter {
     height: 100vh;
     
 }
-.hero h3{
+.hero h1{
     margin: 0 0 10px 0;
     font-size: 64px;
     font-weight: 700;
@@ -298,6 +286,16 @@ i.icofont-twitter {
     position: relative;
     color: #173b6c;
 }
+.section-title h2::after{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #149ddd;
+    bottom: 0;
+    left: 0;
+}
 .card-type-1{
     padding: 30px;
 }
@@ -307,14 +305,15 @@ i.icofont-twitter {
     color: #149ddd;
     float: left;
     line-height: 0;
+    margin-left: -24px
 }
 .card-type-1 h3{
+    font-size: 40px;
+    line-height: 40px;
     display: block;
-    font-size: 30px;
-    color: black;
-    line-height: 0;
+    font-weight: 700;
+    color: #050d18;
 }
-
 .timeline::before{
     content: '';
     background: #fff;
@@ -377,4 +376,55 @@ h2, .h2 {
     width: 300px;
     z-index: 9999;
     background: #040b14;
+}
+/*about page*/
+img.img-thumbnail {
+    max-width: 108%;
+    height: auto;
+    border: none;
+}
+h3.title {
+    font-weight: 700;
+    font-size: 26px;
+    color: #173b6c;
+    padding-left: 25px;
+}
+p.content {
+    padding-left: 25px;
+}
+p.content:last-child {
+    padding-left: 25px;
+
+}
+ul.list-style-1 {
+    padding-left: 45px;
+}
+li {
+    padding-bottom: 25px;
+}
+strong {
+    padding-right: 7px;
+}
+p.text-center {
+    padding: 15px 0 0 0;
+    margin: 0 0 0 60px;
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    color: #122f57;
+}
+h2.section-name {
+    padding-left: 308px;
+}
+h2.section-name::after{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #149ddd;
+    bottom: 0;
+    left: 0;
+}
+.section-bg {
+    background: #f5f8fd;
 }
