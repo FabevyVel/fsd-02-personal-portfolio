@@ -20,10 +20,7 @@ h1, h2, h3, h4, h5, h6{
     color: #fff;
     text-decoration: none;
 }
-.social-links .nav-item .nav-link  i{
-    color: #6f6f6f;
-    padding:8px 12px;
-}
+
 .Service-page-starts {
     padding-left: 300px;
 }
@@ -151,9 +148,6 @@ h1, h2, h3, h4, h5, h6{
 .custom-card-4:hover .card-overlay{
     opacity: 1;
 }
-
-
-
 .header .profile-wrapper .wrapper-img{
     margin: 15px auto;
     display: block;
@@ -162,6 +156,41 @@ h1, h2, h3, h4, h5, h6{
     border: 8px solid #2c2f3f
 }
 
+
+/*menu-bar*/
+.menu-bar ul {
+    list-style: none;
+}
+.header .profile-wrapper .menu-bar {
+    padding: 23px 100px 100px 50px;
+}
+ .header .profile-wrapper .menu-bar ul li a i{
+    margin: -100px;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    white-space: nowrap;
+    font-size: 22px;
+}
+.header .profile-wrapper .menu-bar ul li a i::hover{
+
+}
+/*end menu-bar*/
+
+/*social-links*/
+.social-links .nav-item .nav-link  i{
+    color: #6f6f6f;
+    padding:8px 12px;
+}
+.nav {
+    display: flex;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    flex-wrap: nowrap;
+}
 .icofont-linkedin {
     font-size: 18px;
     display: inline-block;
@@ -218,27 +247,7 @@ i.icofont-twitter {
     height: 36px;
     transition: 0.3s;
 }
-
-.menu-bar{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-.header .profile-wrapper .menu-bar{
-   padding: 30px 10px 10px 10px;
-}
-.header .profile-wrapper .menu-bar ul li a i{
-    margin: -100px;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
-    color: #fff;
-    position: relative;
-    white-space: nowrap;
-    font-size: 22px;
-
-}
-
+/*end social-link*/
 .header .profile-wrapper:hover .menu-bar ul li a i{
      color: #149ddd;
      
