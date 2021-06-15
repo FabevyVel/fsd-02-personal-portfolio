@@ -2,21 +2,18 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Playfair Display", serif;
 }
 
-.section-title{}
+
 .section-title h2{
     font-size: 32px;
     font-weight: bold;
     color: #345676;
     padding-top: 100px;
 }
-
-.section-title .section-underline{
-    
+.section-title .section-underline {
     width: 50px;
     height: 3px;
     background: #d43076;
 }
-
 
 
 .page-section p{
@@ -38,12 +35,12 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
     font-family: "Poppins", sans-serif;
     color: #2c4964;
+    font-size: 13px;
+    padding-bottom: 2px;
 }
 .custom-progress-bar-1 .progress{
-    height: 10px;
     border-radius: 0s;
-    
-
+    height: 6px ;
 }
 .custom-progress-bar-1 .progress .progress-bar{
     background-color: #dd5a92;
@@ -76,9 +73,12 @@ h1, h2, h3, h4, h5, h6 {
  padding-bottom: 30px;
 }
 .timeline-wrapper h2{
+    font-size: 26px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 20px;
     color: #4b7dab;
-    padding-bottom: 10px;
-    padding-top: 10px ;
+    font-family: "Poppins", sans-serif;
 }
 
 .timeline h3{
@@ -114,28 +114,25 @@ h1, h2, h3, h4, h5, h6 {
 /*service starts*/
 
 .custom-card-1{
-    
-
     border: none;
     background: #fff;
-    box-shadow: 0px 0 35px 0 rgb(0 0 0 / 8%);
     margin-bottom: 20px;
-    
-    
+    border-radius: 8px; 
+    box-shadow: 0 0 29px 0 rgb(68 88 144 / 20%);  
+    transition: all 0.3s ease-in-out; 
 }
-
 
 .custom-card-1 .card-body{
     padding: 60px;
     transition: ease-in-out 0.3s;
     padding: 35px 0px;
+    border-radius: 8px;
     
 }
 .custom-card-1 .card-icon-wrapper{
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    color:;
     margin: auto;
     font-size: 38px;
     text-align: center;
@@ -149,6 +146,7 @@ h1, h2, h3, h4, h5, h6 {
  .custom-card-1:hover .card-body{
     background-color: #e80368;
     transition: ease-in-out 0.3s;
+
     
  }
 
@@ -170,12 +168,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-
-
-
-
-
- 
 .custom-card-1 .card-title{
     font-weight: 600;
     margin: 10px 0 15px 0;
@@ -222,10 +214,6 @@ h1, h2, h3, h4, h5, h6 {
    
 }
 
-.custom-card-2:hover .card-body .card-image-wrapper .card-img{
-    
-
-}
 .custom-card-2 .card-text-wrapper{
     position: absolute;
     top: -500px;
@@ -242,9 +230,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-.custom-card-2 .card-text-wrapper .card-title{
-
-}
 .custom-card-2 .card-text-wrapper .card-subtitle{
     text-transform: uppercase;
 }
@@ -310,12 +295,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .contact-about .social-navigation  a {
-   font-size: 18px;
+    font-size: 18px;
     display: inline-block;
     background: #fff;
     color: #d43076;
     line-height: 0;
-    padding: 8px 0;
+    padding: 8px 0 ;
     margin-right: 4px;
     border-radius: 50%;
     text-align: center;
@@ -324,16 +309,11 @@ h1, h2, h3, h4, h5, h6 {
     transition: 0.3s;
     border: 1px solid #d43076;
 }
-.contact-about:hover .social-navigation a {
+.contact-about .social-navigation a:hover {
     background: #d43076;
     color: #fff;
     transition: all 0.3s;
 }
-
-
-
-
-
 
 
 .list-style-2 .list-group-item .list-2-icon .icon-wrapper{
@@ -363,9 +343,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 22px;
     padding-top: 15px;
 }
-.form-style-1 .form-group .form-control{
-    
-}
+
 .form-style-1 .form-group .form-control:focus{
     border-color: #d43076;
     box-shadow: 0 0 10px 2px rgb(13 110 253 / 25%);
@@ -381,30 +359,30 @@ h1, h2, h3, h4, h5, h6 {
 /*about section starts*/
 .about{
     width: 100%;
-    height: 100vh;
-}
-.about .image{
-   background-image: url(../image/me.jpg);
-   background-size:cover ;
-   min-height: 500px;
-   padding:  top 300px ;
-   
-   
-}
+    height: 85vh;
 
+}
+.about .background{
+    background-color: #fff;
+}
+.about-image .img-fluid{
+    background-size: cover;    
+    padding-top: 115px;
+    min-height: 100vh;
+}
 
 .about h3{
     font-weight: 500;
     font-size: 40px;
     color: #2c4964;
-    padding-left: 2rem;
-    padding-top: 80px;
+    padding-left: 20px;
+    padding-top: 125px;
     
 }
 .about p{
     margin-bottom: 0;
     padding-right: 10px;
-    padding-left: 2rem;
+    padding-left: 20px;
 } 
 .about .count-box-1{
     padding: 25px 0;
@@ -569,8 +547,21 @@ h1, h2, h3, h4, h5, h6 {
 /*about section ends*/
 
 /*skills starts*/
+.skills .skills-section-title h2{
+    padding-top: 200px;
+    font-size: 32px;
+    font-weight: bold;
+    color: #345676;
 
-
+}
+.skills-section-title .section-underline {
+    width: 50px;
+    height: 3px;
+    background: #d43076;
+}
+.skills .background{
+    
+}
 /*skills ends*/
 
 
@@ -583,10 +574,8 @@ h1, h2, h3, h4, h5, h6 {
     background: #fff;
     box-shadow:0px 0px 25px 0 rgb(0 0 0 / 8%); ;
     padding: 10px 0 6px  0;
-    z-index: 3;
     padding-bottom: 10px;
-
-
+    z-index: 3;
 
 }
 
@@ -594,21 +583,16 @@ h1, h2, h3, h4, h5, h6 {
 
  
 .logo h1 a{
-       text-decoration: none;
-       color: #222;
-       text-transform: uppercase;
-       font-size: 26px;
-       font-weight: 500;
-       letter-spacing: 3px;
+    text-decoration: none;
+    color: #222;
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: 500;
+    letter-spacing: 3px;
    
       
-   }
-   
-
-
-.main-navigation .nav-link{
-   
 }
+   
 .main-navigation .nav-item a{
     display: flex;
     align-items: center;
@@ -637,18 +621,15 @@ h1, h2, h3, h4, h5, h6 {
 /*hero starts*/
 .hero{
     background-image: url(../image/hero-bg.jpg)  ;
-    width: 100%;
-    height: 100vh;
     background-size: cover;
-    padding: 0 15px;
     background-repeat: no-repeat;
     background-attachment: fixed;
-
 }
+
 .hero h1{
     color: #fff;
     font-size: 40px;
-    line-height: 36px;
+    line-height: 56px;
     font-weight: 700;
 }
 .hero h2{
