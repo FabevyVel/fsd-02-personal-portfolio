@@ -1,0 +1,584 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway", sans-serif;
+}
+
+/* Style guide components */
+.bg-opacity{
+    background-color: #000;
+    opacity: 0.8;
+    margin-bottom: 30px;
+    padding: 30px 30px 30px 30px;
+}
+
+/* Section title */
+.section-title h2{
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    margin: 0 0 20px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #aaaaaa;
+    font-family: "Poppins", sans-serif;
+}
+
+.section-title p{
+        margin: -15px 0 15px 0;
+        font-size: 36px;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-family: "Poppins", sans-serif;
+        color: #fff;
+}
+
+.section-title i{
+    display: inline-block;
+    width: 100px;
+    height: 2px;
+    background-color: #18d26e;
+    margin: 4px 10px;
+}
+
+/* Progress bar */
+.custom-progress-bar-1 .label{
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 0;
+    margin: 0 0 0 0;
+    font-size: 12px;
+}
+.custom-progress-bar-1 .progress{
+    height: 10px;
+    border-radius: 0;
+}
+.custom-progress-bar-1 .progress .progress-bar{
+    background-color: #18d26e;
+}
+
+/* Count Card type 1 */
+.count-card-type-1{
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+.count-card-type-1 i{
+    position: absolute;
+    margin: -29px;
+    font-size: 26px;
+    text-align: center;
+    color: #18d26e;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    padding: 12px;
+}
+
+.count-card-type-1 h3{
+    font-family: "Open Sans", sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+/* Icons Card type 2 */
+.icons-card-type-2{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.08);
+    transition: ease-in-out 0.3s;
+}
+
+.icons-card-type-2 h3{
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-size: 16px;
+    color: #fff;
+}
+
+.icons-card-type-2 i{
+    font-size: 32px;
+    color: #47aeff;
+    padding-right: 10px;
+}
+
+/* Testimonial Card type 3 */
+/* .card-type-3{
+    background-color: rgba(255, 255, 255, 0.1);
+} */
+.card-type-3 p{
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+    font-style: italic;
+    padding: 20px 20px 60px 20px;
+    margin: 0px 15px;
+    border-radius: 6px;
+}
+
+.card-type-3 .testimonial-img{
+    width: 90px;
+    border-radius: 50%;
+    margin: -40px 0 0 40px;
+    position: relative;
+    z-index: 2;
+    border: 6px solid rgba(255, 255, 255, 0.12);
+}
+
+.card-type-3 i{
+    font-size: 24px;
+    color: rgba(255, 255, 255, 0.25);
+}
+
+.card-type-3 h3{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0 5px 45px;
+    color: #fff;
+}
+.card-type-3 h4{
+    font-size: 14px;
+    font-weight: normal;
+    margin: 10px 0 5px 45px;
+    color: #fff;
+}
+
+/* Services Card type 4 */
+
+.custom-card-type4{
+    text-align: center;
+    background: rgba(204, 204, 204, 0.1);
+    padding: 80px 20px;
+    transition: all ease-in-out 0.3s;
+}
+
+.custom-card-type4:hover {
+    color: #000;
+    background-color: #18d26e;
+}
+
+.custom-card-type4:hover .icon{
+    background-color: #fff;
+}
+/* .custom-card-type4:hover .icon::before{
+    background-color: #35e888;
+} */
+
+.icon{
+    margin: 0 auto;
+    height: 64px;
+    width: 64px;
+    background-color: #18d26e;
+    font-size: 35px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.custom-card-type4 .icon::before{
+    position: absolute;
+    content: '';
+    left: 39.8%;
+    top: 88px;
+    height: 64px;
+    width: 64px;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 5px;
+    transition: all .3s ease-out 0s;
+}
+
+.custom-card-type4 h4{
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.custom-card-type4 h4 p{
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+/* Custom card type6 */
+
+.custom-card-type6{
+background: rgba(255, 255, 255, 0.08);
+padding: 20px;
+}
+
+.custom-card-type6 i{
+    color: #18d26e;
+    font-size: 24px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    width: 52px;
+    padding: 14px;
+} 
+
+.custom-card-type6 h3{
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 700;
+    margin: -40px 0 8px 68px;
+}
+
+.custom-card-type6 p{
+    padding: 0;
+    color: #fff;
+    line-height: 24px;
+    font-size: 14px;
+    margin: 0 0 0 68px;
+}
+
+.custom-card-type6 .social-connect i{
+    font-size: 18px;
+    color: #fff;
+    line-height: 1;
+    margin-right: 12px;
+    transition: 0.3s;
+    background: none;
+    padding: 0;
+}
+
+.custom-card-type6 a{
+    color: #fff;
+}
+
+.custom-card-type6 a:hover{
+    color: #18d26e;
+}
+
+.custom-card-type6 .social-connect i:hover{
+    color: #18d26e;
+}
+
+/* timeline */
+.timeline{
+    border-left: 2px solid #fff;
+    padding-left: 20px;
+    position: relative;
+    padding-bottom: 10px;
+}
+.timeline::before{
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background: #18d26e;
+    border: 2px solid #18d26e;
+    border-radius: 50%;
+    left: -9px;
+    top: 0;
+}
+.timeline h3{
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #18d26e;
+    margin-bottom: 10px;
+}
+.timeline .label{
+    font-family: "Raleway", sans-serif;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.15);
+    padding: 5px 14px;
+    font-weight: 600;
+}
+
+.timeline li{
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+.timeline ul{
+    padding-left: 20px;
+}
+
+.timeline i{
+    font-size: 16px;
+}
+
+.timeline-title{
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.header, .header-top, .style-guide{
+    content: "";
+    background: #040404 url(../images/rajeshbg.jpg) top right no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    z-index: -1;
+    transition: ease-in-out 0.3s;
+}
+
+
+.style-guide{
+    height: auto;
+}
+.text-content{
+    transition: ease-in-out 0.3s;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    z-index: 997;
+    overflow-y: auto; 
+}
+
+a{
+    color: #18d26e;
+    text-decoration: none;
+}
+
+body{    
+    font-family: "Open Sans", sans-serif;
+    background-color: #040404;
+    color: #fff;
+    position: relative;
+    background: transparent;
+}
+
+.header h1, .header-top h1{
+    font-size: 48px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+}
+
+.header-top{
+    height: 80px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 1;
+}
+
+.header-top h1{
+    margin-right: auto;
+    font-size: 36px;
+}
+
+.header h1 a, .header h1 a:hover, .header-top h1 a, .header-top h1 a:hover{
+    color: #fff;
+    line-height: 1;
+    display: inline-block;
+}
+
+.header h2{
+    font-size: 24px;
+    color: rgba(255, 255, 255, 0.8);
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.text-content span{
+    color: #fff;
+    border-bottom: solid 2px #18d26e;
+    padding-bottom: 5px;
+}
+
+.header-top .text-content{
+    height: auto;
+    overflow-y: unset;
+}
+
+.main-navigation ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.nav-link .active li{
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: #34b7a7; 
+    color: #fff;
+}
+.main-navigation ul li{
+    position: relative;
+}
+
+.main-navigation li+li{
+    margin-left: 30px;
+}
+
+.header .main-navigation{
+    padding: 0;
+    margin-top: 30px;
+}
+
+.main-navigation .nav-link.active, .main-navigation .nav-link.nav-link:hover{
+    color: #fff;
+}
+.main-navigation .nav-link.active i{
+    display: block;
+    width: 25px;
+    height: 2px;
+    background-color: #18d26e;
+    position: absolute;
+    margin-bottom: -24px;
+    transition: all 0.3s;
+}
+.main-navigation .nav-link:hover i{
+    display: block;
+    width: 25px;
+    height: 2px;
+    background-color: #18d26e;
+    position: absolute;
+    margin-bottom: -24px;
+    transition: all 0.3s;;
+}
+
+.main-navigation a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.7);
+    white-space: nowrap;
+    transition: 0.3s;
+}
+
+.header .social-navigation{
+    margin-top: 40px;
+}
+
+.header .social-navigation .nav-item .nav-link{
+    padding: 0;
+}
+
+.header .social-navigation .nav-link i{
+    font-size: 18px;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    line-height: 1;
+    margin-right: 9px;
+}
+
+.header .social-navigation .nav-link:hover i{
+    color: #000;
+    background-color: rgb(24 210 110);
+    transition: ease-in-out 0.3s;
+}
+
+.credits{
+position: fixed;
+right: 0;
+left: 0;
+bottom: 0;
+padding: 15px;
+text-align: right;
+font-size: 13px;
+color: #fff;
+z-index: 999999;
+}
+
+.credits p{
+    margin: 0;
+}
+
+.credits a{
+color: #18d26e;
+transition: 0.3s;
+}
+
+.credits a:hover{
+    color: #fff;
+}
+
+.about-page, .resume-page, .services-page, .contact-page{
+    padding: 100px 30px 45px 30px;
+    transition: 0.3s;
+}
+
+.about-section, .counts-section, .skills-section, .intrests-section, .testimonial-section, .resume-section, .service-section, .contact-section, .contact-form{
+    background: rgba(0, 0, 0, 0.9);
+    padding: 30px;
+}
+.work-progress{
+    background: #040404 url(../images/rajeshbg.jpg) top right no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    padding-top: 375px;
+}
+
+.email-form{
+    background: rgba(255, 255, 255, 0.08);
+    padding: 30px;
+}
+.email-form input, .email-form textarea{
+    border-radius: 0;
+    background: rgba(255, 255, 255, 0.08);
+    border: 0;
+    transition: 0.3s;
+    color: #fff;
+}
+.email-form input:focus, .email-form textarea:focus{
+    background:rgba(255, 255, 255, 0.11);
+    box-shadow: none;
+    color: #fff;
+}
+.email-form button[type="submit"]{
+    background: #18d26e;
+    border: 0;
+    padding: 10px 30px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 4px;
+}
+
+.about-section h3{
+    font-weight: 700;
+    font-size: 26px;
+    color: #18d26e;
+}
+.list-style-1{
+    list-style: none;
+    padding-left: 0;
+}
+.list-style-1 li{
+    padding-bottom: 12px;
+}
+
+.list-style-1 a{
+    color: #fff;
+}
+
+.list-style-1 a:hover{
+    color: #18d26e;
+}
+.list-style-1 li i {
+    font-size: 20px;
+    padding-right: 2px;
+    color: #18d26e;
+}
+
