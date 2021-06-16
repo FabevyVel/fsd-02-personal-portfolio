@@ -118,9 +118,10 @@ body {
 
 #hero h1 {
   margin: 0 0 10px 0;
-  font-size: 64px;
-  font-family: "Satisfy", serif;
+  font-size: 80px;
+  font-family: 'Dancing Script', cursive;
   color: #fff;
+  
 }
 
 #hero h2 {
@@ -159,7 +160,7 @@ body {
 
 
 .about:active{
-  color: #ffb727;
+  /* color: #ffb727; */
 }
 .section-title .about {
   position:absolute;
@@ -191,6 +192,13 @@ body {
   font-size: 26px;
   color: #3b434a;
   text-transform: uppercase;
+}
+
+.about p{
+  font-family: "Raleway", sans-serif;
+  font-size:17px;
+  color: #5d6a75;
+  font-weight:500;
 }
 
 .about .content ul {
@@ -268,7 +276,10 @@ body {
   background-size: cover;
   min-height: 500px;
 }
-
+.skills{
+  padding-top: 60px;
+  padding-bottom: 15px;
+}
 .about .skills-content {
   margin-top: 30px;
 }
@@ -336,6 +347,13 @@ body {
   position : relative;
 }
 
+.resume p{
+  font-family: "Raleway", sans-serif;
+  font-size:17px;
+  color: #5d6a75;
+  font-weight:500;
+  text-transform: capitalize;
+}
 
         /* SERVICE PAGE STARTS  */
 .section-title .service{
