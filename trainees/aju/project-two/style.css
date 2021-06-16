@@ -547,16 +547,40 @@ font-family: 'Poppins', helvetica;
     font-size: 14px;
     font-weight: 300;
     color: #292929;
-    padding-left: 131px;
+    padding-left: 88px;
+    letter-spacing: 1px;
 }
 
 .details .img-one img{
     margin-top: 40px;
 }
-.details h3{
+.head h3{
     font-size: 22px;
+    font-family: 'Poppins', helvetica;
     font-weight: 700;
     margin-bottom: 20px;
-    padding-bottom: 20px;
+    padding: 70px 15px 15px 37px;
+    color: #999999;
     border-bottom: 1px solid #eee;
+}
+.details .para ul li{
+    list-style: none;
+    font-family: 'Poppins', helvetica;
+    line-height: 30px;
+    font-size: 15px;
+    font-weight: 300;
+    color:#7e7d7d;
+    padding-right: 0;
+}
+.head-two h3{
+    margin-top: 60px;
+    font-size: 26px;
+    font-family: 'Poppins', helvetica;
+    font-weight: 700;
+}
+.para-two  p{
+    padding: 33px 0;
+    line-height: 1.8;
+    color: #999999;
+    margin: 25px -18px 0 0;
 }
