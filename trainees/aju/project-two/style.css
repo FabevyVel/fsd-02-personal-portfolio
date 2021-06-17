@@ -14,23 +14,27 @@ body{
     z-index: 3;
     top: 0;
     left: 0;
+    
+    
 
 }
 
 .header .logo a img{
     max-height: 40px;
-    margin-left: 5px;
+    margin-left: 104px;
 }
 
 .navigation {
     padding-top: 5px;
+    margin-right:90px;
 }
 .navigation .nav .nav-link{
     color:#7e7d7d;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', helvetica;
     font-size: 14px;
-    font-weight: 500;
-    padding: 8px 22px 11px 20px;
+    font-weight: 600;
+    padding: 8px 14px 11px 20px;
+    
 
 }
 .navigation .nav .nav-link:hover{
@@ -52,6 +56,7 @@ body{
     background-size: cover;
     display: flex;
     flex-direction: row;
+    object-fit: cover;
     
 }
 .full-height{
@@ -64,7 +69,7 @@ body{
 .hero .head-one h1{
     color: #fff;
     font-weight: 800;
-    font-size: 40px;
+    font-size: -47px;
     font-family: 'Poppins', helvetica;
     
 
@@ -107,7 +112,7 @@ body{
     right:0;
     top:0;
     border: 20px solid #b8a07e;
-    width: 280px;
+    width: 340px;
     height: 400px;
     z-index: 0;
 }
@@ -125,7 +130,7 @@ body{
 */
 
 .about-img img{
-    width: 255px;
+    width: 320px;
     height: 400px;
     z-index: 2;
     position: absolute;
@@ -141,12 +146,13 @@ body{
     text-align: left;
     color:#999999;
     line-height: 26px;
-    margin-right: 12px
+    margin-right: 12px;
+    font-weight : 100px;
 
 }
 .about .about-text p{
-    margin: 31px -30px;
-    padding: 0px 78px 12px 31px;
+    margin: 24px 72px 0 -32px;
+    padding: 0px 75px 17px 31px;
     font-size: 17px;
     color: #999999;
     line-height: 28px;
@@ -234,6 +240,9 @@ body{
     padding-right: 5px;
     padding-top: 10px;
     
+}
+.card-text-wrapper span a{
+    text-decoration: none;
 }
 .card-text-wrapper span i{
     font-size: 18px;
@@ -518,3 +527,60 @@ font-family: 'Poppins', helvetica;
 
 
 /*bloggggggggg*/
+
+
+
+
+/*iconnnnn*/
+
+.details{
+    padding-top: 70px;
+}
+.details h2{
+    font-family: 'Poppins', helvetica;
+    font-size: 24px;
+    font-weight: 300;
+    color: #292929;
+}
+.details p{
+    font-family: 'Poppins', helvetica;
+    font-size: 14px;
+    font-weight: 300;
+    color: #292929;
+    padding-left: 88px;
+    letter-spacing: 1px;
+}
+
+.details .img-one img{
+    margin-top: 40px;
+}
+.head h3{
+    font-size: 22px;
+    font-family: 'Poppins', helvetica;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding: 70px 15px 15px 37px;
+    color: #999999;
+    border-bottom: 1px solid #eee;
+}
+.details .para ul li{
+    list-style: none;
+    font-family: 'Poppins', helvetica;
+    line-height: 30px;
+    font-size: 15px;
+    font-weight: 300;
+    color:#7e7d7d;
+    padding-right: 0;
+}
+.head-two h3{
+    margin-top: 60px;
+    font-size: 26px;
+    font-family: 'Poppins', helvetica;
+    font-weight: 700;
+}
+.para-two  p{
+    padding: 33px 0;
+    line-height: 1.8;
+    color: #999999;
+    margin: 25px -18px 0 0;
+}
