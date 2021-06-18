@@ -159,10 +159,14 @@ body{
     right: 0;
 }
 
-.service-block i{
-    font-size: 44px;
+.services .brief{
+    width: 44px;
     color:#b8a07e;
     line-height: 44px;
+    padding-bottom: 10px;
+}
+.services img{
+    color:#b8a07e;
 }
 .services h6{
     font-size: 13px;

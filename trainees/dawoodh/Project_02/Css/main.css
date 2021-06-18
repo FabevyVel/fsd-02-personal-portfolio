@@ -159,9 +159,9 @@ body {
 }
 
 
-.about:active{
-  /* color: #ffb727; */
-}
+/* .about:active{
+  color: #ffb727;
+} */
 .section-title .about {
   position:absolute;
   /* top:700px; */
@@ -368,6 +368,12 @@ body {
     text-transform: uppercase;
     line-height: 0;
 }
+.service p{
+  font-family: "Raleway", sans-serif;
+  font-size:17px;
+  color: #5d6a75;
+  font-weight:500;
+}
 .service{
   padding-top:60px;
   position:relative;
@@ -415,50 +421,88 @@ body {
   position : relative;
 
 }
-/*--------------------------------
 
 
+.timeline .info li{
+  font-family: "Raleway", sans-serif;
+  font-size:17px;
+  /* color: #5d6a75; */
+  font-weight:500;
+  /* text-transform: capitalize; */
+}
 
+    /* FOOTER  */
 
+#footer {
+  background: url("../img/footer-bg.jpg") top center no-repeat;
+  background-size: cover;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  padding: 80px 0;
+  position: relative;
+}
 
+#footer::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
 
+#footer .container {
+  position: relative;
+}
 
+#footer h3 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #fff;
+  position: relative;
+  font-family: "Satisfy", serif;
+  padding: 0;
+  margin: 0 0 15px 0;
+}
 
+#footer p {
+  font-size: 15;
+  font-style: italic;
+  padding: 0;
+  margin: 0 0 40px 0;
+}
 
+#footer .social-links {
+  margin: 0 0 40px 0;
+}
 
-/* 
-    body{
-        width: 100%;
-        height: 100vh;
-        background: url("/Project_02/img/WhatsApp\ Image\ 2021-05-26\ at\ 6.11.57\ PM.jpeg") no-repeat fixed;
-        background-size: cover;
-        border-radius: 0px;
-        
+#footer .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #ffb727;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
 
-    }
-     */
-    
-    
+#footer .social-links a:hover {
+  background: #f3a200;
+  color: #fff;
+  text-decoration: none;
+}
 
-    /* .header{
-        background-color:transparent;
-    
-        
-    }
+#footer .copyright {
+  margin: 0 0 5px 0;
+}
 
-    .main-navigation .nav-link{
-        font-family: 'Abel', sans-serif;
-        font-size: 15px;
-        font-weight:550;
-        color: #fff;
-        margin-top:8px;
-    }
-    
-    .main-navigation .nav-link.active{
-        color: rgb(255, 217, 0);
-    } */
-    
-   
-    
-    
-    
+#footer .credits {
+  font-size: 13px;
+}

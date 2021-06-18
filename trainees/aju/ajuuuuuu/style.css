@@ -1,42 +1,23 @@
-.hero{
-    background-image: url(../images/home-bg.jpg);
-    
+*{
+    padding: 0;
+    margin: 0;
+    left: 0;
+
+}
+.brazil {
+    background:transparent;
+    background-color: rgba(221, 226, 210, 0.8);
+    background-attachment: fixed;
+}
+.navigation{
+margin: 12px;
+
+}
+body{
+    background:linear-gradient(rgba(190, 190, 63, 0.1),rgba(144, 189, 62, 0.1)),url(../images/118713.jpg);
+    height: 100vh;
+    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
-    
-}
-.full-height {
-    height: 100vh;
-}
-.hero .heading-1{
-    font-size: 40px;
-    text-transform: uppercase;
-    font-weight: 700;
-    margin-bottom: 20px;
-    color: #fff;
-    padding-top: 250px;
-    padding-right: 40px;
-    font-family: 'Poppins', helvetica;
-
-
-
-}
-.hero .para-1{
-    color:#fff;
-    padding-right:60px;
-    font-size: 13px;
-    font-weight: 500;
-    font-family: 'Poppins', helvetica;
-    letter-spacing: 3px;
-}
-.social-navigations ul li a{
-    color: #fff;
-    font-size: 15px;
-    padding-left: 10px;
-
-
-}
-.social-navigations ul li a:hover{
-    color: aqua;
 }
