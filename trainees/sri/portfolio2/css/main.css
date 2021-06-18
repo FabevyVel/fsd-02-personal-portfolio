@@ -20,12 +20,14 @@ h1, h2, h3, h4, h5, h6{
     color: #fff;
     text-decoration: none;
 }
-
+.service-section .container{
+    padding-left: 115px;
+}
 .Service-page-starts {
-    padding-left: 300px;
+    padding-left: 200px;
 }
 .Service-page-starts .container{
-    padding-right: 44px;
+    padding-right: 0px;
 }
 .custom-card-3 {
     border: none;
@@ -166,14 +168,18 @@ a {
     padding: 10px;
     list-style-type: none;
     text-align: center;
-    padding-right: 85px;
-    font-size: 22px;
+    padding-right: 135px;
+    font-size: 16px;
 }
-.menu-bar ul li a{
+.menu-bar ul li::hover{
+    color: #fff;
+}
+.menu-bar ul li a:hover{
+    color: #fff;
+}
 
-}
 .menu-bar ul li i{
-    padding-right: 10px;
+    padding-right: 6px;
     font-size: 19px;
 }
 /*end menu-bar*/
@@ -202,10 +208,6 @@ a {
     border-radius: 50%;
 }
 /*end social-link*/
-.header .profile-wrapper:hover .menu-bar ul li a i{
-     color: #149ddd;
-     
-}
 .hero{
     background-image: url(../../image/hero.jpg);
     background-size: cover;
@@ -388,4 +390,7 @@ h2.section-name::after{
 }
 .section-bg {
     background: #f5f8fd;
+}
+.contact-page .container{
+    padding-left: 115px;
 }
