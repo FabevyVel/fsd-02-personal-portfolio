@@ -55,7 +55,7 @@
     
     border: none;
     border-radius: 0px;
-    background: url("/Project_02/img/testimonials-bg.jpg") no-repeat;
+    background: url("/../Project_02/img/testimonials-bg.jpg") no-repeat;
     background-position: center center;
     background-size: cover;
     position: relative;
