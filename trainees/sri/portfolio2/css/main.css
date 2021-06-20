@@ -26,8 +26,13 @@ h1, h2, h3, h4, h5, h6{
 .Service-page-starts {
     padding-left: 245px;
 }
+.Service-page-starts .container-1{
+    margin-left: 65px;
+    
+}
 .Service-page-starts .container{
     padding-right: 0px;
+    margin-left: -122px;
 }
 .custom-card-3 {
     border: none;
@@ -380,7 +385,7 @@ li {
     padding-bottom: 11px;
     list-style: none;
     padding-top: 9px;
-    padding-left: 0px;
+    padding-left: 10px;
 }
 strong {
     padding-right: 7px;
@@ -412,7 +417,97 @@ h2.section-name::after{
 
 }
 /*contact-page*/
+.contact-sec h1{
+    padding-top: 40px;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #173b6c;
+    padding-bottom: 4px;
+    border-bottom: 3px #149ddd;
+}
+.contact-sec h1::before{
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    background-color: #149ddd;
+    width: 60px;
+    height: 3px;
+}
 
+.contact-sec p{
+    margin: 20px 0 20px 0;
+}
+.contact-sec-part i{
+    font-size: 25px;
+    margin: 0px 20px 0 0;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #dff3fc;
+    color: black;
+    align-items: center;
+    float: left;
+}
+.contact-sec-part i:hover{
+    background-color: #149ddd;
+}
+.contact-sec-part{
+    padding: 20px 20px 0 20px;
+}
+.contact-sec-part b{
+    font-size: 25px;
+}
+.contact-sec-part p{
+    padding: 0 0 10px 60px;
+    color: #173b6c;
+    margin: 10px;
+}
+.address_location{
+    background-color: #fff;
+    box-shadow: 0 0 24px 0 rgb(0 0 0 / 12%);
+    padding: 30px 20px;
+}
+.contact-form{
+    padding: 30px 30px;
+    height: 100%;
+}
+.map-sec{
+    padding: 20px 0;
+}
+label.form-label {
+    margin-top: 50px;
+}
+textarea#msg {
+    font-size: 100px;
+}
+/*end contact-page*/
+/*arrow section*/
+.arrow-part i{
+    font-size: 35px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #173b6c;
+    text-align: center;
+    color: #fff;
+    padding: 2px;
+}
+.arrow-part{
+    text-align: end;
+    padding: 40px 50px 0 0;
+}
+.arrow-part i:hover{
+    background-color: aqua;
+}
+.arrow-part a{
+    text-decoration: none;
+}
+/*end arrow-section*/
 /*footer page*/
 .foc{
 
