@@ -20,18 +20,19 @@ h1, h2, h3, h4, h5, h6{
     color: #fff;
     text-decoration: none;
 }
-
+.service-section .container{
+    padding-left: 115px;
+}
 .Service-page-starts {
-    padding-left: 300px;
+    padding-left: 245px;
 }
 .Service-page-starts .container{
-    padding-right: 300px;
+    padding-right: 0px;
 }
 .custom-card-3 {
     border: none;
     background: #fff;
-    box-shadow: 0px 0 35px 0 rgb(0 0 0 / 8%);
-    margin-bottom: 20px;
+    margin-bottom: -64px;
 }
 .custom-card-3 .card-body{
     padding: 60px;
@@ -158,40 +159,52 @@ h1, h2, h3, h4, h5, h6{
 
 
 /*menu-bar*/
-.menu-bar ul {
-    list-style: none;
-}
-.header .profile-wrapper .menu-bar {
-    padding: 23px 100px 100px 50px;
-}
- .header .profile-wrapper .menu-bar ul li a i{
-    margin: -100px;
-    padding: 0;
-    list-style: none;
+a {
+    color: #a8a9b4;
     text-decoration: none;
-    color: #fff;
-    position: relative;
-    white-space: nowrap;
-    font-size: 22px;
 }
-.header .profile-wrapper .menu-bar ul li a i::hover{
+.menu-bar ul li {
+    margin: 4px;
+    padding: 10px;
+    list-style-type: none;
+    text-align: center;
+    padding-right: 135px;
+    font-size: 16px;
+}
+.menu-bar ul li::hover{
+    color: #fff;
+}
+.menu-bar ul li a:hover{
+    color: #fff;
+}
 
+.menu-bar ul li i{
+    padding-right: 6px;
+    font-size: 19px;
 }
 /*end menu-bar*/
+/*skill-page*/
+.progress-1{
 
+}
+.progress-2{
+
+}
+.d-flex{
+    padding: 0;
+    margin: 0 0 6px 0;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #050d18;
+}
+/*end skill-page*/
 /*social-links*/
-.social-links .nav-item .nav-link  i{
-    color: #6f6f6f;
-    padding:8px 12px;
+.nav{
+    padding-left: 40px;
 }
-.nav {
-    display: flex;
-    padding-left: 0;
-    margin-bottom: 0;
-    list-style: none;
-    flex-wrap: nowrap;
-}
-.icofont-linkedin {
+.nav li a{
     font-size: 18px;
     display: inline-block;
     background: #212431;
@@ -205,53 +218,15 @@ h1, h2, h3, h4, h5, h6{
     height: 36px;
     transition: 0.3s;
 }
-i.icofont-instagram {
-    font-size: 18px;
-    display: inline-block;
-    background: #212431;
+.nav li a:hover{
+    background: #149ddd;
     color: #fff;
-    line-height: 1;
-    padding: 8px 0;
-    margin-right: 4px;
-    border-radius: 50%;
-    text-align: center;
-    width: 36px;
+    text-decoration: none;
     height: 36px;
-    transition: 0.3s;
-}
-i.icofont-facebook {
-    font-size: 18px;
-    display: inline-block;
-    background: #212431;
-    color: #fff;
-    line-height: 1;
-    padding: 8px 0;
-    margin-right: 4px;
-    border-radius: 50%;
-    text-align: center;
     width: 36px;
-    height: 36px;
-    transition: 0.3s;
-}
-i.icofont-twitter {
-    font-size: 18px;
-    display: inline-block;
-    background: #212431;
-    color: #fff;
-    line-height: 1;
-    padding: 8px 0;
-    margin-right: 4px;
     border-radius: 50%;
-    text-align: center;
-    width: 36px;
-    height: 36px;
-    transition: 0.3s;
 }
 /*end social-link*/
-.header .profile-wrapper:hover .menu-bar ul li a i{
-     color: #149ddd;
-     
-}
 .hero{
     background-image: url(../../image/hero.jpg);
     background-size: cover;
@@ -275,17 +250,19 @@ i.icofont-twitter {
     
 }
 .hero h1{
-    margin: 0 0 10px 0;
-    font-size: 64px;
-    font-weight: 700;
+    margin: 0 0 25px 0;
+    font-size: 55px;
+    font-weight: 700px;
     line-height: 56px;
     color: #fff;
+    padding-left: 740px;
 }
 .hero p{
     color: #fff;
-    margin-bottom: 50px;
-    font-size: 26px;
+    margin-top: -25px;
+    font-size: 25px;
     font-family: "Poppins", sans-serif;
+    padding-left: 890px;
 }
 .section-title h2{
     font-size: 32px;
@@ -375,7 +352,41 @@ h2, .h2 {
 .container {
     padding-left: 200px;
 }
-.footer{
+
+/*about page*/
+img.img-thumbnail {
+    max-width: 115%;
+    height: auto;
+    border: none;
+    padding-right: 65px;
+}
+h3.title {
+    font-weight: 700;
+    font-size: 26px;
+    color: #173b6c;
+    padding-left: 4px;
+}
+p.content {
+    padding-left: 0;
+}
+p.content:last-child {
+    padding-left: 0px;
+
+}
+ul.list-style-1 {
+    padding-left: 45px;
+}
+li {
+    padding-bottom: 11px;
+    list-style: none;
+    padding-top: 9px;
+    padding-left: 0px;
+}
+strong {
+    padding-right: 7px;
+}
+p.text-center {
+   
     padding: 0px;
     color: #f4f6fd;
     font-size: 14px;
@@ -385,44 +396,6 @@ h2, .h2 {
     width: 300px;
     z-index: 9999;
     background: #040b14;
-}
-/*about page*/
-img.img-thumbnail {
-    max-width: 108%;
-    height: auto;
-    border: none;
-}
-h3.title {
-    font-weight: 700;
-    font-size: 26px;
-    color: #173b6c;
-    padding-left: 25px;
-}
-p.content {
-    padding-left: 25px;
-}
-p.content:last-child {
-    padding-left: 25px;
-
-}
-ul.list-style-1 {
-    padding-left: 45px;
-}
-li {
-    padding-bottom: 25px;
-}
-strong {
-    padding-right: 7px;
-}
-p.text-center {
-    padding: 15px 0 0 0;
-    margin: 0 0 0 60px;
-    font-family: "Raleway", sans-serif;
-    font-size: 14px;
-    color: #122f57;
-}
-h2.section-name {
-    padding-left: 308px;
 }
 h2.section-name::after{
     content: '';
@@ -436,4 +409,11 @@ h2.section-name::after{
 }
 .section-bg {
     background: #f5f8fd;
+
+}
+/*contact-page*/
+
+/*footer page*/
+.foc{
+
 }
