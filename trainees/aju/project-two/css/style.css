@@ -1,6 +1,7 @@
 body{
     padding-top: 70px;
     background: #faf7f7;
+    right:0;
 }
 
 /*headere section*/
@@ -14,6 +15,7 @@ body{
     z-index: 3;
     top: 0;
     left: 0;
+    
     
     
 
@@ -51,7 +53,7 @@ body{
 /*herrooo starts*/
 
 .hero{
-    background: url(./images/home-bg.jpg);
+    background: url(../images/home-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -108,12 +110,11 @@ body{
 }
 .about-img{
     position: relative;
-    
-    right:0;
-    top:0;
+    right: 0;
+    top: 0;
     border: 20px solid #b8a07e;
-    width: 340px;
-    height: 400px;
+    width: 343px;
+    height: 410px;
     z-index: 0;
 }
 /*
@@ -130,12 +131,12 @@ body{
 */
 
 .about-img img{
-    width: 320px;
-    height: 400px;
+    width: 303px;
+    height: 372px;
     z-index: 2;
     position: absolute;
-    top: -60px;
-    left: 40px;
+    top: -2px;
+    left: 0px;
     
 
 

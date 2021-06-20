@@ -1,0 +1,25 @@
+@media (min-width: 576px){
+    .hero .head-one h1{
+        color :blueviolet;
+    }
+}
+@media (min-width: 768px){
+    .hero .head-one h1{
+        color :rgb(226, 95, 43);
+    }
+}
+@media (min-width: 992px){
+    .hero .head-one h1{
+        color :rgb(36, 23, 150);
+    }
+}
+@media (min-width: 1200px){
+    .hero .head-one h1{
+        color :rgb(15, 150, 98);
+    }
+}
+@media (min-width: 1400p){
+    .hero .head-one h1{
+        color :rgb(129, 50, 57);
+    }
+}
