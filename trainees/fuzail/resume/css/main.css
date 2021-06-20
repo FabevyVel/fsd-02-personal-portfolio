@@ -401,7 +401,7 @@ body{
 .social-navigation ul li a i{}
 
 .hero{
-    background-image: url(../images/hero-bg.jpg);
+    background-image: url(../image/hero-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;

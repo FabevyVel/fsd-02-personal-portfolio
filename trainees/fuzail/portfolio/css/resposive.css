@@ -1,0 +1,29 @@
+@media (min-width: 576px){
+    .section-title h2{
+        color: black;
+    }
+}
+
+@media (min-width: 768px){
+    .section-title h2{
+        color: black;
+    }
+}
+
+@media (min-width: 992px){
+    .section-title h2{
+        color: black;
+    }
+}
+
+@media (min-width: 1200px){
+    .section-title h2{
+        color: black;
+    }
+}
+
+@media (min-width: 1400px){
+    .section-title h2{
+        color: black;
+    }
+}
