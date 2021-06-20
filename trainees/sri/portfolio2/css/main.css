@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, h6{
     padding-left: 115px;
 }
 .Service-page-starts {
-    padding-left: 200px;
+    padding-left: 245px;
 }
 .Service-page-starts .container{
     padding-right: 0px;
@@ -183,8 +183,27 @@ a {
     font-size: 19px;
 }
 /*end menu-bar*/
+/*skill-page*/
+.progress-1{
 
+}
+.progress-2{
+
+}
+.d-flex{
+    padding: 0;
+    margin: 0 0 6px 0;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #050d18;
+}
+/*end skill-page*/
 /*social-links*/
+.nav{
+    padding-left: 40px;
+}
 .nav li a{
     font-size: 18px;
     display: inline-block;
@@ -358,10 +377,10 @@ ul.list-style-1 {
     padding-left: 45px;
 }
 li {
-    padding-bottom: 25px;
+    padding-bottom: 11px;
     list-style: none;
-    padding-top: 10px;
-    padding-left: 15px;
+    padding-top: 9px;
+    padding-left: 0px;
 }
 strong {
     padding-right: 7px;
@@ -390,51 +409,11 @@ h2.section-name::after{
 }
 .section-bg {
     background: #f5f8fd;
+
 }
 /*contact-page*/
-.list-style-3{
-    padding-left: 344px;
-    display: inline-grid;
-    padding-top: -23px;
-}
-.list-style-2 .list-group-item {
-    border: none;
-}
-.list-style-2 .list-group-item .list-2-icon{}
-.list-style-2 .list-group-item .list-2-icon .icon-wrapper{
-    font-size: 20px;
-    color: #34b7a7;
-    width: 44px;
-    height: 44px;
-    background: #effbf9;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    transition: all 0.3s ease-in-out;
-    margin-right: 14px;
-}
-.list-style-2 .list-group-item:hover .icon-wrapper{
-    background: #34b7a7;
-    color: #fff;
-}
-.list-style-2 .list-group-item .list-2-text{}
-.list-style-2 .list-group-item .list-2-text h5{}
-.list-style-2 .list-group-item .list-2-text p{}
 
+/*footer page*/
+.foc{
 
-.form-style-1{
-    width: 90%;
-    padding-left: 200px;
-}
-}
-.form-style-1 .form-group{
-    margin-bottom: 23px;
-}
-.form-style-1 .form-group .form-control{
-
-}
-.form-style-1 .form-group .form-control:focus{
-    border-color: #34b7a7;
-    box-shadow: 0 0 10px 2px rgb(13 110 253 / 25%);
 }
