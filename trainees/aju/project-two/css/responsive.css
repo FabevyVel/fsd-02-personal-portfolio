@@ -1,12 +1,37 @@
+/*
+X-Small	None <576px
+Small	sm	≥576px
+Medium	md	≥768px
+Large	lg	≥992px
+Extra large	xl	≥1200px
+Extra extra large	xxl	≥1400px
+*/
+
 @media (min-width: 576px){
     .hero .head-one h1{
         color :blueviolet;
-    }
+         }
+        .details p {
+            font-family: 'Poppins', helvetica;
+            font-size: 14px;
+            font-weight: 300;
+            color: #292929;
+            padding-left: 0px;
+            letter-spacing: 1px
+         }
 }
 @media (min-width: 768px){
     .hero .head-one h1{
         color :rgb(226, 95, 43);
     }
+    .details p {
+        font-family: 'Poppins', helvetica;
+        font-size: 14px;
+        font-weight: 300;
+        color: #292929;
+        padding-left: 0px;
+        letter-spacing: 1px
+     }
 }
 @media (min-width: 992px){
     .hero .head-one h1{
