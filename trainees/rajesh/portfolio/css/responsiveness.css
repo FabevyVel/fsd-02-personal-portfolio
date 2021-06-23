@@ -1,0 +1,32 @@
+@media (min-width : 992px)
+{
+ .credits{
+    text-align: right;
+    padding: 15px;
+    background: none;
+ }
+}
+ @media (min-width : 992px){
+ .header .dkt, .header-top .dkt{
+     display: block;
+     text-align: left;
+ }
+ }
+  @media (min-width : 992px){
+ .header .dkt:hover, .header-top .dkt:hover{
+     display: block;
+     text-align: left;
+ }
+ }
+ @media (min-width : 992px){
+ .header .mob, .header-top .mob{
+     display: none;
+ }
+}
+
+@media(min-width : 768px){
+    .header-top h1{
+        margin-right: auto;
+        font-size: 36px;
+    }
+}
