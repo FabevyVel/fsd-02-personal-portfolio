@@ -1,5 +1,24 @@
 
           /* General */
+@media (min-width:576px){
+    
+}
+
+@media (min-width:768px){
+    
+}
+
+@media (min-width:992px){
+    
+}
+
+@media (min-width:1200px){
+    
+}
+
+@media (min-width:1400px){
+    
+}
 
 body {
     font-family: "Open Sans", sans-serif;
@@ -44,6 +63,11 @@ body {
             /* Navigation Menu  */
 .main-navigation{
   padding: 0;
+}
+@media (min-width:576px){
+  .main-navigation{
+    padding: 0;
+}
 }
 
 .main-navigation .nav-item {
@@ -146,6 +170,23 @@ body {
 #hero .btn-scroll:hover {
   color: #ffb727;
 }
+
+@media (min-width:576px),(min-width: 1024px) {
+  #hero {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 575px) {
+  #hero h1 {
+    font-size: 40px;
+  }
+  #hero h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+}
+
 
 .bx {
   font-family: 'icofont'!important;

@@ -334,7 +334,8 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 0 10px 0;
     font-size: 64px;
     font-family: "Satisfy", serif;
-    color: #fff;
+    color: white;
+    text-align: center;
 }
 
 #hero h2 {
@@ -530,9 +531,8 @@ section {
 }
 
 .about .content ul li {
-    margin-bottom: 20px;
+    margin-bottom: 32px;
     display: flex;
-    align-items: center;
 }
 
 .about .content ul strong {
@@ -761,6 +761,7 @@ section {
     z-index: 1;
     opacity: 0;
     transition: all 0.3s;
+    cursor: pointer;
 }
 
 .custom-card-4:hover .card-overlay {
@@ -937,6 +938,8 @@ section {
     color: #fff;
     transition: 0.4s;
     border-radius: 5px;
+    margin-bottom: 0px;
+    
 }
 
 .contact .php-email-form button[type="submit"]:hover {
