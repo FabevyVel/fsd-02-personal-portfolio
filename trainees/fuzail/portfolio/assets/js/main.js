@@ -196,7 +196,7 @@
   /**
    * Porfolio isotope and filter
    */
-  window.addEventListener('load', () => {
+  /**window.addEventListener('load', () => {
     let portfolioContainer = select('.portfolio-container');
     if (portfolioContainer) {
       let portfolioIsotope = new Isotope(portfolioContainer, {
@@ -224,7 +224,7 @@
   /**
    * Initiate portfolio lightbox 
    */
-  const portfolioLightbox = GLightbox({
+  /**const portfolioLightbox = GLightbox({
     selector: '.portfolio-lightbox'
   });
 
@@ -244,10 +244,26 @@
       clickable: true
     }
   });
-  
-  $(document).on('click', '[data-toggle="lightbox"]', function(event) {
-    event.preventDefault();
-    $(this).ekkoLightbox();
-});
 
+  const lightbox = document.createElement('div')
+  lightbox.id = 'lightbox'
+  document.body.appendChild(lightbox)
+  
+  const images = document.querySelectorAll('img')
+  images.forEach(images => {
+    images.addEventListener('click', e =>{
+      lightbox.classList.add('active')
+      const img = document.createElement('img')
+      img.src = image.src
+      while (lightbox.firstChild) {
+        lightbox.removeChild(lightbox.firstChild)
+      }
+      lightbox.appendChild(img)
+    })
+  })
+
+  lightbox.addEventListener('click', e => {
+    if (e.target !== e.currentTarget) return
+    lightbox.classList.remove('active')
+  })
 })()

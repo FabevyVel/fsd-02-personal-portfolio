@@ -726,6 +726,7 @@ section {
 
 .custom-card-4 .card-body .card-image-wrapper {
     overflow: hidden;
+    cursor: pointer;
 }
 
 .custom-card-4 .card-body .card-image-wrapper .card-img {
@@ -734,10 +735,10 @@ section {
     transition: all 0.3s;
 }
 
-.custom-card-4:hover .card-body .card-image-wrapper .card-img {
+/**.custom-card-4:hover .card-body .card-image-wrapper .card-img {
     transform: scale(1.2);
 }
-
+*/
 .custom-card-4 .card-text-wrapper {
     position: absolute;
     bottom: -80px;
@@ -747,10 +748,10 @@ section {
     transition: all 0.3s;
 }
 
-.custom-card-4:hover .card-text-wrapper {
+/*.custom-card-4:hover .card-text-wrapper {
     bottom: 20px;
 }
-
+*/
 .custom-card-4 .card-overlay {
     position: absolute;
     top: 0;
@@ -766,6 +767,22 @@ section {
 
 .custom-card-4:hover .card-overlay {
     opacity: 1;
+}
+#lightbox{
+    position:fixed;
+    z-index: auto;
+    top: 0;
+    width: 50%;
+    height: 50%;
+}
+#lightbox .active{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#lightbox img{
+    max-width: 90%;
+    max-height: 80%;
 }
 
 .section-title {
