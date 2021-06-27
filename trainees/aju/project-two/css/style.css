@@ -15,11 +15,8 @@ body{
     z-index: 3;
     top: 0;
     left: 0;
-    
-    
-    
-
 }
+
 
 .header .logo a img{
     max-height: 40px;
@@ -27,39 +24,31 @@ body{
 }
 
 .navigation {
-    padding-top: 5px;
-    margin-right:90px;
+    padding: 10px 0px;
 }
-.navigation .nav .nav-link{
+
+.nav-style{
     color:#7e7d7d;
-    font-family: 'Poppins', 'helvetica', 'Arial' sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 500;
     padding: 8px 14px 11px 20px;
-    
-
 }
-.navigation .nav .nav-link:hover{
+.nav-style:hover{
     color: #b8a07e;
-
 }
-.navigation .nav .drop-down{
-    background-color: rgb(252, 252, 252);
+.btn:focus{
+    box-shadow: none;
 }
-
 /*header section ends*/
 
 
 /*herrooo starts*/
 
 .hero{
-    background: url(../images/home-bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: url(../images/home-bg.jpg) repeat scroll center center/cover;
     display: flex;
     flex-direction: row;
-    object-fit: cover;
-    
 }
 .full-height{
     height: 100vh;
@@ -114,7 +103,7 @@ body{
     top: 0;
     border: 20px solid #b8a07e;
     width: 343px;
-    height: 410px;
+    height: 376px;
     z-index: 0;
 }
 /*
@@ -131,24 +120,24 @@ body{
 */
 
 .about-img img{
-    width: 303px;
+    width: 312px;
     height: 372px;
     z-index: 2;
     position: absolute;
-    top: -2px;
-    left: 0px;
+    top: -61px;
+    left: 36px;
     
 
 
 }
 .about .about-text h2{
     font-family: 'Playfair Display', serif;
-    font-size: 30px;
+    font-size: 29px;
     text-align: left;
     color:#999999;
     line-height: 26px;
-    margin-right: 12px;
-    font-weight : 100px;
+    margin-right: -9px;
+    font-weight : 100;
 
 }
 .about .about-text p{
@@ -198,15 +187,19 @@ body{
     font-weight: 600;
     font-family: "Poppins", sans-serif;
 }
+.portfolio li.active{
+    color:#b8a07e;
+    background-color: #faf7f7;
+}
 .portfolio li{
     font-family: "Poppins", sans-serif;
     border: none;
     cursor: pointer;
     display: inline-block;
-    padding: 10px 25px 8px 25px;
+    padding: 11px 18px 8px 25px;
     font-size: 14px;
     font-weight: 600;
-    line-height: 10;
+    line-height: 80px;
     text-transform: uppercase;
     color: #999;
     background-color: #faf7f7;
@@ -231,7 +224,7 @@ body{
 }
 .custom-card-2 .card-text-wrapper{
     position: absolute;
-    bottom: -85px;
+    bottom: -150px;
     left: 20px;
     color: #999999;
     z-index: 2;
@@ -239,7 +232,7 @@ body{
     background: rgba(255, 255, 255, 0.9);
     padding: 15px;
     width: 85%;
-    
+    height:90px;    
 }
 .card-text-wrapper span{
     padding-right: 5px;
@@ -385,16 +378,22 @@ font-weight: 600;
 /*foooter*/
 .footer{
     background: #f7f7f7;
-padding-bottom: 50px;
-padding-top: 50px;
-line-height: 3;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    line-height: 3;
+}
+.socials-media{
+    margin-right: 35px;
+}
+.socials-media p{
+    padding-bottom: 10px;
 }
 .socials-media i{
     color: #999999;
     font-size: 25px;
     margin-left: 27px;
-    line-height: 10px;
-    margin-top: 20px;
+    line-height: 6px;
+    margin-top: 10px;
     background-color:#faf7f7;
     text-decoration: none;
     list-style: none;
@@ -403,10 +402,22 @@ line-height: 3;
 .socials-media ul li{
     list-style: none;
     text-decoration: none;
+    
 }
 .footer p{
-    margin: 0;
+    margin: 1px -10px -17px 0px;
     color: #7e7d7d;
+
+    
+}
+.socials-media .link-one{
+    margin: -9px;
+}
+.footer .paragraph{
+    text-transform: uppercase;
+}
+.footer .just-fun{
+    font-size: 14px;
 }
 .footer a{
     padding: 0;
@@ -425,7 +436,6 @@ line-height: 3;
     background: #f7f7f7;
 }
 .blog .img-one img{
-    width: 100%;
 overflow: hidden;
 }
 
@@ -546,12 +556,13 @@ font-family: 'Poppins', helvetica;
     font-size: 24px;
     font-weight: 300;
     color: #292929;
+    padding-bottom: 50px;
 }
 .details p{
     font-family: 'Poppins', helvetica;
     font-size: 14px;
     font-weight: 300;
-    color: #292929;
+    color: #999;
     padding-left: 88px;
     letter-spacing: 1px;
 }
@@ -586,6 +597,6 @@ font-family: 'Poppins', helvetica;
 .para-two  p{
     padding: 33px 0;
     line-height: 1.8;
-    color: #999999;
+    color: #999;
     margin: 25px -18px 0 0;
 }

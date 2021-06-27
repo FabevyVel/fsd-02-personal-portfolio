@@ -6,45 +6,99 @@ Large	lg	≥992px
 Extra large	xl	≥1200px
 Extra extra large	xxl	≥1400px
 */
-
-@media (min-width: 576px){
-    .hero .head-one h1{
-        color :blueviolet;
-         }
-        .details p {
-            font-family: 'Poppins', helvetica;
-            font-size: 14px;
-            font-weight: 300;
-            color: #292929;
-            padding-left: 0px;
-            letter-spacing: 1px
-         }
-}
-@media (min-width: 768px){
-    .hero .head-one h1{
-        color :rgb(226, 95, 43);
+@media (min-width:360px){
+    .about-img {
+        position: relative;
+        right: 0;
+        top: 0;
+        border: 20px solid #b8a07e;
+        width: 100%;
+        height: 376px;
+        z-index: 0;
+        overflow: hidden;
     }
+    .about-img img {
+        width: 100%;
+        height: auto;
+        z-index: 2;
+        position: absolute;
+        top: -28px;
+        left: 0;
+    }
+    .details h2 {
+        font-family: 'Poppins', helvetica;
+        font-size: 31px;
+        font-weight: 300;
+        color: #292929;
+        padding-bottom: 13px;
+    }
+    .navigation{
+        display:none;
+    }
+    .navigation .nav .nav-link {
+        padding:0px 9px;
+    }
+
+    .header .logo a img {
+        max-height: 48px;
+        margin:0;
+    }
+
+    .para-two p{
+    padding: 34px 0;
+    line-height: -9.2;
+    color: #999999;
+    }
+
     .details p {
         font-family: 'Poppins', helvetica;
         font-size: 14px;
         font-weight: 300;
         color: #292929;
-        padding-left: 0px;
-        letter-spacing: 1px
-     }
+        padding-left: 3px;
+        letter-spacing: 1px;
 }
+@media (min-width: 576px){
+    
+    .header .logo a img {
+        max-height: 48px;
+        margin: 0 27px;
+    }
+}
+@media (min-width: 768px){}
+ 
 @media (min-width: 992px){
-    .hero .head-one h1{
-        color :rgb(36, 23, 150);
+    .navigation{
+        display:block;
     }
+    
+.about-img{
+    position: relative;
+    right: 0;
+    top: 0;
+    border: 20px solid #b8a07e;
+    width: 343px;
+    height: 376px;
+    z-index: 0;
+    overflow: visible;
 }
-@media (min-width: 1200px){
-    .hero .head-one h1{
-        color :rgb(15, 150, 98);
-    }
+
+
+.about-img img{
+    width: 312px;
+    height: 372px;
+    z-index: 2;
+    position: absolute;
+    top: -61px;
+    left: 36px;
+    
+
+
 }
-@media (min-width: 1400p){
-    .hero .head-one h1{
-        color :rgb(129, 50, 57);
-    }
+}
+ 
+@media (min-width: 1200px){}
+ 
+@media (min-width: 1400px){
+
 }
