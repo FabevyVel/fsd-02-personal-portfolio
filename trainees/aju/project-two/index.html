@@ -19,34 +19,44 @@
 </head>
 
 <body>
+  
     <div class="header">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row">
-                <div class="col-5">
+                <div class=" col-5">
                     <div class="logo">
                         <a href="index.html"><img src="./images/logo.png" alt="Aju"></a>
                     </div>
                 </div>
-                <div class="col-7">
+                <div class=" col-7">
                     <div class="navigation">
                         <ul class="nav justify-content-end">
                             <li class="nav-items">
-                                <a href="#hero" class="nav-link active">Home</a>
+                                <a href="#hero" class="nav-link nav-style active">Home</a>
                             </li>
                             <li class="nav-items">
-                                <a href="#about" class="nav-link ">About</a>
+                                <a href="#about" class="nav-link nav-style ">About</a>
                             </li>
                             <li class="nav-items">
-                                <a href="#portfolio" class="nav-link ">Portfolio</a>
+                                <a href="#portfolio" class="nav-link nav-style ">Portfolio</a>
                             </li>
                             <li class="nav-items">
-                                <a href="#journal" class="nav-link ">Blog</a>
+                                <a href="#journal" class="nav-link nav-style ">Blog</a>
+                            </li>
+                            <li class="dropdown">
+                               
+                                <button class="btn dropdown-toggle nav-style" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Dropdown button
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                                    <li><a class=" dropdown-item active" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    <li><a class="dropdown-item" href="#">Separated link</a></li>
+                                </ul>
                             </li>
                             <li class="nav-items">
-                                <a href="" class="nav-link drop-down ">Drop down</a>
-                            </li>
-                            <li class="nav-items">
-                                <a href="icon.html" class="nav-link ">Contact</a>
+                                <a href="icon.html" class="nav-link nav-style">Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -71,16 +81,16 @@
                                 <div class="social-navigations">
                                     <ul class="nav">
                                         <li class="nav-items">
-                                            <a href="https://facebook.com"><i class="icofont-facebook"></i></a>
+                                            <a href="https://facebook.com" target="blank"><i class="icofont-facebook"></i></a>
                                         </li>
                                         <li class="nav-items">
-                                            <a href="https://instagram.com"><i class="icofont-instagram"></i></a>
+                                            <a href="https://instagram.com" target="blank"><i class="icofont-instagram"></i></a>
                                         </li>
                                         <li class="nav-items">
-                                            <a href="https://twitter.com"><i class="icofont-twitter"></i></a>
+                                            <a href="https://twitter.com" target="blank"><i class="icofont-twitter"></i></a>
                                         </li>
                                         <li class="nav-items">
-                                            <a href="https://icofont-linkedin.com"><i class="icofont-linkedin"></i></a>
+                                            <a href="https://linkedin.com" target="blank"><i class="icofont-linkedin"></i></a>
                                         </li>
                                     </ul>
 
@@ -101,12 +111,12 @@
     <div class="about" id="about">
         <div class="container">
             <div class="row justify-content-between">
-                <div class="col-5">
+                <div class="col-12 col-xl-5 col-lg-5">
                     <div class="about-img">
                         <img src="./images/me.jpg" alt="......">
                     </div>
                 </div>
-                <div class="col-7">
+                <div class="col-12 col-xl-7 col-lg-7">
 
                     <div class="about-text">
                         <h2>im a ux /ui designer austin based who loves clean, simple & unique design. i also enjoy
@@ -178,26 +188,10 @@
                 
                     </div>
                 </div>
-                <div class="col-6">
-                    <div class="service-block">
-                        <i class="icofont-ui-v-card"></i>
-                        <div class="services-head">
-                            <h6>PHOTOGRAPHY</h6>
-
-                        </div>
-                        <div class="services-para">
-                            <p>To an English person, it will seem like simplified English,told me what</p>
-
-                        </div>
-
-                    </div>
-                </div>
+                
             </div>
         </div>
     </div>
-
-
-
     <!----about -->
 
     <!----portfolio---->
@@ -210,7 +204,7 @@
                 </div>
                 <div class="col-12 d-flex justify-content-center">
                     <ul class="list-group list-group-horizontal">
-                        <li class="list-group-item">all</li>
+                        <li class="list-group-item active">all</li>
                         <li class="list-group-item">app</li>
                         <li class="list-group-item">card</li>
                         <li class="list-group-item">web</li>
@@ -290,7 +284,6 @@
                                     <div class="col-6 d-flex justify-content-end ">
                                         <span><i class="icofont-ui-add"></i></span>
                                         <span><a href="icon.html"><i class="icofont-link"></i></a></span>
-
                                     </div>
                                 </div>
                             </div>
@@ -515,25 +508,28 @@
     <div class="footer">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-12 ">
+                <div class="col-12">
 
                     <div class="socials-media ">
 
                         <ul class="list-group list-group-horizontal justify-content-center">
-                            <li><a href="https//:facebook.com"><i class="icofont-facebook"></i></a></li>
-                            <li><a href="#"><i class="icofont-twitter"></i></a></li>
-                            <li><a href="#"><i class="icofont-instagram"></i></a></li>
-                            <li><a href="#"><i class="icofont-linkedin"></i></a></li>
+                            <li><a href="https://facebook.com" target="blank"> <i class="icofont-facebook"></i></a></li>
+                            <li><a href="https://twitter.com" target="blank"><i class="icofont-twitter"></i></a></li>
+                            <li><a href="https://instagram.com" target="blank"><i class="icofont-instagram"></i></a></li>
+                            <li><a href="https://linkedin.com" target="blank"><i class="icofont-linkedin"></i></a></li>
                         </ul>
 
                     </div>
-                    <p class="text-center">&#169; Copyright FOLIO. All Rights Reserved</p>
-                    <p class="text-center">Designed by <a href="#" class="btn btn-link">Justforfun</a></p>
+                    <p class="text-center paragragh">&#169; Copyright FOLIO. All Rights Reserved</p>
+                    <p class="text-center">Designed by <a href="#" class="btn btn-link just-fun">Justforfun</a></p>
                 </div>
             </div>
         </div>
     </div>
     <!--footer section end-->
-</body>
+    <script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+    
+   </body>
 
 </html>
