@@ -19,8 +19,11 @@
 </head>
 
 <body>
-  
-    <div class="header">
+    
+    <div class="header" id="header">
+        <button class="btnScrollToTop">
+            <a href="#hero"><i class="icofont-arrow-up"></i></a>
+        </button>
         <div class="container">
             <div class="row">
                 <div class=" col-5">
@@ -30,7 +33,7 @@
                 </div>
                 <div class=" col-7">
                     <div class="navigation">
-                        <ul class="nav justify-content-end">
+                        <ul class="nav mobile-nav justify-content-end">
                             <li class="nav-items">
                                 <a href="#hero" class="nav-link nav-style active">Home</a>
                             </li>
@@ -43,23 +46,28 @@
                             <li class="nav-items">
                                 <a href="#journal" class="nav-link nav-style ">Blog</a>
                             </li>
-                            <li class="dropdown">
-                               
-                                <button class="btn dropdown-toggle nav-style" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Dropdown button
-                                </button>
-                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
-                                    <li><a class=" dropdown-item active" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                    <li><a class="dropdown-item" href="#">Separated link</a></li>
+                            <li class="nav-items drop-items">
+                                <a href="#journal" class="nav-link nav-style ">dropdown</a>
+                                <ul class="drop-one">
+                                    <li><a class="nav-link nav-style toggle-one" href="">dropdown1</a></li>
+                                    <li><a class="nav-link nav-style" href="">dropdown2</a></li>
+                                    <li><a class="nav-link nav-style" href="">dropdown3</a></li>
+                                    <li><a class="nav-link nav-style" href="">dropdown4</a></li>
                                 </ul>
                             </li>
                             <li class="nav-items">
                                 <a href="icon.html" class="nav-link nav-style">Contact</a>
+                                
                             </li>
                         </ul>
                     </div>
+                    <div class="navigationham">
+                       <ul class="nav justify-content-end">
+                            <li class="nav-items mobile-toggle-trigger">
+                                <a class="nav-link" href="#"><i class="icofont-navigation-menu"></i></a>
+                            </li>
+                        </ul>
+                   </div>
 
                 </div>
             </div>
@@ -98,6 +106,7 @@
                             </div>
                         </div>
                     </div>
+                   
                 </div>
             </div>
         </div>
@@ -125,16 +134,17 @@
                             of mine told me what Occidental is. The European languages are members of the same
                             family.English person.</p>
                     </div>
-
+                   
                 </div>
             </div>
+            
         </div>
     </div>
 </div>
 <div class="services">
     <div class="container">
         <div class="row">
-            <div class="col-3">
+            <div class="col-lg-3">
                 <div class="service-block">
                     <img class="brief" src="./images/brightness-high (1).svg" alt="briefcase">
                     <div class="services-head">
@@ -148,7 +158,7 @@
 
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-lg-3">
                 <div class="service-block">
                     <img class="brief" src="./images/bar-chart.svg" alt="briefcase">
                     <div class="services-head">
@@ -162,7 +172,7 @@
 
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-lg-3">
                 <div class="service-block">
                     <img class="brief" src="./images/binoculars.svg" alt="briefcase">
                     <div class="services-head">
@@ -176,7 +186,7 @@
 
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-lg-3">
                 <div class="service-block">
                     <img class="brief" src="./images/calendar2-week.svg" alt="briefcase">
                     <div class="services-head">
@@ -212,7 +222,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-4">
+                <div class="col-12 col-md-6 col-lg-4">
                     <div class="card custom-card-2">
                         <div class="card-body">
                             <div class="card-image-wrapper">
@@ -239,7 +249,7 @@
 
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-12 col-md-6 col-lg-4">
                     <div class="card custom-card-2">
                         <div class="card-body">
                             <div class="card-image-wrapper">
@@ -267,7 +277,7 @@
 
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-12 col-md-6 col-lg-4">
                     <div class="card custom-card-2">
                         <div class="card-body">
                             <div class="card-image-wrapper">
@@ -294,7 +304,7 @@
 
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-12 col-md-6 col-lg-4">
                     <div class="card custom-card-2">
                         <div class="card-body">
                             <div class="card-image-wrapper">
@@ -322,22 +332,20 @@
 
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-12 col-md-6 col-lg-4">
                     <div class="card custom-card-2">
                         <div class="card-body">
                             <div class="card-image-wrapper">
-                                <img src="./images/portfolio-5.jpg" class="img-fluid" alt="one">
+                                <img src="./images/portfolio-5.jpg" class="img-fluid zoomed" alt="one">
                             </div>
                             <div class="card-text-wrapper">
                                 <div class="row">
                                     <div class="col-6">
                                         <h5 class="card-title">Web 2</h5>
                                         <p class="card-text">Web</p>
-
-
                                     </div>
                                     <div class="col-6 d-flex justify-content-end ">
-                                        <span><i class="icofont-ui-add"></i></span>
+                                        <span><a class="" href=" "><i class="icofont-ui-add click-one"></i></a></span>
                                         <span><a href="icon.html"><i class="icofont-link"></i></a></span>
 
                                     </div>
@@ -350,7 +358,7 @@
 
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-12 col-md-6 col-lg-4">
                     <div class="card custom-card-2">
                         <div class="card-body">
                             <div class="card-image-wrapper">
@@ -394,12 +402,12 @@
     <div class="journal" id="journal">
         <div class="container">
             <div class="row">
-                <div class="col-12">
+                <div class="col-12 col-lg-4">
                     <h2 class="text-center">JOURNAL</h2>
                 </div>
             </div>
             <div class="row">
-                <div class="col-4">
+                <div class="col-md-6 col-lg-4">
                     <div class="card custom-card-3">
                         <div class="card-body">
                             <div class="card-image-wrapper">
@@ -416,7 +424,7 @@
 
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-md-6 col-lg-4">
                     <div class="card custom-card-3">
                         <div class="card-body">
                             <div class="card-image-wrapper">
@@ -433,7 +441,7 @@
 
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-md-6 col-lg-4">
                     <div class="card custom-card-3">
                         <div class="card-body">
                             <div class="card-image-wrapper">
@@ -464,7 +472,7 @@
     <div class="form" id="#contact">
         <div class="container">
             <div class="row d-flex">
-                <div class="col-6">
+                <div class="col-lg-6 col-12 ">
                     <div class="head-form">
                         <h2>GET IN TOUCH</h2>
                     </div>
@@ -475,28 +483,7 @@
                         <li class="text-list">example@example.comt</li>
                     </ul>
                 </div>
-                <div class="col-6">
-                    <div class="row">
-                        <div class="col-6 ">
-                            <input type="text" class="text-input" placeholder="YOUR NAME" name="name">
-
-                        </div>
-                        <div class="col-6">
-                            <input type="email" class="text-input" placeholder="YOUR MAIL" name="mail">
-
-                        </div>
-                    </div>
-                    <div class="input-one">
-                        <input type="text" class="text-input" placeholder="SUBJECT" name="subject">
-
-                    </div>
-                    <div class="input-two">
-                        <textarea rows="7" class="text-area " placeholder="MESSAGE"></textarea>
-                    </div>
-                    <div class="input-three">
-                        <button class="button-one">send message</button>
-                    </div>
-                </div>
+                 
             </div>
 
         </div>
@@ -507,28 +494,28 @@
 
     <div class="footer">
         <div class="container-fluid">
-            <div class="row">
-                <div class="col-12">
-
-                    <div class="socials-media ">
-
+            <div class="row">   
+                <div class="col-12 ">
+      
+                    <div class="socials-media "> 
+      
                         <ul class="list-group list-group-horizontal justify-content-center">
-                            <li><a href="https://facebook.com" target="blank"> <i class="icofont-facebook"></i></a></li>
-                            <li><a href="https://twitter.com" target="blank"><i class="icofont-twitter"></i></a></li>
-                            <li><a href="https://instagram.com" target="blank"><i class="icofont-instagram"></i></a></li>
-                            <li><a href="https://linkedin.com" target="blank"><i class="icofont-linkedin"></i></a></li>
+                          <li><a class="link-one" href="https//:facebook.com"><i class="icofont-facebook"></i></a></li>
+                          <li><a class="link-one" href="#"><i class="icofont-twitter"></i></a></li>
+                          <li><a class="link-one" href="#"><i class="icofont-instagram"></i></a></li>
+                          <li><a class="link-one" href="#"><i class="icofont-linkedin"></i></a></li>
                         </ul>
-
+                
                     </div>
-                    <p class="text-center paragragh">&#169; Copyright FOLIO. All Rights Reserved</p>
-                    <p class="text-center">Designed by <a href="#" class="btn btn-link just-fun">Justforfun</a></p>
+                    <p class="text-center">&#169; Copyright FOLIO. All Rights Reserved</p>
+                        <p class="text-center">Designed by <a href="#" class="btn btn-link">Justforfun</a></p>
                 </div>
             </div>
         </div>
-    </div>
-    <!--footer section end-->
-    <script src="js/popper.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
+      </div>
+    <!--footer section end--> 
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js"></script>
     
    </body>
 

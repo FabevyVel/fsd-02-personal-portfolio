@@ -9,52 +9,72 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./fonts/icofont/icofont.css">
-
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <title>Im a designer</title>
 </head>
 <body>
-    <div class="header">
-        <div class="container-fluid">
+    <div class="header" id="header">
+        <button class="btnScrollToTop">
+            <a href="#blog"><i class="icofont-arrow-up"></i></a>
+        </button>
+        <div class="container">
             <div class="row">
-                <div class="col-5">
+                <div class=" col-5">
                     <div class="logo">
-                        <a href="index.html"><img src="./images/logo.png" alt="..."></a>
+                        <a href="index.html"><img src="./images/logo.png" alt="Aju"></a>
                     </div>
                 </div>
-                <div class="col-7">
+                <div class=" col-7">
                     <div class="navigation">
-                        <ul class="nav justify-content-end">
+                        <ul class="nav mobile-nav justify-content-end">
                             <li class="nav-items">
-                              <a href="index.html" class="nav-link active">Home</a>
+                                <a href="#hero" class="nav-link nav-style active">Home</a>
                             </li>
                             <li class="nav-items">
-                                <a href="index.html" class="nav-link ">About</a>
-                              </li>
-                              <li class="nav-items">
-                                <a href="index.html" class="nav-link ">Portfolio</a>
-                              </li>
-                              <li class="nav-items">
-                                <a href="index.html" class="nav-link ">Blog</a>
-                              </li>
-                              <li class="nav-items">
-                                <a href="" class="nav-link drop-down ">Drop down</a>
-                              </li>
-                              <li class="nav-items">
-                                <a href="index.html" class="nav-link ">Contact</a>
-                              </li>
+                                <a href="#about" class="nav-link nav-style ">About</a>
+                            </li>
+                            <li class="nav-items">
+                                <a href="#portfolio" class="nav-link nav-style ">Portfolio</a>
+                            </li>
+                            <li class="nav-items">
+                                <a href="#journal" class="nav-link nav-style ">Blog</a>
+                            </li>
+                            <li class="nav-items drop-items">
+                                <a href="#journal" class="nav-link nav-style ">dropdown</a>
+                                <ul class="drop-one">
+                                    <li><a class="nav-link nav-style toggle-one" href="">dropdown1</a></li>
+                                    <li><a class="nav-link nav-style" href="">dropdown2</a></li>
+                                    <li><a class="nav-link nav-style" href="">dropdown3</a></li>
+                                    <li><a class="nav-link nav-style" href="">dropdown4</a></li>
+                                </ul>
+
+
+                            </li>
+                            <li class="nav-items">
+                                <a href="icon.html" class="nav-link nav-style">Contact</a>
+                                
+                            </li>
                         </ul>
                     </div>
+                    <div class="navigationham">
+                       
+                        <ul class="nav justify-content-end">
+                            <li class="nav-items mobile-toggle-trigger">
+                                <a class="nav-link" href="#"><i class="icofont-navigation-menu"></i></a>
+                            </li>
+                        </ul>
+                   </div>
 
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="blog">
+    <div class="blog" id="blog">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-8 justify-content-center  ">
+                <div class="col-lg-8 col-12 justify-content-center">
                     <div class="row">
                         <div class="col-12">
                             <div class="img-one">
@@ -94,10 +114,14 @@
 
         </div>
     </div>
+
+
+    <!-------section-two-->
+
     <div class="section-two">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-8 justify-content-center  ">
+                <div class="col-lg-8 col-12 justify-content-center">
                     <div class="row">
                         <div class="col-12">
                             
@@ -109,7 +133,7 @@
                                         <img src="./images/avatar.jpg" alt="">
                                     </div>
                                 </div>
-                                <div class="col-10">
+                                <div class="col-12 col-sm-10 col-md-10 col-lg-10">
                                     <div class="section-comment d-flex">
                                         <h4>Andrew Lupkin</h4>
                                         <span> fev 14, 2018 at 12:55 pm</span>
@@ -117,8 +141,59 @@
                                     <div class="comment-para">
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam justo, ullamcorper tincidunt pellentesque in, condimentum ut enim. Aenean at pharetra diam, quis vulputate urna.</p>
                                     </div>
+                                    <div class="reply">
+                                        <a href="#">Reply</a>
+                                    </div>
+                                   
                                 </div>
                             </div>
+                            <hr>
+                            <div class="main-content-2">
+                                <h5>4 comments</h5>
+                            <div class="row">
+                                <div class="col-2">
+                                    <div class="img-wrapper">
+                                        <img src="./images/avatar.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-10 col-lg-10">
+                                    <div class="section-comment d-flex">
+                                        <h4>Andrew Lupkin</h4>
+                                        <span> fev 14, 2018 at 12:55 pm</span>
+                                    </div>
+                                    <div class="comment-para">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam justo, ullamcorper tincidunt pellentesque in, condimentum ut enim. Aenean at pharetra diam, quis vulputate urna.</p>
+                                    </div>
+                                    <div class="reply">
+                                        <a href="#">Reply</a>
+                                    </div>
+                                   
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="main-content">
+                                <h5>4 comments</h5>
+                            <div class="row">
+                                <div class="col-2">
+                                    <div class="img-wrapper">
+                                        <img src="./images/avatar.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-10 col-lg-10">
+                                    <div class="section-comment d-flex">
+                                        <h4>Andrew Lupkin</h4>
+                                        <span> fev 14, 2018 at 12:55 pm</span>
+                                    </div>
+                                    <div class="comment-para">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam justo, ullamcorper tincidunt pellentesque in, condimentum ut enim. Aenean at pharetra diam, quis vulputate urna.</p>
+                                    </div>
+                                    <div class="reply">
+                                        <a href="#">Reply</a>
+                                    </div>
+                                   
+                                </div>
+                            </div>
+                            <hr>    
                                 
                             </div>
                         </div>
@@ -128,9 +203,43 @@
         </div>
     </div>
 
-    <hr>
+    <!-------section-two-->
 
-
+    <div class="form">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-12 justify-content-center">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="col-lg-12 col-12">
+                                <div class="row">
+                                    <div class="col-lg-6 col-12">
+                                        <input type="text" class="text-input" placeholder="YOUR NAME" name="name">
+            
+                                    </div>
+                                    <div class="col-lg-6 col-12">
+                                        <input type="email" class="text-input" placeholder="YOUR MAIL" name="mail">
+            
+                                    </div>
+                                </div>
+                                <div class="input-one">
+                                    <input type="text" class="text-input" placeholder="SUBJECT" name="subject">
+            
+                                </div>
+                                <div class="input-two">
+                                    <textarea rows="7" class="text-area " placeholder="MESSAGE"></textarea>
+                                </div>
+                                <div class="input-three">
+                                    <button class="button-one">send message</button>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>                    
 
     <!--footer section start-->
 
@@ -156,8 +265,7 @@
     </div>
 </div>
 <!--footer section end-->
-</body>
-</html>
-
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>

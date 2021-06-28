@@ -6,6 +6,26 @@ body{
 
 /*headere section*/
 
+.btnScrollToTop{
+    position: fixed;
+    font-size: 25px;
+    font-weight: 500;
+    right: 10px;
+    bottom: 5px;
+    background-color: #b8a07e;
+    color: #eee;
+    border: none;
+}
+.btnScrollToTop a{
+    text-decoration: none;
+    color: #fff;
+
+}
+.navigationham a{
+    text-decoration: none;
+    list-style:none ;
+}
+
 .header{
     width:100%;
     position: fixed;
@@ -19,12 +39,51 @@ body{
 
 
 .header .logo a img{
-    max-height: 40px;
-    margin-left: 104px;
+    max-height: 35px;
 }
 
 .navigation {
     padding: 10px 0px;
+}
+.navigation{
+    display:none;
+}
+.mobile-toggle-trigger{
+   display: block;
+}
+.drop-items .drop-one{
+    position:absolute;
+    display:none ;
+}
+.drop-one li{
+    width: 180px;
+     padding-bottom: 5px;
+    display: block;
+    background-color: #fff;
+    border:4px rgba(36, 36, 33, 0.104);
+    
+}
+.drop-one{
+    padding: 9px 0px;
+}
+.drop-two{
+    position:absolute;
+    display:none;
+}
+.drop-two li{
+    width: 180px;
+     padding-bottom: 5px;
+    display: block;
+    background-color: #fff;
+    
+}
+.toggle-one{
+    padding: 10px;
+}
+
+.mobile-toggle-trigger a{
+   width: 30px;
+   color: #999;
 }
 
 .nav-style{
@@ -32,7 +91,8 @@ body{
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
     font-weight: 500;
-    padding: 8px 14px 11px 20px;
+    padding: 4px 6px 4px 20px;
+    letter-spacing: 0.5px;
 }
 .nav-style:hover{
     color: #b8a07e;
@@ -40,10 +100,17 @@ body{
 .btn:focus{
     box-shadow: none;
 }
+
 /*header section ends*/
 
 
 /*herrooo starts*/
+.arrow {
+    background-color: #b8a07e;
+    font-size: 30px;
+    width: 50px;
+    position:fixed;
+}
 
 .hero{
     background: url(../images/home-bg.jpg) repeat scroll center center/cover;
@@ -437,6 +504,7 @@ font-weight: 600;
 }
 .blog .img-one img{
 overflow: hidden;
+width:100%;
 }
 
 .blog .about-head{
@@ -481,6 +549,9 @@ overflow: hidden;
     font-weight: 400;
     letter-spacing: 1px;
 }
+hr{
+    margin: 20px 74px;
+}
 .main-content{
     background: #fff;
 }
@@ -519,23 +590,38 @@ overflow: hidden;
     letter-spacing: 0.1em;
     font-weight: 500;
     font-family: 'Poppins', helvetica;
-    padding: 0 0 0 17px;
+    padding: 8px 0px;
     
 }
 .section-comment span{
     color: #999999;
-    margin-bottom: 20px;
+    margin-bottom: 11px;
     font-family: 'Poppins', helvetica;
     font-size: 12px;
+    padding: 5px 0px;
 }
 .comment-para p{
-    margin: 25px 17px;
-    padding: 0;
+    margin: 6px 2px;
+    padding: 4px 32px 0 0px;
     font-size: 15px;
     color: #999999;
     line-height: 28px;
 font-family: 'Poppins', helvetica;
 
+}
+.reply a{
+    color:#292929;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    list-style: none;
+    font-size: 13px;
+    padding: 1px;
+    font-family: 'Poppins', helvetica;
+    font-weight: 500;
+}
+.reply:hover{
+    color: blue;
+    
 }
 
 

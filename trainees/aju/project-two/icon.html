@@ -17,43 +17,57 @@
     <title>JustForFun</title>
 </head>
 <body>
-    <div class="header">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12 col-xl-5">
-                    <div class="logo">
-                        <a href="index.html"><img src="./images/logo.png" alt="..."></a>
-                    </div>
+  <div class="header" id="header">
+    <div class="container">
+        <div class="row">
+            <div class=" col-5">
+                <div class="logo">
+                    <a href="index.html"><img src="./images/logo.png" alt="Aju"></a>
                 </div>
-                <div class="col-12 col-xl-7">
-                    <div class="navigation">
-                        <ul class="nav justify-content-end">
-                            <li class="nav-items">
-                              <a href="index.html" class="nav-link active">Home</a>
-                            </li>
-                            <li class="nav-items">
-                                <a href="#about" class="nav-link ">About</a>
-                              </li>
-                              <li class="nav-items">
-                                <a href="#portfolio" class="nav-link ">Portfolio</a>
-                              </li>
-                              <li class="nav-items">
-                                <a href="#journal" class="nav-link ">Blog</a>
-                              </li>
-                              <li class="nav-items">
-                                <a href="" class="nav-link drop-down ">Drop down</a>
-                              </li>
-                              <li class="nav-items">
-                                <a href="#contact" class="nav-link ">Contact</a>
-                              </li>
-                        </ul>
-                    </div>
-
+            </div>
+            <div class=" col-7">
+                <div class="navigation">
+                    <ul class="nav mobile-nav justify-content-end">
+                        <li class="nav-items">
+                            <a href="#hero" class="nav-link nav-style active">Home</a>
+                        </li>
+                        <li class="nav-items">
+                            <a href="#about" class="nav-link nav-style ">About</a>
+                        </li>
+                        <li class="nav-items">
+                            <a href="#portfolio" class="nav-link nav-style ">Portfolio</a>
+                        </li>
+                        <li class="nav-items">
+                            <a href="#journal" class="nav-link nav-style ">Blog</a>
+                        </li>
+                        <li class="dropdown drop-items">
+                           
+                            <button class="btn dropdown-toggle nav-style" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown</button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                                <li><a class=" dropdown-item" href="#">dropdown1</a></li>
+                                <li><a class="dropdown-item" href="#">dropdown2</a></li>
+                                <li><a class="dropdown-item" href="#">dropdown3</a></li>
+                                <li><a class="dropdown-item" href="#">dropdown4</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-items">
+                            <a href="icon.html" class="nav-link nav-style">Contact</a>
+                            
+                        </li>
+                    </ul>
+                </div>
+               <div class="navigationham">
+                  <ul class="nav justify-content-end">
+                    <li class="nav-items mobile-toggle-trigger">
+                        <a class="nav-link" href="#"><i class="icofont-navigation-menu"></i></a>
+                    </li>
+                  </ul>
                 </div>
             </div>
         </div>
     </div>
-    
+</div>  
     <div class="details">
       <div class="container">
         <div class="row">
@@ -135,7 +149,6 @@
                     <li><a class="link-one" href="#"><i class="icofont-instagram"></i></a></li>
                     <li><a class="link-one" href="#"><i class="icofont-linkedin"></i></a></li>
                   </ul>
-          
                 </div>
               <p class="text-center">&#169; Copyright FOLIO. All Rights Reserved</p>
                   <p class="text-center">Designed by <a href="#" class="btn btn-link">Justforfun</a></p>
@@ -144,7 +157,10 @@
   </div>
 </div>
 <!--footer section end-->
+<script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/bootstrap.js"></script>
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
