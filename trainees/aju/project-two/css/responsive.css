@@ -153,7 +153,10 @@ color: #999999;
         margin-top: 40px;
     }
 }
-@media (min-width: 576px){
+@media (max-width: 767px){
+    .service-none1{
+        display: none;
+    }
 }
 @media (min-width: 768px){
  }
@@ -172,7 +175,8 @@ color: #999999;
         justify-content: space-around !important;
         height: 50%;
      }
-    .
+     
+     
  }
 @media (min-width: 992px){
   
@@ -186,7 +190,7 @@ color: #999999;
         z-index: 0;
         overflow: visible;
     }
-
+    
 
     .about-img img{
         width: 312px;
@@ -204,7 +208,11 @@ color: #999999;
    }
 }
  
-@media (min-width: 1200px){}
+@media (max-width: 1199px){
+    .service-none{
+        display: none;
+    }
+}
  
 @media (min-width: 1400px){
 
