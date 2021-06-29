@@ -393,11 +393,11 @@ padding-top: 10px;
 .list-style-2 .list-group-item .list-2-icon{}
 .list-style-2 .list-group-item .list-2-icon .icon-wrapper{
     font-size: 20px;
-    color: #34b7a7;
+    color: #ffb727;
     /* float: left; */
     width: 44px;
     height: 44px;
-    background: #effbf9;
+    background: #fff3d2;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -408,7 +408,7 @@ padding-top: 10px;
 
 .list-style-2 .list-group-item:hover .icon-wrapper{
     color:#fff;
-    background: #34b7a7 ;
+    background:#ffb727;
 }
 .list-style-2 .list-group-item .list-2-icon .list-2-text{}
 .list-style-2 .list-group-item .list-2-icon .list-2-text h5{}
