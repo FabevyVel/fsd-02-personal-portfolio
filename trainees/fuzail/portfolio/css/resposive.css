@@ -3,17 +3,16 @@
         color: black;
     }
     .about .content .tab tr td{
-        min-width: 45%;
+        min-width: 60%;
     }
 
 }
-
 @media (min-width: 768px){
     .section-title h2{
         color: black;
     }
     .about .content .tab tr td {
-        min-width: 70%;
+        min-width: 40%;
     }
 }
 
@@ -21,11 +20,17 @@
     .section-title h2{
         color: black;
     }
+    .about .content .tab tr td {
+        min-width: 65%;
+    }
 }
 
 @media (min-width: 1200px){
     .section-title h2{
         color: black;
+    }
+    .about .content .tab tr td {
+        min-width: 65%;
     }
 }
 
