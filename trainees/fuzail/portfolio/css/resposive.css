@@ -2,11 +2,18 @@
     .section-title h2{
         color: black;
     }
+    .about .content .tab tr td{
+        min-width: 45%;
+    }
+
 }
 
 @media (min-width: 768px){
     .section-title h2{
         color: black;
+    }
+    .about .content .tab tr td {
+        min-width: 70%;
     }
 }
 

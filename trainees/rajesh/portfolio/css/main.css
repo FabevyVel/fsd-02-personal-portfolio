@@ -54,11 +54,13 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 0 0 0;
     font-size: 12px;
 }
-.custom-progress-bar-1 .progress{
+.custom-progress-bar-1 .progress-wrap{
     height: 10px;
     border-radius: 0;
+    background: rgba(255, 255, 255, 0.2);
 }
-.custom-progress-bar-1 .progress .progress-bar{
+.custom-progress-bar-1 .progress-wrap .progress-bar{
+    height: 10px;
     background-color: #18d26e;
 }
 
@@ -128,7 +130,7 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 50%;
     margin: -40px 0 0 40px;
     position: relative;
-    z-index: 2;
+    z-index: 0;
     border: 6px solid rgba(255, 255, 255, 0.12);
 }
 
@@ -157,12 +159,21 @@ h1, h2, h3, h4, h5, h6 {
     background: rgba(204, 204, 204, 0.1);
     padding: 80px 20px;
     transition: all ease-in-out 0.3s;
+    width: 100%;
+}
+.custom-card-type4 a{
+    color: #fff;
 }
 
+.custom-card-type4 a:hover{
+    transition: .3s;
+    color: #000;
+}
 .custom-card-type4:hover {
     color: #000;
     background-color: #18d26e;
 }
+
 
 .custom-card-type4:hover .icon{
     background-color: #fff;
@@ -253,11 +264,11 @@ width: 100%;
     padding: 0;
 }
 
-.custom-card-type6 a{
+.custom-card-type6 a, .timeline li a{
     color: #fff;
 }
 
-.custom-card-type6 a:hover{
+.custom-card-type6 a:hover, .timeline li a:hover{
     color: #18d26e;
 }
 
@@ -302,7 +313,7 @@ width: 100%;
 
 .timeline li{
     padding-bottom: 10px;
-    padding-left: 20px;
+    /* padding-left: 20px; */
 }
 
 .timeline ul{
@@ -383,6 +394,7 @@ body{
 .header-top h1{
     margin-right: auto;
     font-size: 26px;
+    text-align: left;
 }
 
 .header .dkt, .header-top .dkt{
@@ -395,11 +407,15 @@ body{
     display: inline-block;
 }
 
-.header h2{
+.header .desc {
     font-size: 24px;
-    color: rgba(255, 255, 255, 0.8);
+    color: rgb(255, 255, 255);
     margin-top: 20px;
     display: inline-block;
+}
+
+.close{
+    display: none;
 }
 
 .text-content span{
@@ -432,9 +448,9 @@ body{
     position: relative;
 }
 
-.main-navigation li+li{
+/* .main-navigation li+li{
     margin-left: 30px;
-}
+} */
 
 .header .main-navigation{
     padding: 0;
@@ -477,7 +493,7 @@ body{
 }
 
 .header .social-navigation{
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 .header .social-navigation .nav-item .nav-link{
