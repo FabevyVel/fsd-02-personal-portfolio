@@ -174,7 +174,7 @@ body {
   font-style: normal;
   font-variant: normal;
   line-height: 1;
-  /* display: inline-block; */
+  display: inline-block;
   text-transform: none;
   speak-as: none;
   -webkit-font-smoothing: antialiased;
@@ -431,8 +431,8 @@ i {
   text-transform: capitalize;
 }
 
-        /* SERVICE PAGE STARTS  */
-.section-title .service{
+        /* SKILLS PAGE STARTS  */
+.section-title .skills{
     position: absolute;
     top:2px;
     color: #eef0f2;
@@ -444,13 +444,13 @@ i {
     text-transform: uppercase;
     line-height: 0;
 }
-.service p{
+.skills p{
   font-family: "Raleway", sans-serif;
   font-size:17px;
   color: #5d6a75;
   font-weight:500;
 }
-.service{
+.skills{
   padding-top:60px;
   position:relative;
 }
@@ -510,8 +510,8 @@ i {
     /* FOOTER  */
 
 #footer {
-  background: url("../img/footer-bg.jpg") top center no-repeat;
-  background-size: cover;
+  background: url("https://cdn.pixabay.com/photo/2015/06/24/15/45/code-820275_960_720.jpg") top center no-repeat;
+  background-size:cover;
   color: #fff;
   font-size: 14px;
   text-align: center;
