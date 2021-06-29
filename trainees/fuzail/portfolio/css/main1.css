@@ -530,16 +530,14 @@ section {
     padding: 0;
 }
 
-.about .content ul li {
-    margin-bottom: 32px;
+.about .content .tab tr {
+    margin-bottom: 26px;
     display: flex;
 }
-
 .about .content ul strong {
     margin-right: 10px;
 }
-
-.about .content ul i {
+.about .content .tab tr i  {
     font-size: 16px;
     margin-right: 5px;
     color: #ffb727;
@@ -590,7 +588,6 @@ section {
     font-family: "Satisfy", serif;
     transition: ease-in-out 0.3s;
 }
-
 .about .content .count-box a:hover {
     color: #82909c;
 }
