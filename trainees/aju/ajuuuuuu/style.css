@@ -54,12 +54,22 @@ margin-bottom: 65px;
 .hero-pad{
     padding-top: 15%;
 }
+.custom-card .firmino{
+    width: 300px;
+    width: 200px;
+}
 .hero h2{
     font-size: 60px;
     font-weight: 700;
     color: #fff;
     text-shadow: 0 5px 10px rgba(0, 0, 0, 1);
     mix-blend-mode: overlay;
+}
+.underline{
+    width: 50px;
+    height: 3px;
+    background-color: yellow;
+    margin: 23px auto;
 }
 .hero p{
     color: #fff;
@@ -69,6 +79,22 @@ margin-bottom: 65px;
 /*heroooooooo*/
 
 /*portfolio*/
+.animate ul li{
+    padding: 8px 10px;
+    margin: 0 6px 20px 0;
+    list-style: none;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow:1px rgb(106, 106, 209);
+    color: yellowgreen;
+    cursor: pointer;
+    line-height: 10px;
+}
+.animate ul li.active{
+    background-color: rgb(106, 106, 209);
+}
+
 .portfolio{
     margin-top: 35px;
     

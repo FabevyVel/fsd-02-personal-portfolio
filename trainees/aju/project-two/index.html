@@ -8,8 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
          rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@100;200;300;400;500;600&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./fonts/icofont/icofont.css">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
@@ -17,40 +16,56 @@
     <link rel="stylesheet" href="./css/responsive.css">
     <title>JustForFun</title>
 </head>
-
 <body>
-    <div class="header">
-        <div class="container-fluid">
+    
+    <div class="header" id="header">
+        <button class="btnScrollToTop">
+            <a href="#hero"><i class="icofont-arrow-up"></i></a>
+        </button>
+        <div class="container">
             <div class="row">
-                <div class="col-5">
+                <div class=" col-5">
                     <div class="logo">
                         <a href="index.html"><img src="./images/logo.png" alt="Aju"></a>
                     </div>
                 </div>
-                <div class="col-7">
+                <div class=" col-7">
                     <div class="navigation">
-                        <ul class="nav justify-content-end">
+                        <ul class="nav mobile-nav justify-content-end">
                             <li class="nav-items">
-                                <a href="#hero" class="nav-link active">Home</a>
+                                <a href="#hero" class="nav-link nav-style active">Home</a>
                             </li>
                             <li class="nav-items">
-                                <a href="#about" class="nav-link ">About</a>
+                                <a href="#about" class="nav-link nav-style ">About</a>
                             </li>
                             <li class="nav-items">
-                                <a href="#portfolio" class="nav-link ">Portfolio</a>
+                                <a href="#portfolio" class="nav-link nav-style ">Portfolio</a>
                             </li>
                             <li class="nav-items">
-                                <a href="#journal" class="nav-link ">Blog</a>
+                                <a href="#journal" class="nav-link nav-style ">Blog</a>
+                            </li>
+                            <li class="nav-items drop-items">
+                                <a href="#journal" class="nav-link nav-style ">dropdown</a>
+                                <ul class="drop-one">
+                                    <li><a class="nav-link nav-style toggle-one" href="">dropdown1</a></li>
+                                    <li><a class="nav-link nav-style" href="">dropdown2</a></li>
+                                    <li><a class="nav-link nav-style" href="">dropdown3</a></li>
+                                    <li><a class="nav-link nav-style" href="">dropdown4</a></li>
+                                </ul>
                             </li>
                             <li class="nav-items">
-                                <a href="" class="nav-link drop-down ">Drop down</a>
-                            </li>
-                            <li class="nav-items">
-                                <a href="icon.html" class="nav-link ">Contact</a>
+                                <a href="icon.html" class="nav-link nav-style">Contact</a>
+                                
                             </li>
                         </ul>
                     </div>
-
+                    <div class="navigationham">
+                       <ul class="nav justify-content-end">
+                            <li class="nav-items mobile-toggle-trigger">
+                                <a class="nav-link" href="#"><i class="icofont-navigation-menu"></i></a>
+                            </li>
+                        </ul>
+                   </div>
                 </div>
             </div>
         </div>
@@ -65,29 +80,28 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-12 head-one">
-
                                 <h1>I'M DESIGNER</h1>
                                 <p>Designer, Developer, Freelancer, Photographer</p>
                                 <div class="social-navigations">
                                     <ul class="nav">
                                         <li class="nav-items">
-                                            <a href="https://facebook.com"><i class="icofont-facebook"></i></a>
+                                            <a href="https://facebook.com" target="blank"><i class="icofont-facebook"></i></a>
                                         </li>
                                         <li class="nav-items">
-                                            <a href="https://instagram.com"><i class="icofont-instagram"></i></a>
+                                            <a href="https://instagram.com" target="blank"><i class="icofont-instagram"></i></a>
                                         </li>
                                         <li class="nav-items">
-                                            <a href="https://twitter.com"><i class="icofont-twitter"></i></a>
+                                            <a href="https://twitter.com" target="blank"><i class="icofont-twitter"></i></a>
                                         </li>
                                         <li class="nav-items">
-                                            <a href="https://icofont-linkedin.com"><i class="icofont-linkedin"></i></a>
+                                            <a href="https://linkedin.com" target="blank"><i class="icofont-linkedin"></i></a>
                                         </li>
                                     </ul>
 
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div>      
                 </div>
             </div>
         </div>
@@ -101,30 +115,28 @@
     <div class="about" id="about">
         <div class="container">
             <div class="row justify-content-between">
-                <div class="col-5">
+                <div class="col-12 col-xl-5 col-lg-5">
                     <div class="about-img">
                         <img src="./images/me.jpg" alt="......">
                     </div>
                 </div>
-                <div class="col-7">
-
+                <div class="col-12 col-xl-7 col-lg-7">
                     <div class="about-text">
                         <h2>im a ux /ui designer austin based who loves clean, simple & unique design. i also enjoy
                             crafting brand identities, icons, & ilustration work.</h2>
                         <p>To an English person, it will seem like simplified English, as a skeptical Cambridge friend
                             of mine told me what Occidental is. The European languages are members of the same
                             family.English person.</p>
-                    </div>
-
+                    </div>                   
                 </div>
-            </div>
+            </div>            
         </div>
     </div>
 </div>
 <div class="services">
     <div class="container">
         <div class="row">
-            <div class="col-3">
+            <div class="col-xl-3 col-md-6">
                 <div class="service-block">
                     <img class="brief" src="./images/brightness-high (1).svg" alt="briefcase">
                     <div class="services-head">
@@ -135,11 +147,10 @@
                         <p>To an English person, it will seem like simplified English,told me what</p>
                 
                     </div>
-
                 </div>
             </div>
-            <div class="col-3">
-                <div class="service-block">
+            <div class="col-xl-3 col-md-6">
+                <div class="service-block service-none1">
                     <img class="brief" src="./images/bar-chart.svg" alt="briefcase">
                     <div class="services-head">
                         <h6>PHOTOGRAPHY</h6>
@@ -149,11 +160,10 @@
                         <p>To an English person, it will seem like simplified English,told me what</p>
                 
                     </div>
-
                 </div>
             </div>
-            <div class="col-3">
-                <div class="service-block">
+            <div class="col-xl-3 col-md-6">
+                <div class="service-block service-none">
                     <img class="brief" src="./images/binoculars.svg" alt="briefcase">
                     <div class="services-head">
                         <h6>MOBILE APPS</h6>
@@ -166,38 +176,23 @@
 
                 </div>
             </div>
-            <div class="col-3">
-                <div class="service-block">
+            <div class="col-xl-3 col-md-6">
+                <div class="service-block service-none">
                     <img class="brief" src="./images/calendar2-week.svg" alt="briefcase">
                     <div class="services-head">
                         <h6>PHOTOGRAPHY</h6>
                 
                     </div>
                     <div class="services-para">
-                        <p>To an English person, it will seem like simplified English,told me what</p>
-                
+                        <p>To an English person, it will seem like simplified English,told me what</p>                
                     </div>
-                </div>
-                <div class="col-6">
-                    <div class="service-block">
-                        <i class="icofont-ui-v-card"></i>
-                        <div class="services-head">
-                            <h6>PHOTOGRAPHY</h6>
-
-                        </div>
-                        <div class="services-para">
-                            <p>To an English person, it will seem like simplified English,told me what</p>
-
-                        </div>
-
-                    </div>
-                </div>
+                </div>                
             </div>
         </div>
     </div>
 
 
-
+    
     <!----about -->
 
     <!----portfolio---->
@@ -210,7 +205,7 @@
                 </div>
                 <div class="col-12 d-flex justify-content-center">
                     <ul class="list-group list-group-horizontal">
-                        <li class="list-group-item">all</li>
+                        <li class="list-group-item active">all</li>
                         <li class="list-group-item">app</li>
                         <li class="list-group-item">card</li>
                         <li class="list-group-item">web</li>
@@ -218,7 +213,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-4">
+                <div class="col-12 col-md-6 col-lg-4">
                     <div class="card custom-card-2">
                         <div class="card-body">
                             <div class="card-image-wrapper">
@@ -237,15 +232,11 @@
                                     </div>
                                 </div>
                             </div>
-
                             <div class="card-overlay"></div>
-
-
                         </div>
-
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-12 col-md-6 col-lg-4">
                     <div class="card custom-card-2">
                         <div class="card-body">
                             <div class="card-image-wrapper">
@@ -256,8 +247,6 @@
                                     <div class="col-6">
                                         <h5 class="card-title">Web 3</h5>
                                         <p class="card-text">Web</p>
-
-
                                     </div>
                                     <div class="col-6 d-flex justify-content-end ">
                                         <span><i class="icofont-ui-add"></i></span>
@@ -273,7 +262,7 @@
 
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-12 col-md-6 col-lg-4">
                     <div class="card custom-card-2">
                         <div class="card-body">
                             <div class="card-image-wrapper">
@@ -290,7 +279,6 @@
                                     <div class="col-6 d-flex justify-content-end ">
                                         <span><i class="icofont-ui-add"></i></span>
                                         <span><a href="icon.html"><i class="icofont-link"></i></a></span>
-
                                     </div>
                                 </div>
                             </div>
@@ -301,7 +289,7 @@
 
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-12 col-md-6 col-lg-4">
                     <div class="card custom-card-2">
                         <div class="card-body">
                             <div class="card-image-wrapper">
@@ -312,8 +300,6 @@
                                     <div class="col-6">
                                         <h5 class="card-title">Card 2</h5>
                                         <p class="card-text">Card</p>
-
-
                                     </div>
                                     <div class="col-6 d-flex justify-content-end ">
                                         <span><i class="icofont-ui-add"></i></span>
@@ -323,41 +309,34 @@
                                 </div>
                             </div>
                             <div class="card-overlay"></div>
-
-
                         </div>
 
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-12 col-md-6 col-lg-4">
                     <div class="card custom-card-2">
                         <div class="card-body">
                             <div class="card-image-wrapper">
-                                <img src="./images/portfolio-5.jpg" class="img-fluid" alt="one">
+                                <img src="./images/portfolio-5.jpg" class="img-fluid zoomed" alt="one">
                             </div>
                             <div class="card-text-wrapper">
                                 <div class="row">
                                     <div class="col-6">
                                         <h5 class="card-title">Web 2</h5>
                                         <p class="card-text">Web</p>
-
-
                                     </div>
                                     <div class="col-6 d-flex justify-content-end ">
-                                        <span><i class="icofont-ui-add"></i></span>
+                                        <span><a class="" href=" "><i class="icofont-ui-add click-one"></i></a></span>
                                         <span><a href="icon.html"><i class="icofont-link"></i></a></span>
 
                                     </div>
                                 </div>
                             </div>
                             <div class="card-overlay"></div>
-
-
                         </div>
-
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-12 col-md-6 col-lg-4">
                     <div class="card custom-card-2">
                         <div class="card-body">
                             <div class="card-image-wrapper">
@@ -378,18 +357,11 @@
 
                             </div>
                             <div class="card-overlay"></div>
-
-
-
                         </div>
-
                     </div>
                 </div>
-
             </div>
-
         </div>
-
     </div>
 
 
@@ -400,13 +372,14 @@
 
     <div class="journal" id="journal">
         <div class="container">
+            
             <div class="row">
-                <div class="col-12">
+                <div class="col-12 col-lg-4">
                     <h2 class="text-center">JOURNAL</h2>
                 </div>
             </div>
             <div class="row">
-                <div class="col-4">
+                <div class="col-md-6 col-lg-4">
                     <div class="card custom-card-3">
                         <div class="card-body">
                             <div class="card-image-wrapper">
@@ -423,7 +396,7 @@
 
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-md-6 col-lg-4">
                     <div class="card custom-card-3">
                         <div class="card-body">
                             <div class="card-image-wrapper">
@@ -434,13 +407,10 @@
                                 </h5>
                                 <p class="card-text">To an English person, it will seem like simplified English</p>
                             </div>
-
-
                         </div>
-
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-md-6 col-lg-4">
                     <div class="card custom-card-3">
                         <div class="card-body">
                             <div class="card-image-wrapper">
@@ -453,10 +423,7 @@
                                 <p class="card-text">
                                     To an English person, it will seem like simplified English</p>
                             </div>
-
-
                         </div>
-
                     </div>
                 </div>
             </div>
@@ -471,7 +438,7 @@
     <div class="form" id="#contact">
         <div class="container">
             <div class="row d-flex">
-                <div class="col-6">
+                <div class="col-lg-6 col-12 ">
                     <div class="head-form">
                         <h2>GET IN TOUCH</h2>
                     </div>
@@ -482,13 +449,13 @@
                         <li class="text-list">example@example.comt</li>
                     </ul>
                 </div>
-                <div class="col-6">
+                <div class="col-lg-6 col-12">
                     <div class="row">
-                        <div class="col-6 ">
+                        <div class="col-lg-6 col-12">
                             <input type="text" class="text-input" placeholder="YOUR NAME" name="name">
 
                         </div>
-                        <div class="col-6">
+                        <div class="col-lg-6 col-12">
                             <input type="email" class="text-input" placeholder="YOUR MAIL" name="mail">
 
                         </div>
@@ -505,7 +472,6 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
 
@@ -514,26 +480,31 @@
 
     <div class="footer">
         <div class="container-fluid">
-            <div class="row">
+            <div class="row">   
                 <div class="col-12 ">
-
-                    <div class="socials-media ">
-
+      
+                    <div class="socials-media "> 
+      
                         <ul class="list-group list-group-horizontal justify-content-center">
-                            <li><a href="https//:facebook.com"><i class="icofont-facebook"></i></a></li>
-                            <li><a href="#"><i class="icofont-twitter"></i></a></li>
-                            <li><a href="#"><i class="icofont-instagram"></i></a></li>
-                            <li><a href="#"><i class="icofont-linkedin"></i></a></li>
-                        </ul>
-
+                          <li><a class="link-one" href="https//:facebook.com"><i class="icofont-facebook"></i></a></li>
+                          <li><a class="link-one" href="#"><i class="icofont-twitter"></i></a></li>
+                          <li><a class="link-one" href="#"><i class="icofont-instagram"></i></a></li>
+                          <li><a class="link-one" href="#"><i class="icofont-linkedin"></i></a></li>
+                        </ul>                
                     </div>
                     <p class="text-center">&#169; Copyright FOLIO. All Rights Reserved</p>
-                    <p class="text-center">Designed by <a href="#" class="btn btn-link">Justforfun</a></p>
+                        <p class="text-center">Designed by <a href="#" class="btn btn-link">Justforfun</a></p>
                 </div>
             </div>
         </div>
-    </div>
-    <!--footer section end-->
-</body>
+      </div>
+    <!--footer section end--> 
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js"></script>
+    
+   </body>
 
 </html>

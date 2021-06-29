@@ -13,64 +13,103 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./fonts/icofont/icofont.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <title>JustForFun</title>
 </head>
 <body>
-    <div class="header">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-5">
-                    <div class="logo">
-                        <a href="index.html"><img src="./images/logo.png" alt="..."></a>
-                    </div>
+  <div class="header" id="header">
+    <div class="container">
+        <div class="row">
+            <div class=" col-5">
+                <div class="logo">
+                    <a href="index.html"><img src="./images/logo.png" alt="Aju"></a>
                 </div>
-                <div class="col-7">
-                    <div class="navigation">
-                        <ul class="nav justify-content-end">
-                            <li class="nav-items">
-                              <a href="index.html" class="nav-link active">Home</a>
-                            </li>
-                            <li class="nav-items">
-                                <a href="#about" class="nav-link ">About</a>
-                              </li>
-                              <li class="nav-items">
-                                <a href="#portfolio" class="nav-link ">Portfolio</a>
-                              </li>
-                              <li class="nav-items">
-                                <a href="#journal" class="nav-link ">Blog</a>
-                              </li>
-                              <li class="nav-items">
-                                <a href="" class="nav-link drop-down ">Drop down</a>
-                              </li>
-                              <li class="nav-items">
-                                <a href="#contact" class="nav-link ">Contact</a>
-                              </li>
-                        </ul>
-                    </div>
-
+            </div>
+            <div class=" col-7">
+                <div class="navigation">
+                    <ul class="nav mobile-nav justify-content-end">
+                        <li class="nav-items">
+                            <a href="#hero" class="nav-link nav-style active">Home</a>
+                        </li>
+                        <li class="nav-items">
+                            <a href="#about" class="nav-link nav-style ">About</a>
+                        </li>
+                        <li class="nav-items">
+                            <a href="#portfolio" class="nav-link nav-style ">Portfolio</a>
+                        </li>
+                        <li class="nav-items">
+                            <a href="#journal" class="nav-link nav-style ">Blog</a>
+                        </li>
+                        <li class="nav-items drop-items">
+                          <a href="#journal" class="nav-link nav-style ">dropdown</a>
+                          <ul class="drop-one">
+                              <li><a class="nav-link nav-style toggle-one" href="">dropdown1</a></li>
+                              <li><a class="nav-link nav-style" href="">dropdown2</a></li>
+                              <li><a class="nav-link nav-style" href="">dropdown3</a></li>
+                              <li><a class="nav-link nav-style" href="">dropdown4</a></li>
+                          </ul>
+                      </li>
+                        <li class="nav-items">
+                            <a href="icon.html" class="nav-link nav-style">Contact</a>
+                            
+                        </li>
+                    </ul>
+                </div>
+               <div class="navigationham">
+                  <ul class="nav justify-content-end">
+                    <li class="nav-items mobile-toggle-trigger">
+                        <a class="nav-link" href="#"><i class="icofont-navigation-menu"></i></a>
+                    </li>
+                  </ul>
                 </div>
             </div>
         </div>
     </div>
-    
+</div>  
     <div class="details">
       <div class="container">
         <div class="row">
-          <div class="col-8 col-sm-12 detail-head">
+          <div class="col-12 col-xl-8 detail-head">
             <h2>Portfolio Details</h2>
           </div>
-          <div class="col-4 col-sm-12 list-group-horizontal justify-content-end">
+          <div class="col-12 col-xl-4 list-group-horizontal justify-content-end">
             <p> Home / Portfolio / Portfolio Details</p>
           </div>
          
         </div>
         <div class="row">
-          <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
-            <div class="img-one">
-              <img class="img-fluid" src="images/portfolio-details-1.jpg" alt="gggg"></div>
-            
+          <div class="col-12 col-xl-8" >
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="images/icon-one.jpg" class="d-block w-100" alt="...">
+                  
+                </div>
+                <div class="carousel-item">
+                  <img src="images/icon-2.jpg" class="d-block w-100" alt="...">
+                  
+                </div>
+                <div class="carousel-item">
+                  <img src="images/icon-three.jpg" class="d-block w-100" alt="...">
+                  
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
           </div>
-          <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
+          <div class="col-12 col-xl-4">
             <div class="head"><h3>Project information</h3></div>
             <div class="para">
               <ul>
@@ -103,12 +142,11 @@
               <div class="socials-media "> 
 
                   <ul class="list-group list-group-horizontal justify-content-center">
-                    <li><a href="https//:facebook.com"><i class="icofont-facebook"></i></a></li>
-                    <li><a href="#"><i class="icofont-twitter"></i></a></li>
-                    <li><a href="#"><i class="icofont-instagram"></i></a></li>
-                    <li><a href="#"><i class="icofont-linkedin"></i></a></li>
+                    <li><a class="link-one" href="https//:facebook.com"><i class="icofont-facebook"></i></a></li>
+                    <li><a class="link-one" href="#"><i class="icofont-twitter"></i></a></li>
+                    <li><a class="link-one" href="#"><i class="icofont-instagram"></i></a></li>
+                    <li><a class="link-one" href="#"><i class="icofont-linkedin"></i></a></li>
                   </ul>
-          
                 </div>
               <p class="text-center">&#169; Copyright FOLIO. All Rights Reserved</p>
                   <p class="text-center">Designed by <a href="#" class="btn btn-link">Justforfun</a></p>
@@ -117,6 +155,10 @@
   </div>
 </div>
 <!--footer section end-->
-
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
