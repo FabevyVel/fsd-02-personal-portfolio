@@ -1,24 +1,4 @@
 
-          /* General */
-@media (min-width:576px){
-    
-}
-
-@media (min-width:768px){
-    
-}
-
-@media (min-width:992px){
-    
-}
-
-@media (min-width:1200px){
-    
-}
-
-@media (min-width:1400px){
-    
-}
 
 body {
     font-family: "Open Sans", sans-serif;
@@ -194,7 +174,7 @@ body {
   font-style: normal;
   font-variant: normal;
   line-height: 1;
-  display: inline-block;
+  /* display: inline-block; */
   text-transform: none;
   speak-as: none;
   -webkit-font-smoothing: antialiased;
@@ -286,6 +266,11 @@ i {
   font-weight:500;
 }
 
+.mail-id{
+  color: #444444;
+}
+
+
 .about .content ul {
   list-style: none;
   padding: 0;
@@ -295,8 +280,14 @@ i {
   margin-bottom: 20px;
   display: flex;
   align-items: center;
+  padding: 15px;
   
 }
+.Address{
+  margin-top: -50px;
+  margin-bottom: 25px;
+}
+
 
 .about .content ul strong {
   margin-right: 10px;
