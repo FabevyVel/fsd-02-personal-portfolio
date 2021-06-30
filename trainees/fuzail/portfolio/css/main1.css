@@ -369,7 +369,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 575px) {
     #hero h1 {
-        font-size: 40px;
+        font-size: 30px;
     }
     #hero h2 {
         text-align: center;
@@ -527,7 +527,7 @@ section {
 
 .about .content ul {
     list-style: none;
-    padding: 0;
+    padding-right: 20px;
 }
 
 .about .content .tab tr {
@@ -545,6 +545,10 @@ section {
 }
 .about .content p:last-child {
     margin-bottom: 0;
+}
+.about .content .tab {
+    list-style: none;
+    padding-right: 20px;
 }
 
 .about .content .count-box {
@@ -594,8 +598,7 @@ section {
 .about .image {
     background: url("../images/about.jpg") center center no-repeat;
     background-size: cover;
-    min-height: 500px;
-    min-width: 100px;
+    min-height: 600px;
 }
 
 .about .skills-content {
