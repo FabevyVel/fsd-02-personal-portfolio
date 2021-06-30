@@ -18,12 +18,7 @@
         font-family: "Satisfy", serif;
         color: white;
         text-align: center;
-    }
-}
-@media (max-width: 576px){
-    .navbar{
-        padding-left: 410px;
-    }
+    }   
 }
 
 @media (min-width: 768px){
@@ -47,9 +42,10 @@
         background-size: cover;
         position: relative;
     }
+
 }
 
-@media (min-width: 992px){
+@media (min-width: 991px){
     .section-title h2{
         color: black;
     }
@@ -70,6 +66,7 @@
         background-size: cover;
         position: relative;
     }
+    
 }
 
 @media (min-width: 1200px){
