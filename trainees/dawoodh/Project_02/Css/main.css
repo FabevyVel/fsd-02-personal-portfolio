@@ -25,8 +25,9 @@ body {
     z-index: 997;
     transition: all 0.5s;
     height: 80px;
-    padding: 20px;
-    background: rgba(25, 28, 31, 0.8);
+    padding: 15px;
+    /* background: rgba(25, 28, 31, 0.8); */
+    background:#000;
   }
   
   
@@ -280,12 +281,12 @@ i {
   margin-bottom: 20px;
   display: flex;
   align-items: center;
-  padding: 15px;
+  padding: 10px;
   
 }
 .Address{
-  margin-top: -50px;
-  margin-bottom: 25px;
+  margin-top: -40px;
+  margin-bottom: 15px;
 }
 
 
@@ -403,6 +404,11 @@ i {
 
 
           /* RESUME PAGE  */
+
+.timeline-right-padding{
+  padding-top: 65px;
+}
+
 
 .section-title .resume{
     position: absolute;
