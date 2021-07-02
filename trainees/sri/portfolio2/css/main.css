@@ -118,9 +118,6 @@ h1, h2, h3, h4, h5, h6{
 .custom-card-4 .card-body .card-image-wrapper{
       overflow: hidden;
 }
-.custom-card-4 .card-text-wrapper:hover{
-
-}
 .custom-card-4 .card-text-wrapper{
      position: absolute;
      bottom: -80px;
@@ -184,12 +181,6 @@ a {
 }
 /*end menu-bar*/
 /*skill-page*/
-.progress-1{
-
-}
-.progress-2{
-
-}
 .d-flex{
     padding: 0;
     margin: 0 0 6px 0;
@@ -282,24 +273,7 @@ a {
     bottom: 0;
     left: 0;
 }
-.card-type-1{
-    padding: 30px;
-}
-.card-type-1 i{
-    display: block;
-    font-size: 44px;
-    color: #149ddd;
-    float: left;
-    line-height: 0;
-    margin-left: -24px
-}
-.card-type-1 h3{
-    font-size: 40px;
-    line-height: 40px;
-    display: block;
-    font-weight: 700;
-    color: #050d18;
-}
+
 .timeline::before{
     content: '';
     background: #fff;
