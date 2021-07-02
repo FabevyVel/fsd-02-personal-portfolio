@@ -91,7 +91,11 @@ h1, h2, h3, h4, h5, h6 {
   */
 
 .navbar {
+    display: flex;
+    justify-content: flex-end;
     padding: 0;
+    width: 100%;
+
 }
 
 .navbar ul {
@@ -206,6 +210,7 @@ h1, h2, h3, h4, h5, h6 {
     display: none;
     line-height: 0;
     transition: 0.5s;
+    margin-right: 15px;
 }
 
 @media (max-width: 991px) {
@@ -232,7 +237,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-mobile .mobile-nav-toggle {
     position: absolute;
     top: 15px;
-    right: 15px;
+    /*right: 15px;*/
 }
 
 .navbar-mobile ul {
@@ -368,6 +373,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 575px) {
+    .tab tr td{
+        font-size: 14px;
+        padding: 0px 4px 20px 0;
+    }
+    .tab tr .tb-hd{
+       padding: 0px 6px 20px 0;
+    }
     #hero h1 {
         font-size: 30px;
     }
@@ -530,25 +542,37 @@ section {
     padding-right: 20px;
 }
 
-.about .content .tab tr {
+/*.about .content .tab tr {
     margin-bottom: 26px;
     display: flex;
-}
+}*/
 .about .content ul strong {
     margin-right: 10px;
 }
 .about .content .tab tr i  {
-    font-size: 16px;
+    font-size: 15px;
     margin-right: 5px;
     color: #ffb727;
     line-height: 0;
 }
+/*.about .content .tab tr{
+    margin-right: 20px;
+}*/
 .about .content p:last-child {
     margin-bottom: 0;
 }
 .about .content .tab {
     list-style: none;
     padding-right: 20px;
+}
+.tab tr td{
+    vertical-align: top;
+    padding: 0px 15px 20px 0;
+}
+.tab tr .tb-hd{
+    white-space: nowrap;
+    font-weight: bold;
+    padding: 0px 15px 20px 0;
 }
 
 .about .content .count-box {
@@ -948,6 +972,9 @@ section {
     padding: 12px 15px;
 }
 
+.msg-tab{
+    padding: 15px 5px;
+}
 .contact .php-email-form button[type="submit"] {
     background: #ffb727;
     border: 0;
@@ -962,6 +989,7 @@ section {
 .contact .php-email-form button[type="submit"]:hover {
     background: #ffc85a;
 }
+
 
 @-webkit-keyframes animate-loading {
     0% {

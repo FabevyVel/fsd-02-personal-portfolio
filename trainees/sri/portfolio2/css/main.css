@@ -15,10 +15,77 @@ h1, h2, h3, h4, h5, h6{
     background: #040b14;
     overflow-y: auto
 }
+/*social-links*/
+.nav{
+    padding-left: 40px;
+}
+.nav li a{
+    font-size: 18px;
+    display: inline-block;
+    background: #212431;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+}
+.nav li a:hover{
+    background: #149ddd;
+    color: #fff;
+    text-decoration: none;
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+}
+/*end social-link*/
 .header .profile-wrapper h5 a{
     color: #fff;
     text-decoration: none;
 }
+.header .profile-wrapper .wrapper-img{
+    margin: 15px auto;
+    display: block;
+    width: 120px;
+    border-radius: 50%;
+    border: 8px solid #2c2f3f
+}
+/*menu-bar*/
+a{
+    color: #a8a9b4;
+    text-decoration: none;
+}
+.menu-bar ul li {
+    margin: 4px;
+    padding: 10px;
+    list-style-type: none;
+    text-align: center;
+    padding-right: 135px;
+    font-size: 16px;
+}
+
+.menu-bar ul li a i:hover{
+    color: #149ddd;
+}
+.menu-bar ul li a i{
+    color: #a8a9b4;
+}
+.menu-bar ul li span{
+    color: #a8a9b4;
+}
+.menu-bar ul li span:hover{
+    color:  #fff;
+}
+
+.menu-bar ul li i{
+    padding-right: 6px;
+    font-size: 19px;
+}
+/*end menu-bar*/
+/*service section starts*/
 .service-section .container{
     padding-left: 115px;
     overflow: hidden;
@@ -45,7 +112,7 @@ h1, h2, h3, h4, h5, h6{
 .custom-card-3 .card-icon-wrapper{
     width: 100px;
     height: 100px;
-    background: #dfdfeb;
+    background:rgb(224, 221, 221);
     border-radius: 50%;
     color: #40aeb4;
     margin: auto;
@@ -104,7 +171,9 @@ h1, h2, h3, h4, h5, h6{
     font-size: 14px;
     margin-bottom: 0;
 }
+/*service ends*/
 
+/*portfolio starts*/
 .custom-card-4{
     border: none;
     margin-bottom: 80px;
@@ -146,85 +215,14 @@ h1, h2, h3, h4, h5, h6{
 .custom-card-4:hover .card-overlay{
     opacity: 1;
 }
-.header .profile-wrapper .wrapper-img{
-    margin: 15px auto;
-    display: block;
-    width: 120px;
-    border-radius: 50%;
-    border: 8px solid #2c2f3f
-}
-
-
-/*menu-bar*/
-a {
-    color: #a8a9b4;
-    text-decoration: none;
-}
-.menu-bar ul li {
-    margin: 4px;
-    padding: 10px;
-    list-style-type: none;
-    text-align: center;
-    padding-right: 135px;
-    font-size: 16px;
-}
-.menu-bar ul li::hover{
-    color: #fff;
-}
-.menu-bar ul li a:hover{
-    color: #fff;
-}
-
-.menu-bar ul li i{
-    padding-right: 6px;
-    font-size: 19px;
-}
-/*end menu-bar*/
-/*skill-page*/
-.d-flex{
-    padding: 0;
-    margin: 0 0 6px 0;
-    text-transform: uppercase;
-    display: block;
-    font-weight: 600;
-    font-family: "Poppins", sans-serif;
-    color: #050d18;
-}
-/*end skill-page*/
-/*social-links*/
-.nav{
-    padding-left: 40px;
-}
-.nav li a{
-    font-size: 18px;
-    display: inline-block;
-    background: #212431;
-    color: #fff;
-    line-height: 1;
-    padding: 8px 0;
-    margin-right: 4px;
-    border-radius: 50%;
-    text-align: center;
-    width: 36px;
-    height: 36px;
-    transition: 0.3s;
-}
-.nav li a:hover{
-    background: #149ddd;
-    color: #fff;
-    text-decoration: none;
-    height: 36px;
-    width: 36px;
-    border-radius: 50%;
-}
-/*end social-link*/
+/*portfolio ends*/
+/*hero section starts*/
 .hero{
     width: 100%;
     height: 100vh;
     background-image: url(../img/hero-bg.jpg);
     background-size: cover;
 }
-
 .hero:before{
     content: "";
     background: rgba(5, 13, 24, 0.3);
@@ -235,7 +233,6 @@ a {
     right: 0;
     z-index: 1;
 }
-
 .hero .full-height{
     height: 100vh;
     width: 100%;
@@ -255,6 +252,8 @@ a {
     font-family: "Poppins", sans-serif;
     padding-left: 339px;
 }
+/*hero ends*/
+
 .section-title h2{
     font-size: 32px;
     font-weight: bold;
@@ -274,6 +273,7 @@ a {
     left: 0;
 }
 
+/*timeline starts*/
 .timeline::before{
     content: '';
     background: #fff;
@@ -298,17 +298,17 @@ a {
     font-size: 18px;
     font-weight: 600;
     font-family: "Poppins", sans-serif;
-    color: #1d685f;
+    color: #050d18;
     margin-bottom: 10px;
 }
 .timeline p.label{
     font-size: 16px;
-    background: #effbf9;
+    background: #e4ebf3;
     padding: 5px 15px;
     display: inline-block;
     font-weight: 600;
     margin-bottom: 10px;
-    color: #34b7a7;
+    color: #050d18;
 }
 
 .timeline ul{
@@ -326,6 +326,7 @@ h2, .h2 {
 .container {
     padding-left: 200px;
 }
+/*timeline ends*/
 
 /*about page*/
 img.img-thumbnail {
@@ -359,32 +360,57 @@ li {
 strong {
     padding-right: 7px;
 }
-p.text-center {
-   
-    padding: 0px;
-    color: #f4f6fd;
-    font-size: 14px;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 300px;
-    z-index: 9999;
-    background: #040b14;
+/*skill-page-starts*/
+.section-bg{
+    background: #f5f8fd;
 }
-h2.section-name::after{
-    content: '';
-    position: absolute;
-    display: block;
+.skills .background{
+    background: linear-gradient(
+  180deg
+  , #f2f6f9 0%, #fff 100%);
+  }
+  
+  .skills .skills-section-title h2{
+    font-size: 32px;
+    font-weight: bold;
+    color: #345676;
+    padding-top: 15px;
+  }
+  .skills-section-title .section-underline {
     width: 50px;
     height: 3px;
     background: #149ddd;
-    bottom: 0;
-    left: 0;
-}
-.section-bg {
-    background: #f5f8fd;
-
-}
+  }
+  
+  .skills p{
+    padding-top: 10px;
+  }
+  .custom-progress-bar-1 {
+  padding: 10px 0;
+  margin: 0 0 6px 0;
+  }
+  .custom-progress-bar-1 .label{
+    padding: 10px 0;
+    margin: 0 0 6px 0;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #050d18;
+    font-size: 18px;
+    padding-bottom: 1px;
+  }
+  .custom-progress-bar-1 .progress{
+    border-radius: 0;
+    height: 10px ;
+  }
+  .custom-progress-bar-1 .progress .progress-bar {
+  background-color: #149ddd;
+  }
+  .custom-progress-bar-1 .progress {
+  background: #dce8f8;
+  }
+/*skill-page-ends*/
 /*contact-page*/
 .contact-sec h1{
     padding-top: 40px;
