@@ -1,0 +1,20 @@
+@media (min-width:992px){
+    .nav-wrapper{
+        display: block ;
+    }
+    .mobile-menu-trigger{
+        display: none;
+    }
+}
+@media (max-width:991px){
+.nav-wrapper{
+    position: absolute;
+    top: 51px;
+    left: 0;
+    width: 100%;
+    background: #fff;
+  }
+  .nav-wrapper .nav-item{
+    width: 100%;
+  }      
+}
