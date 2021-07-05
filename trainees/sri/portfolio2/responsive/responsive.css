@@ -24,6 +24,9 @@
     .footer .profile-wrapper p{
         display: none;
     }
+    .Service-page-starts {
+       padding-left: 0px;
+    }
 }
 
 @media (max-width:1200px){
