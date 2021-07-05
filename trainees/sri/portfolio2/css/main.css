@@ -257,8 +257,6 @@ a{
 .section-title h2{
     font-size: 32px;
     font-weight: bold;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
     position: relative;
     color: #173b6c;
 }
@@ -504,6 +502,6 @@ textarea#msg {
 }
 /*end arrow-section*/
 /*footer page*/
-.foc{
+.footer .profile-wrapper p{
 
 }

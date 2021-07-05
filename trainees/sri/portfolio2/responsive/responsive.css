@@ -1,21 +1,35 @@
-@media (min-width:576px){
+@media (max-width:576px){
     
 }
 
-@media (min-width:768px){
+@media (max-width:768px){
     
 }
 
-@media (min-width:992px){
-    .mobile-menu-trigger{
+@media (max-width:992px){
+    
+    .header{
+        display: none;
+    }
+    .container{
+        padding-left: 0px;
+    }
+    .Service-page-starts .container-1 {
+        margin-left: 15px;
+    }
+    .Service-page-starts .container {
+         padding-right: 0px; 
+         margin-left:0px ; 
+    }
+    .footer .profile-wrapper p{
         display: none;
     }
 }
 
-@media (min-width:1200px){
+@media (max-width:1200px){
     
 }
 
-@media (min-width:1400px){
+@media (max-width:1400px){
     
 }
