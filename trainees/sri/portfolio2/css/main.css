@@ -187,9 +187,6 @@ a{
 .custom-card-4 .card-body .card-image-wrapper{
       overflow: hidden;
 }
-.custom-card-4 .card-text-wrapper:hover{
-
-}
 .custom-card-4 .card-text-wrapper{
      position: absolute;
      bottom: -80px;
@@ -219,9 +216,6 @@ a{
     opacity: 1;
 }
 /*portfolio ends*/
-
-
-
 /*hero section starts*/
 .hero{
     width: 100%;
@@ -229,7 +223,6 @@ a{
     background-image: url(../img/hero-bg.jpg);
     background-size: cover;
 }
-
 .hero:before{
     content: "";
     background: rgba(5, 13, 24, 0.3);
@@ -240,7 +233,6 @@ a{
     right: 0;
     z-index: 1;
 }
-
 .hero .full-height{
     height: 100vh;
     width: 100%;
@@ -368,11 +360,10 @@ li {
 strong {
     padding-right: 7px;
 }
-
-
-
 /*skill-page-starts*/
-
+.section-bg{
+    background: #f5f8fd;
+}
 .skills .background{
     background: linear-gradient(
   180deg
