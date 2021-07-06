@@ -1,38 +1,26 @@
-@media (max-width:576px){
-    
-}
-
-@media (max-width:768px){
-    
-}
-
-@media (max-width:992px){
-    
+@media (min-width:576px){
     .header{
         display: none;
     }
-    .container{
-        padding-left: 0px;
-    }
-    .Service-page-starts .container-1 {
-        margin-left: 15px;
-    }
-    .Service-page-starts .container {
-         padding-right: 0px; 
-         margin-left:0px ; 
-    }
-    .footer .profile-wrapper p{
-        display: none;
-    }
-    .Service-page-starts {
-       padding-left: 0px;
-    }
 }
 
-@media (max-width:1200px){
+@media (min-width:768px){
     
 }
 
-@media (max-width:1400px){
+@media (min-width:992px){
+    
+ 
+    
+}
+
+@media (min-width:1200px){
+    .hero {
+        background-attachment: fixed;
+    }
+    
+}
+
+@media (min-width:1400px){
     
 }

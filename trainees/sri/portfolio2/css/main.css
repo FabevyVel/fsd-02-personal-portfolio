@@ -271,7 +271,8 @@ a{
     left: 0;
 }
 
-/*timeline starts*/
+/*
+ starts*/
 .timeline::before{
     content: '';
     background: #fff;

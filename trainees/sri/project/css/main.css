@@ -9,6 +9,11 @@
     background: #040b14;
     overflow-y: auto;
 }
+/* padding element starts*/
+  .padding-element{
+    padding-left: 210px;
+   }
+/* padding element Ends*/
 /*header image*/
 .profile-logo img{
     margin: 15px auto;
@@ -66,7 +71,6 @@
  }
  .menu-bar ul li a{
      text-decoration: none;
-     text-decoration: none;
      display: flex;
      align-items: center;
      color: #a8a9b4;
@@ -79,6 +83,135 @@
     font-size: 24px;
     padding-right: 8px;
  }
- .menu-bar ul li a i:hover{
-     
+ .menu-bar ul li a:hover{
+    color: #fff
  }
+
+ .menu-bar ul li a i:hover{
+    color: #149ddd;
+ }
+ /* menu-bar Ends */
+
+ /* Hero section starts */
+ .hero{
+    width: 100%;
+    height: 100vh;
+    background: url(../../project/image/hero-bg.jpg) top center;
+    background-size: cover;
+ }
+ .hero h1{
+    margin: 0 0 10px 0;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #fff;
+ }
+ .hero p{
+    color: #fff;
+    margin-bottom: 50px;
+    font-size: 26px;
+    font-family: "Poppins", sans-serif;
+ }
+ .name-tag{
+    padding-top: 190px;
+ }
+ /* Hero section starts */
+
+ /* about page starts*/
+ .about{
+    padding: 60px 0;
+    overflow: hidden;
+ }
+ .section-title h2{
+    font-size: 32px;
+    font-weight: bold;
+    position: relative;
+    color: #173b6c;
+}
+ .section-title h2::after{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #149ddd;
+    bottom: -5px;
+    left: 0;
+ }
+ .about p{
+    margin-bottom: 20px;
+ }
+ .img-thumbnail{
+    border: none;
+ }
+ .title{
+    font-weight: 700;
+    font-size: 26px;
+    color: #173b6c;
+ }
+ .about-detail-1 li{
+    margin-bottom: 20px;
+   
+ }
+ .about-detail-2 li{
+    margin-bottom: 20px;
+   
+ }
+ /*About Page Ends*/
+
+ /* Skill Page Starts*/
+ .section-bg{
+     background:#f5f8fd;
+ }
+ /* skill Page ends */
+
+/* Resume Page Starts*/
+.resume .section-title h2{
+    padding-top: 45px;
+}
+.timeline{
+    border-left: 2px solid #1f5297;
+    padding-left: 22px;
+    position: relative;
+    padding-bottom: 30px;
+}
+.timeline h3{
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #050d18;
+    margin-bottom: 10px;
+}
+.timeline p.label{
+    font-size: 16px;
+    background: #e4ebf3;
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #050d18;
+}
+.timeline::before{
+    content: '';
+    background: #fff;
+    border: 2px solid #1f5297;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50px; 
+    position:absolute;
+    top: 0;
+    left: -8px;
+}
+.timeline ul{
+ padding-left: 18px;
+ margin: 0;
+}
+.timeline ul li{
+    padding-bottom: 10px;
+ }
+ .timeline-wrapper h2{
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
