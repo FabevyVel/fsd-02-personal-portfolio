@@ -11,7 +11,7 @@
 }
 /* padding element starts*/
   .padding-element{
-    padding-left: 210px;
+    padding-left: 225px;
    }
 /* padding element Ends*/
 /*header image*/
@@ -163,9 +163,40 @@
  .section-bg{
      background:#f5f8fd;
  }
+ .skill p{
+    padding-top: 10px;
+  }
+  .custom-progress-bar-1 {
+    padding: 10px 0;
+    margin: 0 0 6px 0;
+}
+.custom-progress-bar-1 .label{
+    padding: 10px 0;
+    margin: 0 0 6px 0;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #050d18;
+    font-size: 18px;
+    padding-bottom: 1px;
+}
+  .custom-progress-bar-1 .progress{
+    border-radius: 0;
+    height: 10px ;
+}
+.custom-progress-bar-1 .progress .progress-bar {
+    background-color: #149ddd;
+}
+.custom-progress-bar-1 .progress {
+    background: #dce8f8;
+}
  /* skill Page ends */
 
 /* Resume Page Starts*/
+.resume p{
+    padding-top: 10px;
+}
 .resume .section-title h2{
     padding-top: 45px;
 }
@@ -214,4 +245,116 @@
  .timeline-wrapper h2{
     margin-top: 18px;
     margin-bottom: 18px;
+}
+/*Resume ends*/
+
+/*portfolio starts */
+.portfolio-filter{
+    margin: 0 auto 35px auto;
+    list-style: none;
+    text-align: center;
+    background: #fff;
+    border-radius: 50px;
+    padding: 2px 15px;
+}
+.portfolio p{
+    padding-top: 10px;
+}
+.portfolio-filter li{
+    list-style: none;
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 15px 8px 15px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #272829;
+    margin-bottom: 5px;
+    transition: all 0.3s ease-in-out;
+}
+.portfolio-filter li:hover{
+    color: #149ddd;
+}
+.custom-card-4{
+    border: none;
+    margin-bottom: 80px;
+}
+.custom-card-4 .card-body{
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+.custom-card-4 .card-text-wrapper{
+    position: absolute;
+    bottom: -80px;
+    left: 20px;
+    color: #fff;
+    z-index: 2;
+   transition: all 0.3s;
+   width: 50%;
+}
+.custom-card-4:hover .card-text-wrapper{
+    bottom: 20px;
+ }
+ 
+ .custom-card-4 .card-overlay{
+     position: absolute;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     background: rgba(34, 34, 34, 0.6); 
+     z-index: 1; 
+     opacity: 0;
+     transition: all 0.3s;
+ 
+ }
+ .custom-card-4:hover .card-overlay{
+     opacity: 1;
+ }
+/* Portfolio Page Ends */
+
+/* Service Page Starts*/
+.service p{
+    padding-top: 10px;
+}
+.fonts-1{
+    padding-top: 15px;
+}
+.fonts-2{
+    padding-top: 15px;
+}
+.icon {
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 54px;
+    height: 54px;
+    background: #149ddd;
+    border-radius: 50%;
+    transition: 0.5s;
+    border: 1px solid #149ddd;
+}
+.icon i{
+    color: #fff;
+    font-size: 24px;
+    line-height: 0;
+}
+.service .title{
+    margin-left: 80px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px
+}
+.service .title a{
+    text-decoration: none;
+    color: #343a40;
+}
+.service .description{
+    margin-left: 80px;
+    line-height: 24px;
+    font-size: 15px;
+    margin-top: -15px;
 }

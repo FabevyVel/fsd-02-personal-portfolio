@@ -2,12 +2,7 @@
 .hero {
     background-attachment: fixed;
 }
-.padding-element{
-      padding-left: 0px;
-}
-.header{
-   display: none;
-}
+
 }
 @media (min-width:576px){
     
