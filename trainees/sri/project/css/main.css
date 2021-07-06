@@ -358,3 +358,55 @@
     font-size: 15px;
     margin-top: -15px;
 }
+/* Service Page Ends*/
+
+/* Contact Page starts*/
+.contact p{
+    padding-top: 10px;
+}
+
+.contact-sec-part i{
+    font-size: 25px;
+    margin: 0px 20px 0 0;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #dff3fc;
+    color: black;
+    align-items: center;
+    float: left;
+}
+.contact-sec-part i:hover{
+    background-color: #149ddd;
+}
+.contact-sec-part{
+    padding: 20px 20px 0 20px;
+}
+.contact-sec-part b{
+    font-size: 25px;
+}
+.contact-sec-part p{
+    padding: 0 0 10px 60px;
+    color: #173b6c;
+    margin: 10px;
+}
+.address_location{
+    background-color: #fff;
+    box-shadow: 0 0 24px 0 rgb(0 0 0 / 12%);
+    padding: 30px 20px;
+}
+.contact-form{
+    padding: 30px 30px;
+    height: 100%;
+}
+.map-sec{
+    padding: 20px 0;
+}
+label.form-label {
+    margin-top: 50px;
+}
+textarea#msg {
+    font-size: 100px;
+}
