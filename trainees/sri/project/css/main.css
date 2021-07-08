@@ -1,5 +1,6 @@
 body{
     padding-left: 300px;
+    font-size: 16px;
 }
 .header{
     position: fixed;
@@ -14,9 +15,7 @@ body{
     left: 0;
 }
 /* padding element starts*/
-  .padding-element{
-    padding-left: 225px;
-   }
+
 /* padding element Ends*/
 /*header image*/
 .profile-logo img{
