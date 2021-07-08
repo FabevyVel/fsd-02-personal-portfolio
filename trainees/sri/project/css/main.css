@@ -1,3 +1,6 @@
+body{
+    padding-left: 300px;
+}
 .header{
     position: fixed;
     top: 0;
@@ -8,6 +11,7 @@
     padding: 0 15px;
     background: #040b14;
     overflow-y: auto;
+    left: 0;
 }
 /* padding element starts*/
   .padding-element{
