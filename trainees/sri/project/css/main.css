@@ -1,7 +1,4 @@
-body{
-    padding-left: 300px;
-    font-size: 16px;
-}
+
 .header{
     position: fixed;
     top: 0;
@@ -12,10 +9,11 @@ body{
     padding: 0 15px;
     background: #040b14;
     overflow-y: auto;
-    left: 0;
 }
 /* padding element starts*/
-
+ .padding-element{
+     padding-left: 230px;
+ }
 /* padding element Ends*/
 /*header image*/
 .profile-logo img{

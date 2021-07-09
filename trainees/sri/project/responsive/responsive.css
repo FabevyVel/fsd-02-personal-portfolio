@@ -1,27 +1,26 @@
-@media (min-width: 1024px) {
-    .hero {
+@media (min-width: 1024px){
+    hero {
         background-attachment: fixed;
     }
-
 }
 @media (min-width:576px){
     
 }
 
 @media (min-width:768px){
-    .padding-element{
-        padding-left: 225px;
-       }
+    
 }
 
 @media (min-width:992px){
     
 }
 
+
 @media (min-width:1200px){
    
+    
 }
 
 @media (min-width:1400px){
-
+   
 }
