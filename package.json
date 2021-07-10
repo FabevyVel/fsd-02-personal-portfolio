@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/FabevyVel/fsd-02-personal-portfolio/issues"
   },
-  "homepage": "https://github.com/FabevyVel/fsd-02-personal-portfolio#readme"
+  "homepage": "https://github.com/FabevyVel/fsd-02-personal-portfolio#readme",
+  "dependencies": {
+    "bootstrap-icons": "^1.5.0"
+  }
 }

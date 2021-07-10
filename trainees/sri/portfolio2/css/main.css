@@ -19,28 +19,8 @@ h1, h2, h3, h4, h5, h6{
 .nav{
     padding-left: 40px;
 }
-.nav li a{
-    font-size: 18px;
-    display: inline-block;
-    background: #212431;
-    color: #fff;
-    line-height: 1;
-    padding: 8px 0;
-    margin-right: 4px;
-    border-radius: 50%;
-    text-align: center;
-    width: 36px;
-    height: 36px;
-    transition: 0.3s;
-}
-.nav li a:hover{
-    background: #149ddd;
-    color: #fff;
-    text-decoration: none;
-    height: 36px;
-    width: 36px;
-    border-radius: 50%;
-}
+
+
 /*end social-link*/
 .header .profile-wrapper h5 a{
     color: #fff;
