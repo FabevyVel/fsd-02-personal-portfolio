@@ -1,6 +1,28 @@
-@media (min-width: 1024px){
-    hero {
+@media (max-width: 1024px){
+    .hero {
         background-attachment: fixed;
+    } 
+    .header{
+        display: none;
+    }
+    .padding-element{
+        padding-left: 20px;
+    }
+}
+@media (min-width: 1024px){
+    .padding-element{
+        padding-left: 230px;
+    }
+    .header{
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        width: 300px;
+        transition: all ease-in-out 0.5s;
+        z-index: 9997;
+        padding: 0 15px;
+        background: #040b14;
+        overflow-y: auto;
     }
 }
 @media (min-width:576px){
