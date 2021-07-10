@@ -19,37 +19,36 @@ body {
     font-family: "Raleway", sans-serif;
   }
 
-        /* HEADER  */
-
-  #header {
-    z-index: 997;
-    transition: all 0.5s;
-    height: 80px;
-    padding: 15px;
-    /* background: rgba(25, 28, 31, 0.8); */
-    background:#000;
-  }
-  
-  
-  /* #header.header-transparent {
-    background: transparent;
-  } */
-  
-  #header.header-scrolled {
-    height: 60px;
-    background: rgba(25, 28, 31, 0.8);
-  }
-  
-  
-  
-            /* Navigation Menu  */
-.navbar {
-  padding: 0;
-  position: fixed;
+ /*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+#header {
+  z-index: 997;
+  transition: all 0.5s;
+  height: 60px;
+  /* background: rgba(25, 28, 31, 0.8); */
+  background:#000;
 }
 
+/* #header.header-transparent {
+  background: transparent;
+} */
 
+#header.header-scrolled {
+  height: 60px;
+  /* background: rgba(25, 28, 31, 0.8); */
+  background: #000;
+}
 
+/*--------------------------------------------------------------
+# Navigation Menu
+--------------------------------------------------------------*/
+/**
+* Desktop Navigation 
+*/
+.navbar {
+  padding: 0;
+}
 
 .navbar ul {
   margin: 0;
@@ -57,7 +56,6 @@ body {
   display: flex;
   list-style: none;
   align-items: center;
-  padding-top:20px;
 }
 
 .navbar li {
@@ -76,7 +74,7 @@ body {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   font-weight: 600;
-  letter-spacing:0px;
+  letter-spacing: 1px;
 }
 
 .navbar a i {
@@ -107,7 +105,6 @@ body {
 
 .navbar .dropdown ul li {
   min-width: 200px;
-  
 }
 
 .navbar .dropdown ul a {
@@ -255,10 +252,10 @@ body {
 }
 
 
-         
+
                 /* Hero Section */
 #hero {
-    width: 100%;
+    width:100%;
     height: 100vh;
     background: url("/img/wall.png") top center no-repeat;
     background-size:cover;
@@ -456,7 +453,7 @@ body {
 }
 
 .about .image {
-  background: url("../img/profile.png") center center no-repeat;
+  background: url("/img/profile.png") center center no-repeat;
   background-size: cover;
   min-height: 500px;
 }

@@ -1,5 +1,7 @@
 @media (min-width:576px){
-    
+    .header{
+        display: none;
+    }
 }
 
 @media (min-width:768px){
@@ -7,12 +9,15 @@
 }
 
 @media (min-width:992px){
-    .mobile-menu-trigger{
-        display: none;
-    }
+    
+ 
+    
 }
 
 @media (min-width:1200px){
+    .hero {
+        background-attachment: fixed;
+    }
     
 }
 

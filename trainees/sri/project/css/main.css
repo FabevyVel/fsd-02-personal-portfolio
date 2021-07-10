@@ -1,0 +1,415 @@
+body{
+    padding-left: 300px;
+    font-size: 16px;
+}
+.header{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 300px;
+    transition: all ease-in-out 0.5s;
+    z-index: 9997;
+    padding: 0 15px;
+    background: #040b14;
+    overflow-y: auto;
+    left: 0;
+}
+/* padding element starts*/
+
+/* padding element Ends*/
+/*header image*/
+.profile-logo img{
+    margin: 15px auto;
+    display: block;
+    width: 120px;
+    border: 8px solid #2c2f3f;
+    border-radius: 50%;
+}
+.profile-logo h1{
+    color: #fff;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    text-align-last: center;
+    font-family: "Poppins", sans-serif;
+}
+/*header image Ends */
+
+/*social link Starts */
+.social-links ul{
+    padding-top: 15px;
+    padding-left: 45px;
+}
+.social-links ul li{
+    list-style: none;
+    display: inline;
+    padding: 2px;
+}
+.social-links ul li a{
+    font-size: 18px;
+    display: inline-block;
+    background: #212431;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+}
+.social-links ul li a:hover{
+    background: #149ddd;
+    color: #fff;
+    text-decoration: none;
+}
+/* social link Ends */
+
+/* menu-bar Starts */
+ .menu-bar ul li{
+     list-style: none;
+     text-decoration: none;
+ }
+ .menu-bar ul li a{
+     text-decoration: none;
+     display: flex;
+     align-items: center;
+     color: #a8a9b4;
+     padding: 12px 15px;
+     margin-bottom: 8px;
+     transition: 0.3s;
+     font-size: 20px;
+ }
+ .menu-bar ul li a i{
+    font-size: 24px;
+    padding-right: 8px;
+ }
+ .menu-bar ul li a:hover{
+    color: #fff
+ }
+
+ .menu-bar ul li a i:hover{
+    color: #149ddd;
+ }
+ /* menu-bar Ends */
+
+ /* Hero section starts */
+ .hero{
+    width: 100%;
+    height: 100vh;
+    background: url(../../project/image/hero-bg.jpg) top center;
+    background-size: cover;
+ }
+ .hero h1{
+    margin: 0 0 10px 0;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #fff;
+ }
+ .hero p{
+    color: #fff;
+    margin-bottom: 50px;
+    font-size: 26px;
+    font-family: "Poppins", sans-serif;
+ }
+ .name-tag{
+    padding-top: 190px;
+ }
+ /* Hero section starts */
+
+ /* about page starts*/
+ .about{
+    padding: 60px 0;
+    overflow: hidden;
+ }
+ .section-title h2{
+    font-size: 32px;
+    font-weight: bold;
+    position: relative;
+    color: #173b6c;
+}
+ .section-title h2::after{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #149ddd;
+    bottom: -5px;
+    left: 0;
+ }
+ .about p{
+    margin-bottom: 20px;
+ }
+ .img-thumbnail{
+    border: none;
+ }
+ .title{
+    font-weight: 700;
+    font-size: 26px;
+    color: #173b6c;
+ }
+ .about-detail-1 li{
+    margin-bottom: 20px;
+   
+ }
+ .about-detail-2 li{
+    margin-bottom: 20px;
+   
+ }
+ /*About Page Ends*/
+
+ /* Skill Page Starts*/
+ .section-bg{
+     background:#f5f8fd;
+ }
+ .skill p{
+    padding-top: 10px;
+  }
+  .custom-progress-bar-1 {
+    padding: 10px 0;
+    margin: 0 0 6px 0;
+}
+.custom-progress-bar-1 .label{
+    padding: 10px 0;
+    margin: 0 0 6px 0;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #050d18;
+    font-size: 18px;
+    padding-bottom: 1px;
+}
+  .custom-progress-bar-1 .progress{
+    border-radius: 0;
+    height: 10px ;
+}
+.custom-progress-bar-1 .progress .progress-bar {
+    background-color: #149ddd;
+}
+.custom-progress-bar-1 .progress {
+    background: #dce8f8;
+}
+ /* skill Page ends */
+
+/* Resume Page Starts*/
+.resume p{
+    padding-top: 10px;
+}
+.resume .section-title h2{
+    padding-top: 45px;
+}
+.timeline{
+    border-left: 2px solid #1f5297;
+    padding-left: 22px;
+    position: relative;
+    padding-bottom: 30px;
+}
+.timeline h3{
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #050d18;
+    margin-bottom: 10px;
+}
+.timeline p.label{
+    font-size: 16px;
+    background: #e4ebf3;
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #050d18;
+}
+.timeline::before{
+    content: '';
+    background: #fff;
+    border: 2px solid #1f5297;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50px; 
+    position:absolute;
+    top: 0;
+    left: -8px;
+}
+.timeline ul{
+ padding-left: 18px;
+ margin: 0;
+}
+.timeline ul li{
+    padding-bottom: 10px;
+ }
+ .timeline-wrapper h2{
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+/*Resume ends*/
+
+/*portfolio starts */
+.portfolio-filter{
+    margin: 0 auto 35px auto;
+    list-style: none;
+    text-align: center;
+    background: #fff;
+    border-radius: 50px;
+    padding: 2px 15px;
+}
+.portfolio p{
+    padding-top: 10px;
+}
+.portfolio-filter li{
+    list-style: none;
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 15px 8px 15px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #272829;
+    margin-bottom: 5px;
+    transition: all 0.3s ease-in-out;
+}
+.portfolio-filter li:hover{
+    color: #149ddd;
+}
+.custom-card-4{
+    border: none;
+    margin-bottom: 80px;
+}
+.custom-card-4 .card-body{
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+.custom-card-4 .card-text-wrapper{
+    position: absolute;
+    bottom: -80px;
+    left: 20px;
+    color: #fff;
+    z-index: 2;
+   transition: all 0.3s;
+   width: 50%;
+}
+.custom-card-4:hover .card-text-wrapper{
+    bottom: 20px;
+ }
+ 
+ .custom-card-4 .card-overlay{
+     position: absolute;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     background: rgba(34, 34, 34, 0.6); 
+     z-index: 1; 
+     opacity: 0;
+     transition: all 0.3s;
+ 
+ }
+ .custom-card-4:hover .card-overlay{
+     opacity: 1;
+ }
+/* Portfolio Page Ends */
+
+/* Service Page Starts*/
+.service p{
+    padding-top: 10px;
+}
+.fonts-1{
+    padding-top: 15px;
+}
+.fonts-2{
+    padding-top: 15px;
+}
+.icon {
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 54px;
+    height: 54px;
+    background: #149ddd;
+    border-radius: 50%;
+    transition: 0.5s;
+    border: 1px solid #149ddd;
+}
+.icon i{
+    color: #fff;
+    font-size: 24px;
+    line-height: 0;
+}
+.service .title{
+    margin-left: 80px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px
+}
+.service .title a{
+    text-decoration: none;
+    color: #343a40;
+}
+.service .description{
+    margin-left: 80px;
+    line-height: 24px;
+    font-size: 15px;
+    margin-top: -15px;
+}
+/* Service Page Ends*/
+
+/* Contact Page starts*/
+.contact p{
+    padding-top: 10px;
+}
+
+.contact-sec-part i{
+    font-size: 25px;
+    margin: 0px 20px 0 0;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #dff3fc;
+    color: black;
+    align-items: center;
+    float: left;
+}
+.contact-sec-part i:hover{
+    background-color: #149ddd;
+}
+.contact-sec-part{
+    padding: 20px 20px 0 20px;
+}
+.contact-sec-part b{
+    font-size: 25px;
+}
+.contact-sec-part p{
+    padding: 0 0 10px 60px;
+    color: #173b6c;
+    margin: 10px;
+}
+.address_location{
+    background-color: #fff;
+    box-shadow: 0 0 24px 0 rgb(0 0 0 / 12%);
+    padding: 30px 20px;
+}
+.contact-form{
+    padding: 30px 30px;
+    height: 100%;
+}
+.map-sec{
+    padding: 20px 0;
+}
+label.form-label {
+    margin-top: 50px;
+}
+textarea#msg {
+    font-size: 100px;
+}
