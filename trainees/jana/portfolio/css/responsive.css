@@ -18,3 +18,29 @@
     width: 100%;
   }      
 }
+
+@media (max-width:576px){
+  .about h3{
+    font-size: 25px;
+    padding-top: 10px;
+  }
+  .section-title h2{
+    font-size: 25px;
+  }
+  .skills .skills-section-title h2{
+    font-size: 25px;
+  }
+  .Testimonials .Testimonials-section-title h2{
+    font-size: 25px;
+  }
+  .timeline-wrapper h2{
+    font-size: 20px;
+  }
+  .contact-about h3{
+    font-size: 30px;
+  }
+ 
+  
+   
+      
+}

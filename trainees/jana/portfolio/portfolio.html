@@ -12,23 +12,24 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/jana.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
 
 <!--header starts-->
 <div class="header">
     <div class="container">
-     <div class="row">
-         <div class="col-4">
+     <div class="row relative-element">
+         <div class="col-2 col-lg-2">
              <div class="logo">
                  <h1><a href="index.html">Jana</a></h1>
              </div>
          </div>
-         <div class="col-8">
+         <div class="col-8 nav-wrapper">
              <div class="main-navigation float-end">
                  <ul class="nav ">
                      <li class="nav-item">
-                         <a class="nav-link" href="index.html">Home</a>
+                         <a class="nav-link active " href="index.html">Home</a>
                      </li>     
                      <li class="nav-item">
                          <a class="nav-link" href="about.html">About</a>
@@ -40,7 +41,7 @@
                          <a class="nav-link" href="service.html">Services</a>
                      </li>    
                      <li class="nav-item">
-                         <a class="nav-link active" href="portfolio.html">Portfolio</a>
+                         <a class="nav-link" href="portfolio.html">Portfolio</a>
                      </li>
                      <li class="nav-item">
                          <a class="nav-link" href="contact.html">Contact</a>
@@ -48,11 +49,13 @@
                  </ul>
              </div>
          </div>
+      <div class="col-2">
+      <p class="nav-item mobile-menu-trigger"><a class="nav-link" href=""><i class="bi bi-list"></i></a></p>
+      </div>
   </div>
   </div>
   </div>
-<!--header ends-->
-
+  <!--header ends-->
 
 <!--portfolio starts-->
 <div>
@@ -74,134 +77,113 @@
             <div class="row">
                 <div class="col-12 col-lg-4 col-md-6">
                     <div class="card custom-card-3" style="">
-                       <div class="card-body">
                             <div class="card-image-wrapper">
                              <img src="image/portfolio-1.jpg" class="card-img" alt="">
                             </div>
                             <div class="card-text-wrapper">
-                                <h5 class="card-title text-center">App 1</h5>
-                                <h6 class="card-subtitle text-center">app</h6>
+                                <h5 class="card-title ">App 1</h5>
+                                <h6 class="card-subtitle ">app</h6>
                             </div>
                             <div class="card-overlay"></div>
-                        </div>
-                    </div>
+                </div>
                 </div>
                 <div class="col-12 col-lg-4 col-md-6">
                     <div class="card custom-card-3" style="">
-                        <div class="card-body">
                             <div class="card-image-wrapper">
                              <img src="image/portfolio-2.jpg" class="card-img" alt="">
                             </div>
                             <div class="card-text-wrapper">
-                                <h5 class="card-title text-center">Web 3</h5>
-                                <h6 class="card-subtitle text-center">web</h6>
+                                <h5 class="card-title ">Web 3</h5>
+                                <h6 class="card-subtitle ">web</h6>
                             </div>
                             <div class="card-overlay"></div>
-                        </div>
-                    </div>
+                </div>  
                 </div>
                 <div class="col-12 col-lg-4 col-md-6">
                     <div class="card custom-card-3" style="">
-                        <div class="card-body">
                             <div class="card-image-wrapper">
                              <img src="image/portfolio-3.jpg" class="card-img" alt="">
                             </div>
                             <div class="card-text-wrapper">
-                                <h5 class="card-title text-center">App 2</h5>
-                                <h6 class="card-subtitle text-center">app</h6>
+                                <h5 class="card-title ">App 2</h5>
+                                <h6 class="card-subtitle ">app</h6>
                             </div>
                             <div class="card-overlay"></div>
-                        </div>
-                    </div>
+                </div>
                 </div>
                 <div class="col-12 col-lg-4 col-md-6">
                     <div class="card custom-card-3" style="">
-                        <div class="card-body">
                             <div class="card-image-wrapper">
                              <img src="image/portfolio-4.jpg" class="card-img" alt="">
                             </div>
                             <div class="card-text-wrapper">
-                                <h5 class="card-title text-center">card 2</h5>
-                                <h6 class="card-subtitle text-center ">card</h6>
+                                <h5 class="card-title ">card 2</h5>
+                                <h6 class="card-subtitle ">card</h6>
                             </div>
                             <div class="card-overlay"></div>
-                        </div>
-                    </div>
+                </div>
                 </div>
                 <div class="col-12 col-lg-4 col-md-6">
                     <div class="card custom-card-3" style="">
-                        <div class="card-body">
                             <div class="card-image-wrapper">
                              <img src="image/portfolio-5.jpg" class="card-img" alt="">
                             </div>
                             <div class="card-text-wrapper">
-                                <h5 class="card-title text-center">Web 2</h5>
-                                <h6 class="card-subtitle text-center ">web</h6>
+                                <h5 class="card-title ">Web 2</h5>
+                                <h6 class="card-subtitle ">web</h6>
                             </div>
                             <div class="card-overlay"></div>
-                        </div>
-                    </div>
+                </div>
                 </div>
                 <div class="col-12 col-lg-4 col-md-6">
                     <div class="card custom-card-3" style="">
-                        <div class="card-body">
                             <div class="card-image-wrapper">
                              <img src="image/portfolio-6.jpg" class="card-img" alt="">
                             </div>
                             <div class="card-text-wrapper">
-                                <h5 class="card-title text-center">App 3</h5>
-                                <h6 class="card-subtitle text-center ">app</h6>
+                                <h5 class="card-title ">App 3</h5>
+                                <h6 class="card-subtitle ">app</h6>
                             </div>
                             <div class="card-overlay"></div>
-                        </div>
-                    </div>
                 </div>
+                </div>  
                 <div class="col-12 col-lg-4 col-md-6">
                     <div class="card custom-card-3" style="">
-                        <div class="card-body">
                             <div class="card-image-wrapper">
                              <img src="image/portfolio-7.jpg" class="card-img" alt="">
                             </div>
                             <div class="card-text-wrapper">
-                                <h5 class="card-title text-center">Card 1</h5>
-                                <h6 class="card-subtitle text-center ">card</h6>
-                            </div>
+                                <h5 class="card-title ">Card 1</h5>
+                                <h6 class="card-subtitle ">card</h6>
+                           </div>
                             <div class="card-overlay"></div>
-                        </div>
-                    </div>
+                </div>
                 </div>
                 <div class="col-12 col-lg-4 col-md-6">
                     <div class="card custom-card-3" style="">
-                        <div class="card-body">
                             <div class="card-image-wrapper">
                              <img src="image/portfolio-8.jpg" class="card-img" alt="">
                             </div>
                             <div class="card-text-wrapper">
-                                <h5 class="card-title text-center">Card 3</h5>
-                                <h6 class="card-subtitle text-center">card</h6>
+                                <h5 class="card-title ">Card 3</h5>
+                                <h6 class="card-subtitle ">card</h6>
                             </div>
                             <div class="card-overlay"></div>
-                        </div>
-                    </div>
+                </div>
                 </div>
                 <div class="col-12 col-lg-4 col-md-6">
                     <div class="card custom-card-3" style="">
-                        <div class="card-body">
                             <div class="card-image-wrapper">
                              <img src="image/portfolio-9.jpg" class="card-img" alt="">
                             </div>
                             <div class="card-text-wrapper">
-                                <h5 class="card-title text-center">Web 3</h5>
-                                <h6 class="card-subtitle text-center ">web</h6>
+                                <h5 class="card-title ">Web 3</h5>
+                                <h6 class="card-subtitle ">web</h6>
                             </div>
                             <div class="card-overlay"></div>
-                        </div>
                     </div>
                 </div>
-               
-
             </div>
-            
         </div>
     </div>
 </div>
@@ -212,14 +194,15 @@
     <div class="container-fluid">
     <div class="row">
      <div class="col-12">
-        <p class="text-center">Designed by <span>Janashruthi</span></a></p>
+        <p class="">Designed by <span>Janashruthi</span></a></p>
      </div> 
     </div>
   </div>  
   </div>
   <!--Footer Ends-->
   
-
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/main.js"></script>
 
 </body>
 </html>
